@@ -1,5 +1,5 @@
 baseURL: "https://sagarchamling.com/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: cham11ng's blog
+title: cham11ng's profile
 paginate: 10
 theme: PaperMod
 
@@ -34,7 +34,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Sagar Chamling's Blog"
-  author: Me
+  author: "Sagar Chamling"
   defaultTheme: auto
   disableThemeToggle: false
   ShowShareButtons: true
@@ -85,11 +85,10 @@ params:
 
   assets:
     disableHLJS: true
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
-  #     apple_touch_icon: "<link / abs url>"
-  #     safari_pinned_tab: "<link / abs url>"
+    favicon: "img/favicon.ico"
+    favicon16x16: "img/favicon-16x16.png"
+    favicon32x32: "img/favicon-32x32.png"
+    apple_touch_icon: "img/apple-touch-icon.png"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
