@@ -1,4 +1,4 @@
-baseURL: "https://cham11ng.github.io/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "https://sagarchamling.com/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: cham11ng's blog
 paginate: 10
 theme: PaperMod
@@ -43,7 +43,7 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowRssButtonInSectionTermList: true
+  ShowRssButtonInSectionTermList: false
   ShowToc: true
   images: ["papermod-cover.png"]
 
@@ -70,7 +70,7 @@ params:
       url: "https://linkedin.com/in/cham11ng"
 
   editPost:
-    URL: "https://cham11ng.github.io/edit/main/content/"
+    URL: "https://sagarchamling.com/edit/main/content/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 

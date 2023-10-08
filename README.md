@@ -1,4 +1,4 @@
-# cham11ng.github.io
+# sagarchamling.com
 
 Welcome to my personal site.
 
@@ -10,9 +10,9 @@ Welcome to my personal site.
 ## contributing
 
 ```bash
-git clone git@github.com:cham11ng/cham11ng.github.io
+git clone git@github.com:cham11ng/sagarchamling.com
 
-cd cham11ng.github.io
+cd sagarchamling.com
 
 git submodule update --init --recursive # Clone submodule
 
