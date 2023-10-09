@@ -1,5 +1,5 @@
 ---
-title: "Dive into Web Development"
+title: "Dive into Design Basics"
 date: 2017-10-17
 draft: false
 
@@ -13,7 +13,7 @@ showTaxonomies : false
 showWordCount : false
 showSummary : false
 sharingLinks : false
-
+tags: ['ui', 'ux']
 ---
 
 ## Basic
@@ -44,7 +44,7 @@ sharingLinks : false
   - link/highlights -> a
   - header -> h1
   - list/menu/table -> ul/li/table
-  - seperator (different topic) -> hr
+  - Separator (different topic) -> hr
   - panel
 - Shape
   - menu, radio, checkbox, tabs, textarea, textbox, dropdown, layout
@@ -55,7 +55,7 @@ sharingLinks : false
 
 ## Principle of Design
 
-- Repetation
+- Repetition
 - Alignment
   - pixel perfect
 - Proximity
@@ -67,7 +67,7 @@ sharingLinks : false
   - juxtaposition of opposing element
 - Common Fate
 
-## Synesthesia
+## Synesthesia Exercise
 
 - What did you see?
 - How it tastes like?

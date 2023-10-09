@@ -15,6 +15,7 @@ hidemeta: false
 hideSummary: false
 showtoc: false
 tocopen: false
+searchHidden: true
 cover:
     image: "img/lets-connect.jpg" # image path/url
     alt: "Lets connect" # alt text

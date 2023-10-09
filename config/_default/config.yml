@@ -56,12 +56,12 @@ params:
     imageHeight: 200
     subtitle: "I am passionate full-stack software engineer and cyber security enthusiast."
     buttons:
-      - name: My Blogs
-        url: posts
+      - name: Archives
+        url: archives
+      - name: About Me
+        url: about-me
       - name: Tags
         url: tags
-      - name: Examples
-        url: example
 
   socialIcons:
     - name: github

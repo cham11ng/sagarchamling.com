@@ -1,10 +1,10 @@
 main:
+  - name: My Blogs
+    url: blogs
+    weight: 1
   - name: About Me
-    url: about
-    weight: 5
-  - name: Archives
-    url: archives
-    weight: 5
+    url: about-me
+    weight: 2
   - name: Search
     url: search
-    weight: 10
+    weight: 3
