@@ -1,5 +1,5 @@
 baseURL: "https://sagarchamling.com/"
-title: sagar chamling
+title: Sagar Chamling's Personal Site
 paginate: 10
 theme: PaperMod
 
@@ -84,16 +84,18 @@ params:
       url: "https://linkedin.com/in/cham11ng"
     - name: youtube
       url: "https://www.youtube.com/@SagarChamling"
+    - name: buymeacoffee
+      url: "https://www.buymeacoffee.com/cham11ng"
 
   editPost:
     URL: "https://sagarchamling.com/edit/main/content/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
-  # label:
-  #     text: "Home"
-  #     icon: icon.png
-  #     iconHeight: 35
+  label:
+      text: "sagar chamling"
+      # icon: "img/favicon-32x32.png"
+      # iconHeight: 35
 
   # analytics:
   #     google:

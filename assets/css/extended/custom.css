@@ -68,3 +68,40 @@ body {
 .terms-tags li {
   margin: 5px;
 }
+
+.post-content .chroma {
+  border-radius: var(--radius);
+}
+
+.post-content code {
+  background-color: var(--code-bg);
+  margin: 0 3px;
+  padding: 4px 5px;
+  border-radius: 3px;
+  font-size: .88em;
+  font-family: var(--monospace);
+}
+
+.post-content pre code {
+  display: block;
+  margin: auto 0;
+  padding: 15px;
+  color: inherit;
+  overflow-x: auto;
+  border-radius: var(--radius);
+  background: inherit !important;
+  word-break: break-all;
+  font-family: var(--monospace);
+}
+
+.post-content .chroma code {
+  background-color: inherit;
+  font-family: var(--monospace);
+}
+
+.post-content blockquote {
+  margin: 20px 0;
+  padding: 0 14px;
+  border-inline-start: 3px solid var(--tertiary-bg);
+  opacity: 0.8;
+}
