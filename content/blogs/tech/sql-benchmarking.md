@@ -1,18 +1,9 @@
 ---
 title: "SQL performance benchmarking queries"
+summary: "Script that benchmark the given queries."
+description: "Script that benchmark the given queries."
 date: 2019-12-17
 draft: false
-
-showDate: true
-showDateUpdated: false
-showHeadingAnchors: false
-showPagination: false
-showReadingTime: true
-showTableOfContents: true
-showTaxonomies: false 
-showWordCount: false
-showSummary: false
-sharingLinks: false
 tags: ['sql']
 ---
 
@@ -63,6 +54,8 @@ SELECT CAST(elapsed AS DECIMAL(10, 5)) AS elapsed FROM @results;
 | 14020.00000 |
 | 9120.00000  |
 | 9450.00000  |
+
+---
 
 ## Benchmarking SQL Queries
 

@@ -37,6 +37,16 @@ params:
   author: "Sagar Chamling"
   defaultTheme: auto
   disableThemeToggle: false
+  showDate: true
+  showDateUpdated: true
+  showHeadingAnchors: true
+  showPagination: true
+  showReadingTime: true
+  showTableOfContents: true
+  showTaxonomies: false
+  showWordCount: true
+  showSummary: true
+  sharingLinks: true
   ShowShareButtons: true
   ShowReadingTime: true
   displayFullLangName: true
@@ -60,7 +70,7 @@ params:
         url: archives
       - name: Tags
         url: tags
-      - name: '#tech'
+      - name: "#tech"
         url: blogs/tech
 
   socialIcons:

@@ -1,19 +1,10 @@
 ---
 title: "Linux Server Stack Setup in Ubuntu 16.04 LTS"
+summary: "Learn to setup LEPP manually in Ubuntu Server."
+description: "Learn to setup LEPP manually in Ubuntu Server."
 date: 2018-02-11
 draft: false
-
 author: ["Anup Dhakal", "Sagar Chamling"]
-showDate: true
-showDateUpdated: false
-showHeadingAnchors: false
-showPagination: false
-showReadingTime: true
-showTableOfContents: true
-showTaxonomies: false 
-showWordCount: false
-showSummary: false
-sharingLinks: false
 tags: ['linux', 'nginx', 'postgres', 'php']
 ---
 > Credit: Anup Dhakal (https://anupdhakal.com)
