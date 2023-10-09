@@ -4,7 +4,7 @@ summary: "Learn to setup LEPP manually in Ubuntu Server."
 description: "Learn to setup LEPP manually in Ubuntu Server."
 date: 2018-02-11
 draft: false
-author: ["Anup Dhakal", "Sagar Chamling"]
+author: ["Anup Dhakal", "Me"]
 tags: ['linux', 'nginx', 'postgres', 'php']
 ---
 > Credit: Anup Dhakal (https://anupdhakal.com)

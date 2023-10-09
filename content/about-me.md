@@ -1,20 +1,10 @@
 ---
 title: "About Me"
-ShowReadingTime: false
+hideMeta: true
 disableShare: true
-ShowPostNavLinks: false
-ShowBreadCrumbs: false
-ShowCodeCopyButtons: false
-ShowWordCount: false
-ShowRssButtonInSectionTermList: false
-UseHugoToc: false
-disableSpecial1stPost: false
-disableScrollToTop: false
-comments: false
-hidemeta: false
 hideSummary: false
-showtoc: false
-tocopen: false
+showBreadcrumbs: false
+showtoc: true
 searchHidden: true
 cover:
     image: "img/lets-connect.jpg" # image path/url
