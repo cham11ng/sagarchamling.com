@@ -1,18 +1,9 @@
 ---
 title: "Git Installation and Configure SSH"
+summary: "Guide to install and configure SSH in Windows and Linux."
+description: "Guide to install and configure SSH in Windows and Linux."
 date: 2017-01-22
 draft: false
-
-showDate: true
-showDateUpdated: false
-showHeadingAnchors: false
-showPagination: false
-showReadingTime: true
-showTableOfContents: true
-showTaxonomies: false 
-showWordCount: false
-showSummary: false
-sharingLinks: false
 tags: ['git', 'ssh', 'linux', 'windows']
 ---
 

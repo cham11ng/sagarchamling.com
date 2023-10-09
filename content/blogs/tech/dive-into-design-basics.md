@@ -1,18 +1,9 @@
 ---
 title: "Dive into Design Basics"
+summary: "Learn few things about design basics."
+description: "Learn few things about design basics."
 date: 2017-10-17
 draft: false
-
-showDate : true
-showDateUpdated : false
-showHeadingAnchors : false
-showPagination : false
-showReadingTime : true
-showTableOfContents : true
-showTaxonomies : false 
-showWordCount : false
-showSummary : false
-sharingLinks : false
 tags: ['ui', 'ux']
 ---
 
