@@ -19,9 +19,9 @@ git clone git@github.com:cham11ng/sagarchamling.com
 
 cd sagarchamling.com
 
-git submodule update --init --recursive # Clone submodule
+git submodule update --init --recursive # clone submodule
 
-git submodule update --remote --merge # Update theme
+git submodule update --remote --merge # update theme
 
 hugo server
 ```
