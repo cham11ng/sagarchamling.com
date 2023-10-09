@@ -1,8 +1,8 @@
 main:
-  - name: About
+  - name: About Me
     url: about
     weight: 5
-  - name: Archive
+  - name: Archives
     url: archives
     weight: 5
   - name: Search

@@ -1,26 +1,21 @@
 body {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, apple color emoji, segoe ui emoji, segoe ui symbol, segoe ui, pingfang sc, hiragino sans gb, source han sans cn, microsoft yahei, helvetica neue, Helvetica, Arial, sans-serif;
+
   font-weight: 400;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", serif;
-  font-weight: 700;
-}
-
-.logo {
-  font-family: Roboto, "Roboto";
-  font-size: 16px;
-  font-weight: 300;
 }
 
 .breadcrumbs {
   margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.page-header h1 {
+  font-size: 35px;
 }
 
 .post-title {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .post-content h2 {
@@ -41,4 +36,26 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-content h6 {
   font-size: 12px;
+}
+
+.button,
+.terms-tags a {
+  background: var(--entry);
+  border: 1px solid var(--tertiary);
+}
+
+#menu a,
+#menu .active {
+  font-weight: 600;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skills a {
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: none;
+  padding: 5px;
 }

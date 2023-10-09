@@ -1,5 +1,5 @@
 baseURL: "https://sagarchamling.com/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: cham11ng's profile
+title: sagar chamling
 paginate: 10
 theme: PaperMod
 
@@ -66,6 +66,8 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/cham11ng"
+    - name: twitter
+      url: "https://twitter.com/cham11ng"
     - name: linkedin
       url: "https://linkedin.com/in/cham11ng"
 
