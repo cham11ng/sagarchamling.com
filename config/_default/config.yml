@@ -34,7 +34,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Explore insightful articles from Full Stack Developer. Discover tips and tutorials on a wide range of technologies, networking, and information security."
-  author: "Sagar Chamling"
+  author: "Me"
   defaultTheme: auto
   disableThemeToggle: false
   showDate: true
@@ -88,9 +88,9 @@ params:
       url: "https://www.buymeacoffee.com/cham11ng"
 
   editPost:
-    URL: "https://sagarchamling.com/edit/main/content/"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    URL: "https://github.com/cham11ng/sagarchamling.com/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
 
   label:
       text: "sagar chamling"
