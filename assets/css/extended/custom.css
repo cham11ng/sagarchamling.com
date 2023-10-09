@@ -59,3 +59,12 @@ body {
   box-shadow: none;
   padding: 5px;
 }
+
+.button {
+  margin: 5px;
+  padding: 5px
+}
+
+.terms-tags li {
+  margin: 5px;
+}

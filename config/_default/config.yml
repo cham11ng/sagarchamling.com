@@ -1,4 +1,4 @@
-baseURL: "https://sagarchamling.com/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "https://sagarchamling.com/"
 title: sagar chamling
 paginate: 10
 theme: PaperMod
@@ -33,7 +33,7 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Sagar Chamling's Blog"
+  description: "Explore insightful articles from Full Stack Developer. Discover tips and tutorials on a wide range of technologies, networking, and information security."
   author: "Sagar Chamling"
   defaultTheme: auto
   disableThemeToggle: false
@@ -50,26 +50,30 @@ params:
   profileMode:
     enabled: true
     title: Hi 👋, I'm Sagar Chamling,
-    imageUrl: "img/profile.png"
+    imageUrl: "img/profile.jpg"
     imageTitle: Sagar Chamling's Photo
-    imageWidth: 200
-    imageHeight: 200
-    subtitle: "I am passionate full-stack software engineer and cyber security enthusiast."
+    imageWidth: 250
+    imageHeight: 250
+    subtitle: "Passionate full-stack software engineer and cyber security enthusiast. Dive into my latest blog posts, where I write about new technology, programming tips, industry trends and best practices."
     buttons:
       - name: Archives
         url: archives
-      - name: About Me
-        url: about-me
       - name: Tags
         url: tags
+      - name: '#tech'
+        url: blogs/tech
 
   socialIcons:
+    - name: email
+      url: "mailto:hi@sagarchamling.com"
     - name: github
       url: "https://github.com/cham11ng"
     - name: twitter
       url: "https://twitter.com/cham11ng"
     - name: linkedin
       url: "https://linkedin.com/in/cham11ng"
+    - name: youtube
+      url: "https://www.youtube.com/@SagarChamling"
 
   editPost:
     URL: "https://sagarchamling.com/edit/main/content/"
