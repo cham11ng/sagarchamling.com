@@ -82,6 +82,8 @@ params:
       url: "https://twitter.com/cham11ng"
     - name: linkedin
       url: "https://linkedin.com/in/cham11ng"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/5056594/sagar-chamling"
     - name: youtube
       url: "https://www.youtube.com/@SagarChamling"
     - name: buymeacoffee
