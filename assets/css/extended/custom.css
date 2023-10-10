@@ -1,5 +1,5 @@
 body {
-  font-size: 16px;
+  font-size: 17px;
   font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, apple color emoji, segoe ui emoji, segoe ui symbol, segoe ui, pingfang sc, hiragino sans gb, source han sans cn, microsoft yahei, helvetica neue, Helvetica, Arial, sans-serif;
 
   font-weight: 400;
@@ -11,31 +11,31 @@ body {
 }
 
 .page-header h1 {
-  font-size: 35px;
+  font-size: 34px;
 }
 
 .post-title {
-  font-size: 35px;
+  font-size: 34px;
 }
 
 .post-content h2 {
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .post-content h3 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .post-content h4 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .post-content h5 {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .post-content h6 {
-  font-size: 12px;
+  font-size: 17px;
 }
 
 .button,
@@ -97,11 +97,4 @@ body {
 .post-content .chroma code {
   background-color: inherit;
   font-family: var(--monospace);
-}
-
-.post-content blockquote {
-  margin: 20px 0;
-  padding: 0 14px;
-  border-inline-start: 3px solid var(--tertiary-bg);
-  opacity: 0.8;
 }
