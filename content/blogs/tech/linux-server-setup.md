@@ -7,7 +7,7 @@ draft: false
 author: ["Anup Dhakal", "Me"]
 tags: ['linux', 'nginx', 'postgres', 'php']
 ---
-> Credit: Anup Dhakal (https://anupdhakal.com)
+> Credit: Anup Dhakal (<https://anupdhakal.com>)
 >
 ## Introduction
 

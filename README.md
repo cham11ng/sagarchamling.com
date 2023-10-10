@@ -30,10 +30,10 @@ hugo server
 
 ```bash
 # Syntax
-hugo new --kind post blogs/<folder-name>/<blog-title>.md
+hugo new --kind blog blogs/<folder-name>/<blog-title>.md
 
 # Example
-hugo new --kind post blogs/tech/how-i-setup-my-website.md
+hugo new --kind blog blogs/tech/how-i-setup-my-website.md
 ```
 
 ### adding folder
