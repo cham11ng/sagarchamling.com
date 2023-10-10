@@ -58,13 +58,29 @@ params:
   images: ["papermod-cover.png"]
 
   profileMode:
-    enabled: true
-    title: Hi 👋, I'm Sagar Chamling,
+    enabled: false
+    title: 👋, I'm Sagar Chamling,
     imageUrl: "img/profile.jpg"
     imageTitle: Sagar Chamling's Photo
     imageWidth: 250
     imageHeight: 250
-    subtitle: "Passionate full-stack software engineer and cyber security enthusiast. Dive into my latest blog posts, where I write about new technology, programming tips, industry trends and best practices."
+    subtitle: "A Passionate full-stack software engineer and cyber security enthusiast. Dive into my latest blog posts, where I write about new technology, programming tips, industry trends and best practices."
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+      - name: "#tech"
+        url: blogs/tech
+
+  homeInfoParams:
+    enabled: true
+    title: 👋, I'm Sagar Chamling,
+    imageUrl: "img/profile.jpg"
+    imageTitle: Sagar Chamling's Photo
+    imageWidth: 250
+    imageHeight: 250
+    content: "A Passionate full-stack software engineer and cyber security enthusiast. Dive into my latest blog posts, where I write about new technology, programming tips, industry trends and best practices."
     buttons:
       - name: Archives
         url: archives
@@ -95,9 +111,9 @@ params:
     appendFilePath: true
 
   label:
-      text: "sagar chamling"
-      # icon: "img/favicon-32x32.png"
-      # iconHeight: 35
+    text: "sagar chamling"
+    # icon: "img/favicon-32x32.png"
+    # iconHeight: 35
 
   # analytics:
   #     google:

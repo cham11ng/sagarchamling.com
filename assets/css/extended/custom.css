@@ -38,6 +38,22 @@ body {
   font-size: 17px;
 }
 
+.custom_profile .profile_inner {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.custom_profile .social-icons {
+  text-align: center;
+  align-items: center;
+}
+
+.custom_profile img {
+  display: inline-table;
+  border-radius: 50%;
+}
+
 .button,
 .terms-tags a {
   background: var(--entry);
