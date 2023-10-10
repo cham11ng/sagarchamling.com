@@ -4,7 +4,6 @@ summary: "Guide to install and configure SSH in Windows and Linux."
 description: "Guide to install and configure SSH in Windows and Linux."
 date: 2017-01-22
 draft: false
-weight: 1
 tags: ['git', 'ssh', 'linux', 'windows']
 ---
 
