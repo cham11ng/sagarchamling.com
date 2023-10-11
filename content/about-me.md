@@ -14,9 +14,9 @@ cover:
 
 ## Intro 🙏
 
-Welcome to my website! I'm a full stack developer with over 6 years of professional experience in information technology. With a strong foundation in software engineering and and programming paradigms, I'm proficient in a variety of programming languages and platforms. With a diverse journey in the software industry, I've had the privilege of working on exciting projects and honing my skills.
+Welcome to my website! I'm a full stack developer with over 6 years of professional experience in information technology. With a strong foundation in software engineering and programming paradigms, I'm proficient in a wide range of programming languages and platforms. With a diverse journey in the software industry, I've had the privilege of working on exciting projects and honing my skills.
 
-My expertise spans both front-end and back-end technologies, encompassing the likes of `Node.js`, `Python`, `React`, and various database systems. But I'm not just about code, I possess a profound understanding of `DevSecOps`, `Networking`, and `CyberSecurity`. I'm currently pursuing a Postgraduate Diploma in Cybersecurity, eager to broaden my horizons and contribute to the ever-evolving world of digital security. I'm a firm believer in good code quality, and I'm passionate about contributing to open-source projects.
+My expertise spans both front-end and back-end technologies, encompassing the likes of `Node.js`, `Python`, `React`, and various database systems. But I'm not just about code, I possess a profound understanding of `DevSecOps`, `Networking`, and `CyberSecurity`. Currently I'm pursing PG in Cybersecurity, eager to broaden my horizons and contribute to the ever-evolving world of digital security. I hold a strong belief in the importance of code quality and am deeply passionate about contributing to open-source projects, promoting collaborative development within the community.
 
 <div class="skills">
   <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
@@ -88,9 +88,9 @@ My expertise spans both front-end and back-end technologies, encompassing the li
 
 ## Journey 🚀
 
-My career in software development began at Technorio Inc., a company co-founded by my college friends. Here I worked as a Software Engineer Team Lead, where I was involved in various web application developments, making architectural decisions and mentoring fellow developers. Then, my journey led me to DoranSoft Pvt. Ltd. as a Full Stack Developer, where I leveraged technologies like Laravel Framework, Vue.js/jQuery, and Postgres for web application development.
+My career in software development began at [Technorio Inc.](https://technorio.com/), a company co-founded by my college friends. As a core team member, I worked as a Team Lead Software Engineer, actively contributing to web application projects, leading architectural decision-making, and mentoring fellow developers. Then, my journey led me to DoranSoft Pvt. Ltd. as a Full Stack Developer, where I leveraged technologies like `Laravel Framework`, `Vue.js`, `jQuery`, and `Postgres` for web application development.
 
-At Leapfrog Technology, Inc. to Laudio, I wore multiple hats. I started as a Trainee at Leapfrog Technology, where I built a strong foundation in UI/UX front-end design and coding practices in Javascript. I then embarked on an exciting journey as an Software Engineer at project called Laudio, where I familiarized into microservices architecture, integrate automated CI processes in development workflow and continuingly building a Web application based on React and Node.js. Then, advanced to become a Senior Software Engineer, leading a team and contributing to system design.
+At [Leapfrog Technology, Inc.](https://www.lftechnology.com/) to [Laudio](https://www.laudio.com/), I wore multiple hats. I started as a Trainee at Leapfrog Technology, where I built a strong foundation in UI/UX front-end design and coding practices in Javascript. I then embarked on an exciting journey as a Software Engineer at a project called Laudio, where I familiarized myself with microservices architecture, integrated automated CI processes in development workflow and continued building a Web application based on React and Node.js. Subsequently, I progressed to a Senior Software Engineer, leading a team and contributing to system design, research and implementation.
 
 Seeking further expertise, I joined for a Postgraduate Degree in Cybersecurity, where I'm continuously enhancing my knowledge in this critical field of IT.
 
@@ -103,8 +103,8 @@ To stay at the forefront of cybersecurity, I've earned several certifications, i
   [![ISC2 Candidate](https://images.credly.com/size/100x100/images/9180921d-4a13-429e-9357-6f9706a554f0/image.png)](http://www.credly.com/badges/abe9c7c8-bd28-4377-8522-87b68344ba5a "ISC2 Candidate")
   [![Introduction to Packet Tracer](https://images.credly.com/size/100x100/images/09b6d58c-763a-4b40-aea1-787d8f46bbcd/Intro2PT.png)](http://www.credly.com/badges/40643888-3cc5-421d-8395-947d651d215f "Introduction to Packet Tracer")
   [![Certified in Cybersecurity (CC)](https://images.credly.com/size/100x100/images/2030e43f-8003-4d4b-9630-847add403c87/image.png)](http://www.credly.com/badges/e801a6c7-8965-458d-8447-477056ea59d6 "Certified in Cybersecurity (CC)")
-  [![OPSWAT Introduction to Critical Infrastructure Protection (ICIP)](https://images.credly.com/size/100x100/images/f9f3c533-9b5a-47eb-8a3e-5734663116c0/image.png)](http://www.credly.com/badges/cf60fc47-d5cf-4237-b496-7a3f21c571c9 "OPSWAT Introduction to Critical Infrastructure Protection (ICIP)")
   [![Introduction to the Threat Landscape 1.0](https://images.credly.com/size/100x100/images/8395e492-f8aa-4617-a258-6c844f628fa2/image.png)](http://www.credly.com/badges/fa3d32d1-ef4d-469b-b915-b1e12688a243 "Introduction to the Threat Landscape 1.0")
+  [![OPSWAT Introduction to Critical Infrastructure Protection (ICIP)](https://images.credly.com/size/100x100/images/f9f3c533-9b5a-47eb-8a3e-5734663116c0/image.png)](http://www.credly.com/badges/cf60fc47-d5cf-4237-b496-7a3f21c571c9 "OPSWAT Introduction to Critical Infrastructure Protection (ICIP)")
 
 </div>
 
@@ -114,7 +114,7 @@ To stay at the forefront of cybersecurity, I've earned several certifications, i
 
 ## Let's Connect 🤝
 
-I'm always eager to connect with fellow tech enthusiasts, developers, and cybersecurity professionals. Let's have a chat to shape a better, more secure digital future. If you're looking for a technically sound, adaptable, and forward-thinking professional to join your team or collaborate on a project, I'd be thrilled to connect.
+I'm always eager to connect with fellow tech enthusiasts, developers, and cybersecurity professionals. Let's chat to shape a better, more secure digital future. If you're looking for a technically sound, adaptable, and forward-thinking professional to join your team or collaborate on a project, I'd be thrilled to connect.
 
 Thank you for visiting my profile. I look forward to sharing my knowledge and experiences in the dynamic worlds of software development and cybersecurity.
 
@@ -123,6 +123,17 @@ Thank you for visiting my profile. I look forward to sharing my knowledge and ex
 {{< css.inline >}}
 
 <style>
+  .skills {
+    text-align: center;
+  }
+
+  .skills a {
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: none;
+    padding: 5px;
+  }
+
   .certifications p {
     display: flex;
     flex-direction: row;

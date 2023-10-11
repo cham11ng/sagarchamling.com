@@ -10,70 +10,9 @@ body {
   font-weight: 400;
 }
 
-.page-header h1 {
-  font-size: 34px;
-}
-
-.post-title {
-  font-size: 34px;
-}
-
-.post-content h2 {
-  font-size: 28px;
-}
-
-.post-content h3 {
-  font-size: 22px;
-}
-
-.post-content h4 {
-  font-size: 20px;
-}
-
-.post-content h5 {
-  font-size: 18px;
-}
-
-.post-content h6 {
-  font-size: 17px;
-}
-
-.custom_profile .profile_inner {
-  align-items: center;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.custom_profile .social-icons {
-  text-align: center;
-  align-items: center;
-}
-
-.custom_profile img {
-  display: inline-table;
-  border-radius: 50%;
-}
-
-.button,
-.terms-tags a {
-  background: var(--entry);
-  border: 1px solid var(--tertiary);
-}
-
 #menu a,
 #menu .active {
   font-weight: 600;
-}
-
-.skills {
-  text-align: center;
-}
-
-.skills a {
-  display: inline-block;
-  text-decoration: none;
-  box-shadow: none;
-  padding: 5px;
 }
 
 .button {
@@ -83,34 +22,4 @@ body {
 
 .terms-tags li {
   margin: 5px;
-}
-
-.post-content .chroma {
-  border-radius: var(--radius);
-}
-
-.post-content code {
-  background-color: var(--code-bg);
-  margin: 0 3px;
-  padding: 4px 5px;
-  border-radius: 3px;
-  font-size: .88em;
-  font-family: var(--monospace);
-}
-
-.post-content pre code {
-  display: block;
-  margin: auto 0;
-  padding: 15px;
-  color: inherit;
-  overflow-x: auto;
-  border-radius: var(--radius);
-  background: inherit !important;
-  word-break: break-all;
-  font-family: var(--monospace);
-}
-
-.post-content .chroma code {
-  background-color: inherit;
-  font-family: var(--monospace);
 }

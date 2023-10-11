@@ -1,0 +1,24 @@
+.custom_profile {
+  align-items: center;
+  text-align: center;
+}
+
+.custom_profile .profile_inner {
+  margin-bottom: 20px;
+}
+
+.custom_profile img {
+  display: inline-table;
+  border-radius: 50%;
+}
+
+.first-entry .entry-content {
+  font-size: 17px;
+  margin: 0px;
+}
+
+.button,
+.terms-tags a {
+  background: var(--entry);
+  border: 1px solid var(--tertiary);
+}

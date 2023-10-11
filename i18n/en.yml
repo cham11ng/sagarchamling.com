@@ -1,2 +1,15 @@
 - id: toc
-  translation: "Agenda"
+  translation: Agenda
+
+- id: intro_title
+  translation: 👋, I'm Sagar Chamling,
+
+- id: intro_subtitle
+  translation: >
+    > A passionate full-stack software engineer and cyber security enthusiast.
+
+- id: intro_content
+  translation: >
+    Explore my recent blog articles, where I have a contents about my works, share valuable insights on emerging technologies, programming, networking and cybersecurity in a company accepted best practices and standards.
+    
+    > Stay tuned for more!.
