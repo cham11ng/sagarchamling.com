@@ -35,6 +35,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Explore insightful articles and discover tips and tutorials on a wide range of emerging technologies, programming, networking, and cybersecurity."
+  keywords: [Portfolio, Site, Blog, Technology, Cybersecurity, Networking, Programming, Software, Engineering, DevOps]
   author: "Sagar Chamling"
   defaultTheme: auto
   disableThemeToggle: false
@@ -90,8 +91,6 @@ params:
         url: blogs/tech
 
   socialIcons:
-    - name: email
-      url: "mailto:hi@sagarchamling.com"
     - name: github
       url: "https://github.com/cham11ng"
     - name: twitter
