@@ -1,5 +1,5 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy to Github Pages
+# Workflow for building and deploying a Hugo site to GitHub Pages
+name: Deploy Site
 
 on:
   # Runs on pushes targeting the default branch
@@ -19,10 +19,10 @@ permissions:
   id-token: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# However, Cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 # Default to bash
 defaults:
@@ -56,6 +56,8 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+          HUGO_GOOGLE_SITE_VERIFICATION: ${{secrets.HUGO_GOOGLE_SITE_VERIFICATION}}
+          HUGO_DISQUS_SHORTNAME: ${{secrets.HUGO_DISQUS_SHORTNAME}}
         run: |
           hugo \
             --gc \
