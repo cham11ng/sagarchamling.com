@@ -33,11 +33,13 @@
             {{- end }}
         </div>
         <header class="entry-header">
-            <h1>{{ .Title | markdownify }}</h1>
+            <h1>{{- i18n "intro_title" | markdownify }}</h1>
+            <strong>{{- i18n "intro_subtitle" | markdownify }}</strong>
         </header>
         <div class="entry-content">
-            {{ .Content | markdownify }}
+            {{ i18n "intro_content" | markdownify }}
         </div>
+
         <footer class="entry-footer">
             {{ partial "social_icons.html" site.Params.socialIcons }}
         </footer>

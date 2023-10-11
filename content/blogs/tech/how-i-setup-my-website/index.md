@@ -5,7 +5,7 @@ description: Step by Step Guide for setting up a personal website
 slug: '/how-i-setup-my-website-using-hugo-papermod-github-pages-and-porkbun'
 date: 2023-10-09T23:10:19-04:00
 draft: false
-tags: []
+tags: ['hugo', 'papermod', 'website', 'porkbun', 'github']
 ---
 
 In this step-by-step guide, I'll walk you through the process of setting up your personal blog site using Hugo, a popular static site generator written in Go, and the PaperMod theme.

@@ -33,7 +33,7 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Explore insightful articles from Full Stack Developer. Discover tips and tutorials on a wide range of technologies, networking, and information security."
+  description: "Explore insightful articles and discover tips and tutorials on a wide range of emerging technologies, programming, networking, and cybersecurity."
   author: "Me"
   defaultTheme: auto
   disableThemeToggle: false
@@ -64,7 +64,7 @@ params:
     imageTitle: Sagar Chamling's Photo
     imageWidth: 250
     imageHeight: 250
-    subtitle: "A Passionate full-stack software engineer and cyber security enthusiast. Dive into my latest blog posts, where I write about new technology, programming tips, industry trends and best practices."
+    subtitle: "A passionate full-stack software engineer and cyber security enthusiast. Explore my recent blog articles, where I write about my works, share valuable insights on emerging technologies, programming, networking and cybersecurity in a company accepted best practices and standards. Stay tuned for more!."
     buttons:
       - name: Archives
         url: archives
@@ -75,12 +75,10 @@ params:
 
   homeInfoParams:
     enabled: true
-    title: 👋, I'm Sagar Chamling,
     imageUrl: "img/profile.jpg"
     imageTitle: Sagar Chamling's Photo
     imageWidth: 250
     imageHeight: 250
-    content: "A Passionate full-stack software engineer and cyber security enthusiast. Dive into my latest blog posts, where I write about new technology, programming tips, industry trends and best practices."
     buttons:
       - name: Archives
         url: archives
