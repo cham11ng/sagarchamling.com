@@ -115,9 +115,9 @@ params:
     # icon: "img/favicon-32x32.png"
     # iconHeight: 35
 
-  analytics:
-    google:
-      SiteVerificationTag: "0xyGU70-dwaR9PkT3CbY7CovfxHWmC4rnfkTjJKB2aw"
+  # analytics:
+    # google:
+      # SiteVerificationTag: "abc"
 
   assets:
     disableHLJS: true
