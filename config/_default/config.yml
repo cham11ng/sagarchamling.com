@@ -1,5 +1,5 @@
 baseURL: "https://sagarchamling.com/"
-title: Sagar Chamling's Personal Site
+title: Sagar Chamling's Blogging Site
 paginate: 5
 theme: PaperMod
 
@@ -35,7 +35,19 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Explore insightful articles and discover tips and tutorials on a wide range of emerging technologies, programming, networking, and cybersecurity."
-  keywords: [Portfolio, Site, Blog, Technology, Cybersecurity, Networking, Programming, Software, Engineering, DevOps]
+  keywords:
+    [
+      Portfolio,
+      Site,
+      Blog,
+      Technology,
+      Cybersecurity,
+      Networking,
+      Programming,
+      Software,
+      Engineering,
+      DevOps,
+    ]
   author: "Sagar Chamling"
   defaultTheme: auto
   disableThemeToggle: false
@@ -75,8 +87,6 @@ params:
         url: tags
       - name: "#tech"
         url: blogs/tech
-      - name: "#networking"
-        url: blogs/networking
 
   homeInfoParams:
     enabled: true
@@ -91,9 +101,6 @@ params:
         url: tags
       - name: "#tech"
         url: blogs/tech
-      - name: "#networking"
-        url: blogs/networking
-
 
   socialIcons:
     - name: github
@@ -120,8 +127,8 @@ params:
     # iconHeight: 35
 
   # analytics:
-    # google:
-      # SiteVerificationTag: "abc"
+  # google:
+  # SiteVerificationTag: "abc"
 
   assets:
     favicon: "favicon.ico"
