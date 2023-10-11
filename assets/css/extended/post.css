@@ -1,5 +1,3 @@
-
-
 .page-header h1 {
   font-size: 34px;
 }
@@ -56,4 +54,9 @@
 .post-content .chroma code {
   background-color: inherit;
   font-family: var(--monospace);
+}
+
+.post-content table th,
+.post-content table:not(.highlighttable, .highlight table, .gist .highlight) td {
+  padding: 6px;
 }
