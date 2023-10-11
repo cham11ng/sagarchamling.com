@@ -1,11 +1,11 @@
 baseURL: "https://sagarchamling.com/"
 title: Sagar Chamling's Personal Site
-paginate: 10
+paginate: 5
 theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
-buildDrafts: false
+buildDrafts: true
 buildFuture: false
 buildExpired: false
 enableEmoji: true

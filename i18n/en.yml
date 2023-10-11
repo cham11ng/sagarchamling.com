@@ -1,6 +1,9 @@
 - id: toc
   translation: Agenda
 
+- id: terms-and-conditions
+  translation: "Terms and Conditions"
+
 - id: intro_title
   translation: 👋, I'm Sagar Chamling,
 
