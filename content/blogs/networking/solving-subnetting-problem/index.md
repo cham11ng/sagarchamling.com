@@ -1,5 +1,5 @@
 ---
-title: Understanding subnetting to design addressing scheme
+title: Understanding Subnetting to design addressing scheme
 summary: Solving a subnet problem of given network diagrams.
 description: Solving a subnet problem of given network diagrams.
 slug: "/understanding-subnetting-to-desing-addressing-scheme"
