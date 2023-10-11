@@ -6,7 +6,7 @@ Welcome to my personal website.
 
 ## prerequisites
 
-* Install Git - necessary for Method 1 & 2.
+* Install Git
 * Install Go
 * Install Hugo - Make sure you install latest version of hugo(>=0.119.0).
 

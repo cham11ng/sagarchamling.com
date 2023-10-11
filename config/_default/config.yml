@@ -35,7 +35,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Explore insightful articles and discover tips and tutorials on a wide range of emerging technologies, programming, networking, and cybersecurity."
-  author: "Me"
+  author: "Sagar Chamling"
   defaultTheme: auto
   disableThemeToggle: false
   showDate: true
@@ -56,7 +56,7 @@ params:
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: false
   ShowToc: true
-  images: ["papermod-cover.png"]
+  images: ["logo.svg"]
   comments: true
 
   profileMode:
@@ -112,7 +112,7 @@ params:
 
   label:
     text: "sagar chamling"
-    # icon: "img/favicon-32x32.png"
+    # icon: "logo.png"
     # iconHeight: 35
 
   # analytics:
@@ -120,11 +120,12 @@ params:
       # SiteVerificationTag: "abc"
 
   assets:
-    disableHLJS: true
-    favicon: "img/favicon.ico"
+    favicon: "favicon.ico"
     favicon16x16: "img/favicon-16x16.png"
     favicon32x32: "img/favicon-32x32.png"
     apple_touch_icon: "img/apple-touch-icon.png"
+    android_chrome192x192: "img/android-chrome-192x192.png"
+    android_chrome512x512: "img/android-chrome-512x512.png"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data

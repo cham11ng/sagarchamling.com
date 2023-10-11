@@ -86,17 +86,12 @@
 {{- end }}
 {{- end -}}
 
-{{- /* Highlight.js */}}
-{{- $isHLJSdisabled := (site.Params.assets.disableHLJS | default .Params.disableHLJS ) }}
-{{- if (and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search") (not $isHLJSdisabled)) }}
-{{- if not site.Params.assets.disableFingerprinting }}
-{{- end }}
-{{- end }}
-
 {{- /* Favicons */}}
 <link rel="icon" href="{{ site.Params.assets.favicon | default "favicon.ico" | absURL }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ site.Params.assets.favicon16x16 | default "favicon-16x16.png" | absURL }}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ site.Params.assets.favicon32x32 | default "favicon-32x32.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ site.Params.assets.android_chrome192x192 | default "android-chrome-192x192.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="512x512" href="{{ site.Params.assets.android_chrome512x512 | default "android-chrome-512x512.png" | absURL }}">
 <link rel="apple-touch-icon" href="{{ site.Params.assets.apple_touch_icon | default "apple-touch-icon.png" | absURL }}">
 <link rel="mask-icon" href="{{ site.Params.assets.safari_pinned_tab | default "safari-pinned-tab.svg" | absURL }}">
 <meta name="theme-color" content="{{ site.Params.assets.theme_color | default "#2e2e33" }}">
