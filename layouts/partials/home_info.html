@@ -34,8 +34,10 @@
         </div>
         <header class="entry-header">
             <h1>{{- i18n "intro_title" | markdownify }}</h1>
-            <h4>{{- i18n "intro_subtitle" | markdownify }}</h4>
         </header>
+        <div class="entry-content">
+            <strong>{{- i18n "intro_subtitle" | markdownify }}</strong>
+        </div>
         <div class="entry-content">
             {{ i18n "intro_content" | markdownify }}
         </div>

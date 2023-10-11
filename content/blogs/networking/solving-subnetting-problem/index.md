@@ -1,42 +1,73 @@
 ---
-title: Understanding Subnetting - Designing Addressing Scheme
+title: Understanding subnetting to design addressing scheme
 summary: Solving a subnet problem of given network diagrams.
 description: Solving a subnet problem of given network diagrams.
+slug: "/understanding-subnetting-to-desing-addressing-scheme"
 date: 2023-03-12
 draft: false
 tags: ["cisco packet tracer", "networking", "subnetting"]
 ---
 
-## Scenario 1
+## Subnetting
+
+Subnetting is defined as breaking down of huge network address to manageable networks. For the subnet addressing scheme to work, every host on the network must know which part of the host address will be used as the subnet address. The table gives the default subnet mask of each class.
+
+CIDR notation indicates the network mask for an address and adds on the total number of turned on bits in the entire address using slash notation.
+
+### Default Subnet Mask
+
+| Class | Format                       | Default Subnet Mask | CIDR |
+| ----- | ---------------------------- | ------------------- | ---- |
+| A     | network.host.host.host       | 255.0.0.0           | /8   |
+| B     | network.network.host.host    | 255.255.0.0         | /16  |
+| C     | network.network.network.host | 255.255.255.0       | /24  |
+
+### Subnetting Formula
+
+How many subnets? <strong>2<sup>x</sup></strong> = number of subnets. **x** is the number of masked bits or turned on network bit.
+
+How many hosts per subnet? <strong>2<sup>y</sup></strong> – 2 = number of hosts per subnet. **y** is the number of unmasked bits or turned off host bit.
+
+What are the valid subnets? <strong>256 – subnet mask</strong> = block size
+
+What’s the broadcast address for each subnet? <strong>The number right before the value of the next subnet.</strong>
+
+| Subnet            | 0   | 128 |
+| ----------------- | --- | --- |
+| First host        | 1   | 129 |
+| Last host         | 126 | 254 |
+| Broadcast Address | 127 | 255 |
+
+## Real-world Problem
+
+### Scenario I
 
 `192.168.1.0/24` network address is assigned to do subnetting for the topology seen below.
-Please provide the answers to questions - for example, numbers of sub-networks needed along with
-appropriate design of IPv4 addressing scheme.
 
 ![Cisco Packet Tracer Network Diagram 1](img/cpt-1.png)
 
-### Explanation 1
+#### Explanation I
 
 Total required networks include:
 
-- `2` LANs individually connected with the highest number of connected hosts, that is `2`.
-- `1` WAN between routers
-- Given network address is `192.168.1.0/24` which belongs to `Class C` with default subnet
-mask `255.255.255.0`
-- If we subnet with `/26` i.e., `255.255.255.192`, then block size is: `256 – 192 = 64`
-- Subnetwork: <code>2<sup>2</sup> = 4</code>
-- Valid Hosts per subnetwork `26 - 2 = 62`
+- **2** LANs individually connected with the highest number of connected hosts, that is **2**.
+- **1** WAN between routers
+- Given network address is **192.168.1.0/24** which belongs to **Class C** with default subnet
+mask **255.255.255.0**
+- If we subnet with **/26** i.e., **255.255.255.192**, then block size is: **256 – 192 = 64**
+- Subnetwork: <strong>2<sup>2</sup> = 4</u></strong>
+- Valid Hosts per subnetwork <strong>2<sup>6</sup> - 2 = 62</strong>
 
-### Answer 1
+#### Answer I
 
-1. How many subnetworks can be seen as requirements in the figure above? **_3_**
-2. How many maximum hosts are required in any subnetwork? **_64_**
+1. How many subnetworks can be seen as requirements in the figure above? <strong><u>3</u></strong>
+2. How many maximum hosts are required in any subnetwork? <strong><u>3</u></strong>
 3. How many bits will be borrowed from hosts portion in order to accommodate the required
-number of subnets? **_2_**
-4. How many subnetworks will be created by borrowing the bits as mentioned above? <strong><i>2<sup>2</sup> = 4</i></strong>
-5. How many subnetworks will remain unused for future use? **_4 – 3 = 1_**
-6. How many valid host addresses will be available per subnetwork? <strong><i>2<sup>6</sup> - 2 = 62</i></strong>
-7. After changing the length/CIDR of original network, what is the new subnet mask? **_/26_**
+number of subnets? <strong><u>2</u></strong>
+4. How many subnetworks will be created by borrowing the bits as mentioned above? <strong><u>2<sup>2</sup> = 4</u></strong>
+5. How many subnetworks will remain unused for future use? <strong><u>4 – 3 = 1</u></strong>
+6. How many valid host addresses will be available per subnetwork? <strong><u>2<sup>6</sup> - 2 = 62</u></strong>
+7. After changing the length/CIDR of original network, what is the new subnet mask? <strong><u>255.255.255.192</u></strong>
 8. Fill in the following table with the subnetwork’s information.
 
 | Subnetwork # | Subnetwork Address | First Valid Host | Last Valid Host | Broadcast Address |
@@ -46,34 +77,32 @@ number of subnets? **_2_**
 | 3            | 192.168.1.128      | 192.168.1.129    | 192.168.1.190   | 192.168.1.191     |
 | 4            | 192.168.1.192      | 192.168.1.193    | 192.168.1.254   | 192.168.1.255     |
 
-## Scenario 2
+### Scenario II
 
 192.168.20.0/24 network address is assigned to you to do subnetting for the topology seen below.
-Please answer questions A-G and complete the table in H.
 
 ![Cisco Packet Tracer Network Diagram 2](img/cpt-2.png)
 
-### Explanation 2
+#### Explanation II
 
 Total required networks include:
 
-- 4 LANs individually connected with the highest number of connected hosts, that is 3.
-- 3 WAN between routers
-- Given network address is 192.168.20.0/24 which belongs to Class C with default subnet
-mask 255.255.255.0
-- If we subnet with /27 i.e., 255.255.255.192, then block size: 256 – 192 = 64
-- Subnetwork: 2 3 = 8
-- Valid Hosts per subnetwork 25 - 2 = 30
+- **4** LANs individually connected with the highest number of connected hosts, that is **3**.
+- **4** WAN between routers
+- Given network address is **192.168.20.0/24** which belongs to **Class C** with default subnet mask **255.255.255.0**
+- If we subnet with **/27** i.e., **255.255.255.224**, then block size: **256 – 192 = 64**
+- Subnetwork: <strong>2<sup>3</sup> = 8</strong>
+- Valid Hosts per subnetwork **25 - 2 = 30**
 
-### Answer 2
+#### Answer II
 
-1. How many subnetworks can be seen as requirements in the figure seen above? 7
-2. How many maximum hosts are required in any subnetwork? 32
-3. How many bits will be borrowed from hosts portion in order to accommodate the required number of subnets? 3
-4. How many subnetworks will be created by borrowing the bits as mentioned above? 2 3 = 8
-5. How many subnetworks will remain unused for future use? 8 – 7 = 1
-6. How many valid host addresses will be available per subnetwork? 2 5 - 2 = 30
-7. After changing the length/CIDR of original network, what is the new subnet mask? /27
+1. How many subnetworks can be seen as requirements in the figure seen above? <strong><u>8</u></strong>
+2. How many maximum hosts are required in any subnetwork? <strong><u>3</u></strong>
+3. How many bits will be borrowed from hosts portion in order to accommodate the required number of subnets? <strong><u>3</u></strong>
+4. How many subnetworks will be created by borrowing the bits as mentioned above? <strong><u>2<sup>3</sup> = 8</u></strong>
+5. How many subnetworks will remain unused for future use? <strong><u>8 – 8 = 0</u></strong>
+6. How many valid host addresses will be available per subnetwork? <strong><u>2<sup>5</sup> - 2 = 30</u></strong>
+7. After changing the length/CIDR of original network, what is the new subnet mask? <strong><u>255.255.255.224</u></strong>
 8. Fill in the following table with the subnetwork’s information.
 
 | Subnetwork # | Subnetwork Address | First Valid Host | Last Valid Host | Broadcast Address |
@@ -87,33 +116,32 @@ mask 255.255.255.0
 | 7            | 192.168.20.192     | 192.168.20.193   | 192.168.20.222  | 192.168.20.223    |
 | 8            | 192.168.20.224     | 192.168.20.225   | 192.168.20.254  | 192.168.20.255    |
 
-## Scenario 3
+### Scenario III
 
 `172.16.0.0/16` network address is assigned to you to do subnetting for the topology seen below.
-Please answer the questions and complete the chart.
 
 ![Cisco Packet Tracer Network Diagram 3](img/cpt-3.png)
 
-### Explanation 3
+#### Explanation III
 
 Total required networks include:
 
-- 9 LANs individually connected with the highest number of connected hosts, that is 3900.
-- 6 WANs between routers. 4
-- Given network address is `172.16.0.0/16` which belongs to Class B with default subnet mask `255.255.0.0`
-- If we subnet with /20 i.e., 255.255.240.0, then the block size: 256 – 240 = 16
-- Subnetwork: 2 4 = 16
-- Valid hosts per subnetwork 2 12 - 2 = 4094
+- **9** LANs individually connected with the highest number of connected hosts, that is **3900**.
+- **6** WANs between routers. **4**
+- Given network address is **172.16.0.0/16** which belongs to Class B with default subnet mask **255.255.0.0**
+- If we subnet with **/20** i.e., **255.255.240.0**, then the block size: **256 – 240 = 16**
+- Subnetwork: <strong>2<sup>4</sup> = 16</strong>
+- Valid hosts per subnetwork <strong>2<sup>12</sup> - 2 = 4094</strong>
 
-### Answer 3
+#### Answer III
 
-1. How many subnetworks can be seen as requirements in the figure seen above? 15
-2. How many maximum hosts are required in any subnetwork? 4096
-3. How many bits will be borrowed from the host portion in order to accommodate the required number of subnets? 4
-4. How many subnetworks will be created by borrowing the bits as mentioned above? 2 4 = 16
-5. How many subnetworks will remain unused for future use? 16 – 15 = 1
-6. How many valid host addresses will be available per subnetwork? 2 12 - 2 = 4094
-7. After changing the length/CIDR of original network, what is the new subnet mask? /20
+1. How many subnetworks can be seen as requirements in the figure seen above? <strong><u>15</u></strong>
+2. How many maximum hosts are required in any subnetwork? <strong><u>3900</u></strong>
+3. How many bits will be borrowed from the host portion in order to accommodate the required number of subnets? <strong><u>4</u></strong>
+4. How many subnetworks will be created by borrowing the bits as mentioned above? <strong><u>2<sup>4</sup> = 16</u></strong>
+5. How many subnetworks will remain unused for future use? <strong><u>16 – 15 = 1</u></strong>
+6. How many valid host addresses will be available per subnetwork? <strong><u>2<sup>12</sup> - 2 = 4094</u></strong>
+7. After changing the length/CIDR of original network, what is the new subnet mask? <strong><u>255.255.240.0</u></strong>
 8. Fill in the following table with the subnetwork’s information.
 
 | Subnetwork # | Subnetwork Address | First Valid Host | Last Valid Host | Broadcast Address |
