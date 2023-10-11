@@ -1,6 +1,6 @@
 # sagarchamling.com
 
-Welcome to my personal website.
+Welcome to my blogging website.
 
 [![Deploy to Github Pages](https://github.com/cham11ng/sagarchamling.com/actions/workflows/deploy.yml/badge.svg)](https://github.com/cham11ng/sagarchamling.com/actions/workflows/deploy.yml)
 
