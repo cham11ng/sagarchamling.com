@@ -10,6 +10,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
+disqusShortname: sagarchamling
 # googleAnalytics: UA-123-45
 
 minify:
@@ -56,6 +57,7 @@ params:
   ShowRssButtonInSectionTermList: false
   ShowToc: true
   images: ["papermod-cover.png"]
+  comments: true
 
   profileMode:
     enabled: false
@@ -113,9 +115,9 @@ params:
     # icon: "img/favicon-32x32.png"
     # iconHeight: 35
 
-  # analytics:
-  #     google:
-  #         SiteVerificationTag: "XYZabc"
+  analytics:
+    google:
+      SiteVerificationTag: "0xyGU70-dwaR9PkT3CbY7CovfxHWmC4rnfkTjJKB2aw"
 
   assets:
     disableHLJS: true
