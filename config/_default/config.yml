@@ -75,6 +75,8 @@ params:
         url: tags
       - name: "#tech"
         url: blogs/tech
+      - name: "#networking"
+        url: blogs/networking
 
   homeInfoParams:
     enabled: true
@@ -89,6 +91,9 @@ params:
         url: tags
       - name: "#tech"
         url: blogs/tech
+      - name: "#networking"
+        url: blogs/networking
+
 
   socialIcons:
     - name: github
@@ -110,7 +115,7 @@ params:
     appendFilePath: true
 
   label:
-    text: "sagar chamling"
+    text: "cham11ng's blog"
     # icon: "logo.png"
     # iconHeight: 35
 
