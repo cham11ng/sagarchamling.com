@@ -6,6 +6,10 @@ slug: 'cloud-security-assessment-using-scoutsuite-pacu-prowler'
 date: 2023-10-02
 draft: false
 tags: ["scoutsuite", "pacu", "cloud security", "aws", "auditing", "assessment", "pentest"]
+cover:
+    image: "img/cover.png"
+    alt: "Cloud Security Assessment Cover"
+    hidden: false
 ---
 
 ## About Activity

@@ -8,8 +8,8 @@ showtoc: true
 searchHidden: true
 comments: false
 cover:
-    image: "img/lets-connect.jpg" # image path/url
-    alt: "Lets connect" # alt text
+    image: "img/lets-connect.jpg"
+    alt: "Lets connect"
     hidden: false
 ---
 

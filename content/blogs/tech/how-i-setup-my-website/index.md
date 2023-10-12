@@ -1,10 +1,14 @@
 ---
-title: How I setup my website using Hugo PaperMod, Github Pages and Porkbun
+title: How I setup my website using Hugo, Github Pages and Porkbun
 summary: Step by Step Guide for setting up a personal website
 description: Step by Step Guide for setting up a personal website
-slug: '/how-i-setup-my-website-using-hugo-papermod-github-pages-and-porkbun'
+slug: '/how-i-setup-my-website-using-hugo-github-pages-and-porkbun'
 date: 2023-10-09T23:10:19-04:00
 draft: false
+cover:
+    image: "img/cover.png"
+    alt: "Setup Website Cover Image"
+    hidden: false
 tags: ['hugo', 'papermod', 'website', 'porkbun', 'github']
 ---
 
@@ -46,7 +50,7 @@ Replace `sagarchamling.com` with the desired name of your blog.
 
 Hugo offers a wide range of themes. Find your choice and make sure you give them a credit.
 
-![Hugo Themes](images/hugo-themes.jpg)
+![Hugo Themes](img/hugo-themes.jpg)
 
 ### Install the PaperMod Theme
 
@@ -135,22 +139,22 @@ I considered using a domain registrar like [Porkbun](https://porkbun.com) becaus
 
 In your domain registrar's dashboard (`Porkbun` in this case), configure your domain's DNS settings. This typically involves setting up a CNAME record with the GitHub Pages URL provided earlier.
 
-![Edit DNS Record](images/edit-dns-record.png)
+![Edit DNS Record](img/edit-dns-record.png)
 Go to the DNS Records section and select "Edit."
 
-![Quick DNS Config](images/quick-dns.png)
+![Quick DNS Config](img/quick-dns.png)
 In the Quick DNS Config section, select the "Github" button to quickly configure domain's DNS settings to point Github Pages.
 
-![CNAME Record](images/cname-record.png)
+![CNAME Record](img/cname-record.png)
 You'll also need to create your subdomain CNAME record. In the Host field, enter the subdomain you want. It can be "www" or whatever you wish it to be.
 
-![DNS Records](images/dns-records.png)
+![DNS Records](img/dns-records.png)
 You should now see your DNS records successfully updated to the Github Pages DNS under Current Records.
 
 ### Configure GitHub Pages
 
 In your GitHub repository, go to the `Settings` tab and scroll down to the `Pages` section. Provide the custom domain with a URL for your published site. It may take some time for DNS changes to propagate. Once it's done, your blog will be accessible through your custom domain.
 
-![Github Pages Configuration](images/github-pages.png)
+![Github Pages Configuration](img/github-pages.png)
 
 Congratulations! You've successfully set up your personal blog site using Hugo, customized it with the PaperMod theme, and published it with your own domain name. Now, you're ready to start sharing your thoughts and ideas with the world. Happy blogging!
