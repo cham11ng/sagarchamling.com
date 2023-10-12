@@ -14,17 +14,17 @@ tags: ['hugo', 'papermod', 'website', 'porkbun', 'github']
 
 In this step-by-step guide, I'll walk you through the process of setting up your personal blog site using Hugo, a popular static site generator written in Go, and the PaperMod theme.
 
-Along with that, I'll also show you how I configured my domain and hosting for this site. By the end of this tutorial, you'll have your blog up and running and ready to share your thoughts with the world.
+Along with that, I'll also show you how I configured my domain and hosting for this site. If you are following then by the end of this tutorial, you'll have your blog up and running and ready to share your thoughts with the world.
 
 ---
 
 ## Step 0: Identify Purpose
 
-I opted for a static website generator because I wanted a website that's incredibly easy to maintain and configure. Additionally, it had to be fast and secure. My primary goal is to have a personal site where I can centralize all my writing content and showcase my work, all in one place. I had straightforward requirements, which led me to choose a static site generator.
+I opted for a static website generator because I wanted a website that's incredibly easy to maintain and configure. Additionally, it had to be fast and secure. My primary goal is to have a personal site where I can centralize all my contents and showcase my work, all in one place. I had straightforward requirements, which led me to choose a static site generator.
 
 ## Step 1: Static Site Generator with `hugo`
 
-Comparing Gatsby vs Hugo, JS vs Go, "Generated websites are super fast" vs "Lightning fast". According to my personal website idea, it doesn't require a dynamic contents or any user interactions which is purely based on static architecture. I selected hugo over Gatsby.
+Comparing `Gatsby` vs `Hugo`, "Generated websites are super fast" vs **"Lightning fast"**. According to my personal website idea, it doesn't require a dynamic contents or any user interactions, which is purely based on static architecture. I selected **`Hugo`** over Gatsby.
 
 ### Install Go, Hugo
 
@@ -131,7 +131,9 @@ git push -u origin main
 
 ## Step 5: Select Domain Name
 
-I considered using a domain registrar like [Porkbun](https://porkbun.com) because of easy setup and cheaper price. Search for available domain names, and once you find one that suits your blog, register it.
+I considered using a domain registrar like [Porkbun](https://porkbun.com) for two major reason; it's cheap and easy configuration process. 
+
+Search for available domain names, and once you find one that suits your blog, register it.
 
 ## Step 6: Configure and Publish Site
 
@@ -149,7 +151,7 @@ In the Quick DNS Config section, select the "Github" button to quickly configure
 You'll also need to create your subdomain CNAME record. In the Host field, enter the subdomain you want. It can be "www" or whatever you wish it to be.
 
 ![DNS Records](img/dns-records.png)
-You should now see your DNS records successfully updated to the Github Pages DNS under Current Records.
+Finally, you'll see your DNS records successfully updated to the Github Pages DNS under Current Records.
 
 ### Configure GitHub Pages
 
