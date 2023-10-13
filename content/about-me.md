@@ -4,7 +4,7 @@ hideMeta: true
 disableShare: true
 hideSummary: false
 showBreadcrumbs: false
-showtoc: true
+showtoc: false
 searchHidden: true
 comments: false
 cover:
