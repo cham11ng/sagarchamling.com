@@ -5,7 +5,7 @@
   translation: "Terms and Conditions"
 
 - id: intro_title
-  translation: 👋, I'm Sagar Chamling,
+  translation: Hi 👋, I'm Sagar Chamling,
 
 - id: intro_subtitle
   translation: >
@@ -13,6 +13,8 @@
 
 - id: intro_content
   translation: >
-    Explore my recent blog articles, where I have a contents about my works, share valuable insights on emerging technologies, programming, networking and cybersecurity in a company accepted best practices and standards.
+    Welcome to cham11ng’s blog. 
+    Explore my blog posts, where I provide valuable insights on the emerging technologies and contents based on programming, networking, and cybersecurity. 
+    These insights are drawn from my extensive experience and aligned with company best practices and standards.
     
     > Stay tuned for more!.
