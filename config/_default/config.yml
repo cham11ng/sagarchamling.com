@@ -33,13 +33,14 @@ outputs:
     - JSON
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Explore insightful blog posts and discover tips and tutorials on a wide range of emerging technologies and content based on programming, networking, and cybersecurity."
+  env: production # To enable google analytics, opengraph, twitter-cards and schema.
+  description: "Explore insightful blog posts and discover content based on a wide range of emerging technologies, programming, networking, and cybersecurity."
   keywords:
     [
       Portfolio,
       Site,
       Blog,
+      Blogging,
       Technology,
       Cybersecurity,
       Networking,
@@ -50,7 +51,7 @@ params:
       DevSecOps,
       Sagar,
       Chamling,
-      Security
+      Sagar Chamling,
     ]
   author: "Sagar Chamling"
   defaultTheme: auto
