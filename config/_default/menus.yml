@@ -1,5 +1,5 @@
 main:
-  - name: My Blogs
+  - name: Blogs
     url: blogs
     weight: 1
   - name: About Me

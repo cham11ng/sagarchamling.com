@@ -1,0 +1,21 @@
+list:
+  - title: CVSS Base Score Calculator
+    description: Implementation of CVSS 3.1 to calculate vulnerability base score.
+    projectLink: https://github.com/cham11ng/cvss-calculator
+    demoLink: https://cham11ng.github.io/cvss-calculator/
+  - title: react-copy-button
+    description: Copy to clipboard react button component.
+    projectLink: https://github.com/cham11ng/react-copy-button
+    demoLink: https://cham11ng.github.io/react-copy-button/
+  - title: Face Recognition in Javascript
+    description: Local Binary Pattern implementation for Face Recognition App 📷
+    projectLink: https://github.com/cham11ng/face-recognition
+    demoLink: https://cham11ng.github.io/face-recognition/
+  - title: Typescript Express API Starter
+    description: 🔰 Starter for Node.js express API in Typescript 🚀
+    projectLink: https://github.com/cham11ng/typescript-api-starter
+  - title: flappy-bird
+    description: Implementation of Flappy Bird in Javascript. 
+    projectLink: https://github.com/cham11ng/internship-experience/tree/main/js-experiments/5-flappy-bird
+    demoLink: https://schamling.com.np/js-experiments/5-flappy-bird/
+  

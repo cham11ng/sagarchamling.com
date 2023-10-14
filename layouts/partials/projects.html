@@ -1,0 +1,24 @@
+<div class="projects-section">
+  <h2>{{ i18n "project-header" }}</h2>
+  <div class="portfolio-projects">
+    {{- range site.Data.projects.list }}
+    <div class="project">
+      <div class="project-header">
+        <i class="fa-regular fa-folder-open folder-icon"></i>
+        <div class="small-icons">
+          <a href="{{ .projectLink }}" title="GitHub Repository" target="_blank" rel="noopener noreferrer me"><i
+              class="fa-brands fa-github"></i></a>
+          {{- if .demoLink }}
+          <a href="{{ .demoLink }}" title="Project Demo" target="_blank" rel="noopener noreferrer me"><i
+              class="fa-solid fa-up-right-from-square"></i></a>
+          {{- end }}
+        </div>
+      </div>
+      <a href="{{ .projectLink }}" title="{{ .title }}" target="_blank" rel="noopener noreferrer me">
+        <h3>{{ .title }}</h3>
+      </a>
+      <p>{{ .description }}</p>
+    </div>
+    {{- end }}
+  </div>
+</div>

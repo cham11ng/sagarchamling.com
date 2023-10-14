@@ -1,0 +1,55 @@
+.projects-section {
+  margin: var(--gap)0 calc(var(--gap) * 2)
+}
+
+.projects-section h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.portfolio-projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.project {
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.folder-icon {
+  font-size: 25px;
+}
+
+.small-icons {
+  font-size: 19px;
+}
+
+.small-icons i {
+  margin-right: 5px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.small-icons i:hover {
+  color: #FFCC17;
+}
+
+.project h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 16px;
+  color: #b3b3b3;
+}

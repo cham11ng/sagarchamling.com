@@ -33,11 +33,11 @@
             {{- end }}
         </div>
         <header class="entry-header">
-            <h1>{{- i18n "intro_title" | markdownify }}</h1>
+            <h1>{{- i18n "intro-title" | markdownify }}</h1>
         </header>
         <div class="entry-content">
-            <p><strong>{{- i18n "intro_subtitle" | markdownify }}</strong></p>
-            <p>{{ i18n "intro_content" | markdownify }}</p>
+            <p><strong>{{- i18n "intro-subtitle" | markdownify }}</strong></p>
+            <p>{{ i18n "intro-content" | markdownify }}</p>
         </div>
 
         <footer class="entry-footer">
@@ -67,3 +67,7 @@
     </div>
 </article>
 {{- end -}}
+
+{{- template "partials/projects.html" .}}
+
+<h2 class="blogs-section">{{ i18n "blog-header" }}</h2>

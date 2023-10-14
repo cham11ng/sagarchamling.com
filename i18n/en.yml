@@ -2,19 +2,25 @@
   translation: Agenda
 
 - id: terms-and-conditions
-  translation: "Terms and Conditions"
+  translation: Terms and Conditions
 
-- id: intro_title
+- id: project-header
+  translation: Project Works
+
+- id: blog-header
+  translation: Recent Blogs
+
+- id: intro-title
   translation: Hi 👋, I'm Sagar Chamling,
 
-- id: intro_subtitle
+- id: intro-subtitle
   translation: >
     > passionate full-stack software engineer and cyber security enthusiast.
 
-- id: intro_content
+- id: intro-content
   translation: >
     Welcome to cham11ng’s blog. 
     Explore my blog posts, where I provide valuable insights on the emerging technologies and contents based on programming, networking, and cybersecurity. 
-    These insights are drawn from my extensive experience and aligned with company best practices and standards.
-    
+    These insights are drawn from my extensive experience and aligned with company best practices and standards. I've also listed my projects works down below.
+
     > Stay tuned for more!.

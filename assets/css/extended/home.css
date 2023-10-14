@@ -22,3 +22,7 @@
   background: var(--entry);
   border: 1px solid var(--tertiary);
 }
+
+h2.blogs-section {
+  margin-bottom: 20px;
+}
