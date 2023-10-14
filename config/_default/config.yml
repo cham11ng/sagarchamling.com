@@ -11,7 +11,7 @@ buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
 disqusShortname: sagarchamling
-# googleAnalytics: UA-123-45
+googleAnalytics: G-DKKQ68YLLJ
 
 minify:
   disableXML: true
@@ -34,7 +34,7 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Explore insightful articles and discover tips and tutorials on a wide range of emerging technologies, programming, networking, and cybersecurity."
+  description: "Explore insightful blog posts and discover tips and tutorials on a wide range of emerging technologies and content based on programming, networking, and cybersecurity."
   keywords:
     [
       Portfolio,
@@ -47,6 +47,10 @@ params:
       Software,
       Engineering,
       DevOps,
+      DevSecOps,
+      Sagar,
+      Chamling,
+      Security
     ]
   author: "Sagar Chamling"
   defaultTheme: auto
