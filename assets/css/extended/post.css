@@ -56,6 +56,10 @@
   font-family: var(--monospace);
 }
 
+.post-content table th {
+  font-size: inherit;
+}
+
 .post-content table th,
 .post-content table:not(.highlighttable, .highlight table, .gist .highlight) td {
   padding: 6px;

@@ -6,9 +6,9 @@ Welcome to my blogging website.
 
 ## prerequisites
 
-* Install Git
-* Install Go
-* Install Hugo - Make sure you install latest version of hugo(>=0.119.0).
+- Install Git
+- Install Go
+- Install Hugo - Make sure you install latest version of hugo(>=0.119.0).
 
 ## contributing
 
@@ -26,6 +26,16 @@ git submodule update --remote --merge # update theme
 hugo serve
 ```
 
+### adding folder
+
+```bash
+# Syntax
+hugo new --kind folder blogs/<folder-name>/_index.md
+
+# Example
+hugo new --kind folder blogs/tech/_index.md
+```
+
 ### adding blog
 
 ```bash
@@ -36,7 +46,7 @@ hugo new --kind blog blogs/<folder-name>/<blog-title>.md
 hugo new --kind blog blogs/tech/how-i-setup-my-website.md
 ```
 
-## adding slides
+### adding slides
 
 ```bash
 # Syntax
@@ -44,16 +54,6 @@ hugo new --kind gslides slides/<blog-title>.md
 
 # Example
 hugo new --kind gslides slides/github-essentials.md
-```
-
-### adding folder
-
-```bash
-# Syntax
-hugo new --kind folder blogs/<folder-name>/_index.md
-
-# Example
-hugo new --kind folder blogs/tech/index.md
 ```
 
 ## inspired from
