@@ -2,9 +2,12 @@ main:
   - name: Blogs
     url: blogs
     weight: 1
+  - name: Slides
+    url: slides
+    weight: 2
   - name: About Me
     url: about-me
-    weight: 2
+    weight: 3
   - name: Search
     url: search
-    weight: 3
+    weight: 4

@@ -23,7 +23,7 @@ git submodule update --init --recursive # clone submodule
 
 git submodule update --remote --merge # update theme
 
-hugo server
+hugo serve
 ```
 
 ### adding blog
@@ -34,6 +34,16 @@ hugo new --kind blog blogs/<folder-name>/<blog-title>.md
 
 # Example
 hugo new --kind blog blogs/tech/how-i-setup-my-website.md
+```
+
+## adding slides
+
+```bash
+# Syntax
+hugo new --kind gslides slides/<blog-title>.md
+
+# Example
+hugo new --kind gslides slides/github-essentials.md
 ```
 
 ### adding folder
