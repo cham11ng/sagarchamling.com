@@ -5,6 +5,10 @@ description: Solving a subnet problem of given network diagrams.
 slug: "/understanding-subnetting-to-desing-addressing-scheme"
 date: 2023-03-12
 draft: false
+cover:
+    image: "img/cover.webp"
+    alt: "Network and broadcast address calculation."
+    hidden: false
 tags: ["cisco packet tracer", "networking", "subnetting"]
 ---
 
@@ -44,7 +48,7 @@ What’s the broadcast address for each subnet? <strong>The number right before 
 
 `192.168.1.0/24` network address is assigned to do subnetting for the topology seen below.
 
-![Cisco Packet Tracer Network Diagram 1](img/cpt-1.png)
+![Cisco Packet Tracer Network Diagram 1](img/cpt-1.webp)
 
 #### Explanation I
 
@@ -81,7 +85,7 @@ number of subnets? <strong><u>2</u></strong>
 
 192.168.20.0/24 network address is assigned to you to do subnetting for the topology seen below.
 
-![Cisco Packet Tracer Network Diagram 2](img/cpt-2.png)
+![Cisco Packet Tracer Network Diagram 2](img/cpt-2.webp)
 
 #### Explanation II
 
@@ -120,7 +124,7 @@ Total required networks include:
 
 `172.16.0.0/16` network address is assigned to you to do subnetting for the topology seen below.
 
-![Cisco Packet Tracer Network Diagram 3](img/cpt-3.png)
+![Cisco Packet Tracer Network Diagram 3](img/cpt-3.webp)
 
 #### Explanation III
 
