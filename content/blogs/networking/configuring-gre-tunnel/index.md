@@ -14,7 +14,7 @@ Cisco Generic Routing Encapsulation (GRE) is a tunneling protocol that provides 
 
 ### Network Topology
 
-![Network Topology Diagram](img/network-topology.png)
+![Network Topology Diagram](img/network-topology.webp)
 
 ### Addressing Scheme
 
@@ -184,21 +184,21 @@ copy run start
 ### Configuring PCs
 
 Configuring PCA
-![Configure PCA](img/configure-pca.png)
+![Configure PCA](img/configure-pca.webp)
 
 Configuring PCB
-![Configure PCB](img/configure-pcb.png)
+![Configure PCB](img/configure-pcb.webp)
 
 ## Testing
 
 Verifying tunnel interfaces in Router RA and RB.
-![Verifying tunnel interfaces in Router RA and RB](img/verifying-tunnel-interfaces.png)
+![Verifying tunnel interfaces in Router RA and RB](img/verifying-tunnel-interfaces.webp)
 
 Successful ping and tracert from PCA to PCB.
-![Successful ping and tracert from PCA to PCB](img/success-ping-tracert-pca-to-pcb.png)
+![Successful ping and tracert from PCA to PCB](img/success-ping-tracert-pca-to-pcb.webp)
 
 Successful ping and tracert from PCA to PCB
-![Successful ping and tracert from PCA to PCB](img/success-ping-tracert-pcb-to-pca.png)
+![Successful ping and tracert from PCA to PCB](img/success-ping-tracert-pcb-to-pca.webp)
 
 <p align="center">
   <a href="gre-tunnel.pkt" download>Download .PKT file</a>

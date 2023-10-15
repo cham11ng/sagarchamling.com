@@ -1,7 +1,7 @@
 ---
 title: 'Slides'
-summary: "Collection of all my presentation slides"
-description: "Collection of all my presentation slides"
+summary: "A collection of my presentation slides"
+description: "A collection of my presentation slides"
 showReadingTime: false
 showDate: false
 hideMeta: true

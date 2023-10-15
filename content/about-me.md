@@ -95,6 +95,7 @@ To stay at the forefront of cybersecurity, I've earned several certifications, i
   [![Certified in Cybersecurity (CC)](https://images.credly.com/size/100x100/images/2030e43f-8003-4d4b-9630-847add403c87/image.png)](http://www.credly.com/badges/e801a6c7-8965-458d-8447-477056ea59d6 "Certified in Cybersecurity (CC)")
   [![Introduction to the Threat Landscape 1.0](https://images.credly.com/size/100x100/images/8395e492-f8aa-4617-a258-6c844f628fa2/image.png)](http://www.credly.com/badges/fa3d32d1-ef4d-469b-b915-b1e12688a243 "Introduction to the Threat Landscape 1.0")
   [![OPSWAT Introduction to Critical Infrastructure Protection (ICIP)](https://images.credly.com/size/100x100/images/f9f3c533-9b5a-47eb-8a3e-5734663116c0/image.png)](http://www.credly.com/badges/cf60fc47-d5cf-4237-b496-7a3f21c571c9 "OPSWAT Introduction to Critical Infrastructure Protection (ICIP)")
+  [![Introduction to the Threat Landscape 2.0](https://images.credly.com/size/100x100/images/083854d8-3a8f-465c-b414-19507f9703d9/image.png)](http://www.credly.com/badges/116d0460-c640-4073-9436-23b4b5c15c94 "Introduction to the Threat Landscape 2.0")
 
 </div>
 
