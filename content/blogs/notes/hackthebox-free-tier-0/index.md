@@ -1,16 +1,31 @@
 ---
-title: Tier 0 - Hack The Box CTF Notes
-summary: Key Notes from Hack The Box Tier 0 Challenges
-description: Key Notes from Hack The Box Tier 0 Challenges
+title: Hack The Box - Free Tier 0 Summary
+summary: Key notes from Hack The Box Tier 0 Challenges
+description: Key notes from Hack The Box Tier 0 Challenges
+slug: '/hackthebox-free-tier-0'
 draft: true
 ---
 
 ## Basics
 
-When first starting a penetration test or any security evaluation on a target, a primary step is known as Enumeration . This step consists of documenting the current state of the target to learn as much as
-possible about it.
+When first starting a penetration test or any security evaluation on a target, a primary step is known as **Enumeration** which involves scanning of the open ports.
 
-Every server uses ports in order to serve data to other clients. The first steps in the Enumeration phase involve scanning these open ports to see the purpose of the target on the network and what potential vulnerabilities might appear from the services running on it.
+### Tools
+
+#### `ping` - Packet Internet or InterNet Groper
+
+```bash
+ping <target-ip-addr> -c 4
+```
+
+#### `nmap` - Network Mapper
+
+```bash
+sudo nmap -p- <target-ip-addr> # Scan all ports, takes longer.
+sudo nmap -sV <target-ip-addr> # Name and description of identified services.
+```
+
+#### Port numbers
 
 | **Number** | **Assignment**                                                     |
 | ---------- | ------------------------------------------------------------------ |
@@ -31,21 +46,6 @@ Every server uses ports in order to serve data to other clients. The first steps
 | 443        | HTTP Secure (HTTPS) HTTP over TLS/SSL                              |
 | 546, 547   | DHCPv6 IPv6 version of DHCP                                        |
 | 6379       | Redis                                                              |
-
-### Tools
-
-#### `ping` - Packet Internet or InterNet Groper
-
-```bash
-ping <target-ip-addr> -c 4
-```
-
-#### `nmap` - Network Mapper
-
-```bash
-sudo nmap -p- <target-ip-addr> # Scan all ports, takes longer.
-sudo nmap -sV <target-ip-addr> # Name and description of identified services.
-```
 
 ## Challenges
 
@@ -69,7 +69,7 @@ File transfer services that may have high chances to be poorly configured, it ca
 
 ![Man in the middle attack FTP](img/ftp-mitm.png)
 
-> Note: FTP users may authenticate themselves with a clear-text sign-in protocol, generally in the form of a username and password. However, they can connect anonymously if the server is configured to allow it. A typical misconfiguration for running FTP services allows an anonymous account to access the service like any other authenticated user. The `anonymous` username can be input when the prompt appears, followed by any password whatsoever since the service will disregard the password for this specific account.
+> Note: FTP users may authenticate themselves with a clear-text sign-in protocol, generally in the form of a username and password. A typical misconfiguration for running FTP services allows the `anonymous` username, followed by any password whatsoever since the service will disregard the password for this specific account.
 
 ```bash
 $ ftp {target-ip-addr}
