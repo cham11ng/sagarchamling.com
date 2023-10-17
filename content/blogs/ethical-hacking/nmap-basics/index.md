@@ -3,7 +3,7 @@ title: Nmap Basics for Capture The Flag (CTF)
 summary: Understand different options used in Nmap to scan targets
 description: Understand different options used in Nmap to scan targets
 slug: '/nmap-basic-for-capture-the-flag-ctf'
-tags: []
+tags: ['nmap', 'nse', 'wireshark', 'enumeration', 'reconnaissance']
 draft: true
 ---
 
@@ -31,6 +31,9 @@ nmap -A <target-ip-addr>
 
 # Aggressive, OS detection, Time Template Aggressive, Scan for vulnerability.
 nmap -A -O -T4 --script=vuln <target-ip-addr>
+
+# Version, perform script, 5000 packets per second, all ports
+nmap -sV -sC -T4 –min-rate 5000 -p- <target-ip-addr>
 ```
 
 > RFC 9293 states that: "If the connection is CLOSED or doesn't exists, then a RST is sent in response."

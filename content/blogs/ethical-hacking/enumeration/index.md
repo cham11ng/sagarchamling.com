@@ -1,9 +1,10 @@
 ---
-title: Hack The Box - Free Tier 0 Summary
-summary: Key notes from Hack The Box Tier 0 Challenges
-description: Key notes from Hack The Box Tier 0 Challenges
-slug: '/hackthebox-free-tier-0'
+title: Enumeration to Detect Misconfigurations
+summary: Key notes about Enumeration and Hack The Box Tier 0 Challenges
+description: Key notes about Enumeration and Hack The Box Tier 0 Challenges
+slug: '/enumeration-to-detect-misconfigurations'
 draft: true
+tags: ['enumeration', 'redis', 'smb', 'ftp', 'telnet']
 ---
 
 ## Basics
@@ -23,6 +24,55 @@ ping <target-ip-addr> -c 4
 ```bash
 sudo nmap -p- <target-ip-addr> # Scan all ports, takes longer.
 sudo nmap -sV <target-ip-addr> # Name and description of identified services.
+```
+
+### `showmount` - mount info for NFS server
+
+```bash
+showmount -e <target-ip-addr>
+/SomeDir (everyone)
+
+sudo mkdir nfs
+sudo mount -t nfs <target-ip-addr>/SomeDir nfs
+```
+
+### `hash-id` - Hash Identifier
+
+```bash
+hash-id -h <hash>
+hash-id -f <file-name-path>
+```
+
+### `smbmap` - SMB share drives
+
+```bash
+smbmap -H <target-ip-addr> -u 'user' -p 'pass'
+```
+
+### `enum4linux` - Windows and Samba system
+
+```bash
+enum4linux <target-windows-ip-addr>
+```
+
+### `netdiscover` - IP addresses on the network
+
+```bash
+netdiscover -r <network-addr>/<cidr>
+```
+
+### `netcat` / `whatweb` / `curl` / `dmitry` - Banner Grabbing
+
+```bash
+netcat <target-ip-addr> <port>
+220 (vsFTPd 2.3.4) # FTP
+quit
+221 Goodbye
+
+whatweb http://<target-ip-addr>
+
+dmitry -p <target-ip-addr> # -p port scan on 150 most used services
+dmitry -pb <target-ip-addr> # -b switch version of the program running.
 ```
 
 #### Port numbers
@@ -124,6 +174,10 @@ get : downloading the contents of the directories within the share
 exit : exiting the smb shell
 ```
 
+```bash
+$ smbclient -U 'user:pass' \\\\{target-ip-addr}\\Administrator # Passing username and password.
+```
+
 ### Redeemer Redis(6379/tcp key-value store 5.0.7)
 
 Redis (**RE**mote **DI**ctionary **S**erver), which is an 'in-memory' database are the ones that rely essentially on the primary memory for data storage (meaning that the database is managed in the RAM of the system); in contrast to databases that store data on the disk or SSDs. Primary memory is significantly faster than the secondary memory, the data retrieval time in the case of 'in-memory' databases is very small, thus offering very efficient & minimal response times.
@@ -141,6 +195,11 @@ db0:keys=4
 > keys * # List all the keys present.
 
 > get flag
+```
+
+```bash
+$ redis-cli -h {target-ip-addr}
+> AUTH <passkey>
 ```
 
 ## Reference

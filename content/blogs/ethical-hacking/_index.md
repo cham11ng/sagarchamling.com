@@ -1,6 +1,6 @@
 ---
-title: "#notes"
-summary: "Collection of Notes"
+title: "#ethical-hacking"
+summary: "Collection of Ethical Hacking, Subject to Change"
 description: Notes
 showReadingTime: false
 showDate: false
