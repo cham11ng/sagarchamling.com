@@ -24,8 +24,6 @@ cover:
   hidden: false
 ---
 
-![Alt text](image.png)
-
 ## Begin Hands-on Project
 
 ### User creation for Kubernetes cluster app to connect S3
