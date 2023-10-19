@@ -3,10 +3,14 @@ title: Mission 1 Challenge
 summary: Learning and Outcome from Mission 1 Challenge
 description: Learning and Outcome from Mission 1 Challenge
 slug: '/mission-1-challenge'
-date: 2023-10-18T16:25:38-04:00
+date: 2023-10-17
 tags: ['kubernetes', 'aws', 'google cloud', 'sql', 's3', 'iam', 'terraform']
 comments: false
 ---
+
+## Goal Architecture
+
+![Mission Architecture](img/architecture.webp)
 
 ## Join Community
 
@@ -71,3 +75,7 @@ comments: false
 ## LinkedIn Post
 
 ![LinkedIn Post](img/linkedin-post.webp)
+
+## Invite to Cloud Bootcamp
+
+- https://e.thecloudbootcamp.com/d8z5zO

@@ -7,4 +7,3 @@ showDate: false
 hideMeta: true
 draft: true
 ---
-
