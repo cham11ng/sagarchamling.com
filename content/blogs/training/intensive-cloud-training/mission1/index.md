@@ -76,6 +76,6 @@ comments: false
 
 ![LinkedIn Post](img/linkedin-post.webp)
 
-## Invite to Cloud Bootcamp
+## Invite to The Cloud Bootcamp
 
 - https://e.thecloudbootcamp.com/d8z5zO
