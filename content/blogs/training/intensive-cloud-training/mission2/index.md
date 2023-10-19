@@ -15,6 +15,7 @@ tags:
     'iam',
     'terraform',
   ]
+comments: false
 ---
 
 ## Begin Hands-on Project
@@ -43,11 +44,11 @@ tags:
 
 ![Connect luxxy cluster to GKE cluster](img/connect-to-cluster.webp)
 
+## Mission Accomplished
+
 ### Deployed application in Cluster as Workload
 
 ![Kubernetes workloads](img/kubernetes-workload.webp)
-
-## Mission Accomplished
 
 ### Browsing the application
 

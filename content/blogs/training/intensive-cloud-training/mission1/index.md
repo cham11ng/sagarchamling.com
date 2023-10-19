@@ -6,11 +6,11 @@ slug: '/mission-1-challenge'
 date: 2023-10-17
 tags: ['kubernetes', 'aws', 'google cloud', 'sql', 's3', 'iam', 'terraform']
 comments: false
+cover:
+  image: 'img/architecture.webp'
+  alt: 'Solution Architecture'
+  hidden: false
 ---
-
-## Goal Architecture
-
-![Mission Architecture](img/architecture.webp)
 
 ## Join Community
 
