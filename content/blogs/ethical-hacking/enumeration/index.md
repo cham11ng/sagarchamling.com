@@ -99,7 +99,7 @@ dmitry -pb <target-ip-addr> # -b switch version of the program running.
 
 ## Challenges
 
-### Meow - telnet(port 23/tcp Linux telnetd)
+### telnet(port 23/tcp Linux telnetd)
 
 Telnet is an old service used for remote management of other hosts on the network. Usually, connection requests through telnet are configured with username/password combinations for increased security.
 
@@ -113,7 +113,7 @@ Meow login: root
 cat flag.txt
 ```
 
-### Fawn - FTP(port 21/tcp vsftpd 3.0.3)
+### FTP(port 21/tcp vsftpd 3.0.3)
 
 File transfer services that may have high chances to be poorly configured, it can be easily misconfigured if not correctly understood. For secure transmission that protects the username and password and encrypts the content, FTP is often secured with SSL/TLS (FTPS) or replaced with SSH File Transfer Protocol (SFTP).
 
@@ -139,7 +139,7 @@ ftp> ls
 421 Timeout
 ```
 
-### Dancing SMB(445/tcp microsoft-ds?)
+### SMB(445/tcp microsoft-ds?)
 
 SMB (Server Message Block) is communication protocol provides shared access to files, printers, and serial ports between endpoints on a network. We mostly see SMB services running on Windows machines. SMB runs at the Application or Presentation layers of the OSI model. Due to this, it
 relies on lower-level protocols for transport. The Transport layer protocol that Microsoft SMB Protocol is most often used with is NetBIOS over TCP/IP (NBT).
@@ -178,7 +178,7 @@ exit : exiting the smb shell
 $ smbclient -U 'user:pass' \\\\{target-ip-addr}\\Administrator # Passing username and password.
 ```
 
-### Redeemer Redis(6379/tcp key-value store 5.0.7)
+### Redis(6379/tcp key-value store 5.0.7)
 
 Redis (**RE**mote **DI**ctionary **S**erver), which is an 'in-memory' database are the ones that rely essentially on the primary memory for data storage (meaning that the database is managed in the RAM of the system); in contrast to databases that store data on the disk or SSDs. Primary memory is significantly faster than the secondary memory, the data retrieval time in the case of 'in-memory' databases is very small, thus offering very efficient & minimal response times.
 
