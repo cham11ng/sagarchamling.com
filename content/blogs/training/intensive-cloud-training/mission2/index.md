@@ -14,9 +14,17 @@ tags:
     's3',
     'iam',
     'terraform',
+    'multi-cloud',
+    'cloud computing',
   ]
 comments: false
+cover:
+  image: 'img/architecture.webp'
+  alt: 'Solution Architecture'
+  hidden: false
 ---
+
+![Alt text](image.png)
 
 ## Begin Hands-on Project
 

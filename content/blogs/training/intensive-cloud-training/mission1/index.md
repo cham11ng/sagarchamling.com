@@ -4,7 +4,18 @@ summary: Learning and Outcome from Mission 1 Challenge
 description: Learning and Outcome from Mission 1 Challenge
 slug: '/mission-1-challenge'
 date: 2023-10-17
-tags: ['kubernetes', 'aws', 'google cloud', 'sql', 's3', 'iam', 'terraform']
+tags:
+  [
+    'kubernetes',
+    'aws',
+    'google cloud',
+    'sql',
+    's3',
+    'iam',
+    'terraform',
+    'multi-cloud',
+    'cloud computing',
+  ]
 comments: false
 cover:
   image: 'img/architecture.webp'
