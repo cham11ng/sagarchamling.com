@@ -139,6 +139,13 @@ ftp> ls
 421 Timeout
 ```
 
+```bash
+# Other options: Make sure from are in right path where the file exists.
+> put exploit.php # Upload a file
+
+> mdelete exploit.php # Delete a file
+```
+
 ### SMB(445/tcp microsoft-ds?)
 
 SMB (Server Message Block) is communication protocol provides shared access to files, printers, and serial ports between endpoints on a network. We mostly see SMB services running on Windows machines. SMB runs at the Application or Presentation layers of the OSI model. Due to this, it
@@ -175,7 +182,7 @@ exit : exiting the smb shell
 ```
 
 ```bash
-$ smbclient -U 'user:pass' \\\\{target-ip-addr}\\Administrator # Passing username and password.
+$ smbclient -U 'user' \\\\{target-ip-addr}\\Administrator # Passing username and password.
 ```
 
 ### Redis(6379/tcp key-value store 5.0.7)
