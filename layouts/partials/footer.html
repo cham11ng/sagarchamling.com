@@ -78,6 +78,21 @@
       }
     });
   });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var projectDivs = document.querySelectorAll(".project");
+
+    projectDivs.forEach(function (projectDiv) {
+      projectDiv.addEventListener("click", function (event) {
+        // Prevent navigating if the click was on one of the small-icons (GitHub or Demo icons)
+        if (!event.target.closest(".small-icons")) {
+          window
+            .open(projectDiv.getAttribute("data-project-link"), "_blank")
+            .focus();
+        }
+      });
+    });
+  });
 </script>
 
 {{- if (not site.Params.disableScrollToTop) }}

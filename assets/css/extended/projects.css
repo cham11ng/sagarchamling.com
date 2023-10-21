@@ -5,7 +5,6 @@
 .projects-section h2 {
   font-size: 25px;
   margin-bottom: 20px;
-
 }
 
 .portfolio-projects {
@@ -18,7 +17,7 @@
   padding: 20px;
   background: var(--entry);
   border-radius: 5px;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .project-header {
@@ -26,7 +25,6 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
-
 }
 
 .folder-icon {
@@ -35,7 +33,7 @@
 
 .small-icons {
   font-size: 19px;
-  display: flex
+  display: flex;
 }
 
 .small-icons i {
@@ -49,9 +47,7 @@
 }
 
 .project h3 {
-
   margin-right: 10px;
-
 }
 
 .project p {
