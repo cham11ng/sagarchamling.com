@@ -52,6 +52,13 @@ params:
       Sagar,
       Chamling,
       Sagar Chamling,
+      Presentation,
+      Training,
+      Software Development,
+      Cloud Computing,
+      Cloud Security,
+      Ethical Hacking,
+      Penetration Testing,
     ]
   author: 'Sagar Chamling'
   defaultTheme: auto

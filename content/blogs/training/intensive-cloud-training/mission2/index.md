@@ -22,7 +22,7 @@ tags:
 cover:
   relative: true
   image: 'img/architecture.webp'
-  alt: 'Solution Architecture'
+  alt: 'Mission 2 Solution Architecture Cover'
   hidden: false
 ---
 

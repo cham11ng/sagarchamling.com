@@ -4,7 +4,7 @@ summary: Perform Cloud Security Assessment, analyzing the report and providing r
 description: Perform Cloud Security Assessment, analyzing the report and providing recommendation.
 slug: 'cloud-security-assessment-using-scoutsuite-pacu-prowler'
 date: 2023-10-02
-draft: false
+draft: true
 tags:
   [
     'scoutsuite',
