@@ -1,7 +1,7 @@
 ---
-title: "Dive into Design Basics"
-summary: "Learn few things about design basics."
-description: "Learn few things about design basics."
+title: 'Dive into Design Basics'
+summary: 'Learn few things about design basics.'
+description: 'Learn few things about design basics.'
 date: 2017-10-17
 draft: false
 tags: ['ui', 'ux']

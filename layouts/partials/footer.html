@@ -1,89 +1,114 @@
 {{- if not (.Param "hideFooter") }}
-<footer class="footer">
+  <footer class="footer">
     {{- if site.Copyright }}
-    <span>{{ site.Copyright | markdownify }}</span>
+      <span>{{ site.Copyright | markdownify }}</span>
     {{- else }}
-    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+      <span
+        >&copy; {{ now.Year }}
+        <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span
+      >
     {{- end }}
     {{ " | " }}
     {{- partial "extend_footer.html" . }}
     {{ " | " }}
     <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+      Powered by
+      <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank"
+        >Hugo</a
+      >
+      &
+      <a
+        href="https://github.com/adityatelange/hugo-PaperMod/"
+        rel="noopener"
+        target="_blank"
+        >PaperMod</a
+      >
     </span>
-    <br>
-</footer>
+    <br />
+  </footer>
 {{- end }}
 
 {{- if (not site.Params.disableScrollToTop) }}
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+  <a
+    href="#top"
+    aria-label="go to top"
+    title="Go to Top (Alt + G)"
+    class="top-link"
+    id="top-link"
+    accesskey="g">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 12 6"
+      fill="currentColor">
+      <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+  </a>
 {{- end }}
 
+
 <script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
+  let menu = document.getElementById("menu");
+  if (menu) {
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+      localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    };
+  }
 
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      var id = this.getAttribute("href").substr(1);
+      if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        document
+          .querySelector(`[id='${decodeURIComponent(id)}']`)
+          .scrollIntoView({
+            behavior: "smooth",
+          });
+      } else {
+        document
+          .querySelector(`[id='${decodeURIComponent(id)}']`)
+          .scrollIntoView();
+      }
+      if (id === "top") {
+        history.replaceState(null, null, " ");
+      } else {
+        history.pushState(null, null, `#${id}`);
+      }
     });
-
+  });
 </script>
 
 {{- if (not site.Params.disableScrollToTop) }}
-<script>
+  <script>
     var mybutton = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
+      if (
+        document.body.scrollTop > 800 ||
+        document.documentElement.scrollTop > 800
+      ) {
+        mybutton.style.visibility = "visible";
+        mybutton.style.opacity = "1";
+      } else {
+        mybutton.style.visibility = "hidden";
+        mybutton.style.opacity = "0";
+      }
     };
-
-</script>
+  </script>
 {{- end }}
 
 {{- if (not site.Params.disableThemeToggle) }}
-<script>
+  <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
+      if (document.body.className.includes("dark")) {
+        document.body.classList.remove("dark");
+        localStorage.setItem("pref-theme", "light");
+      } else {
+        document.body.classList.add("dark");
+        localStorage.setItem("pref-theme", "dark");
+      }
+    });
+  </script>
 {{- end }}
 
 {{- if (and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search") (.Param "ShowCodeCopyButtons")) }}

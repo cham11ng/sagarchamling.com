@@ -4,11 +4,10 @@ summary: Step by Step Guide for setting up a personal website
 description: Step by Step Guide for setting up a personal website
 slug: '/how-i-setup-my-website-using-hugo-github-pages-and-porkbun'
 date: 2023-10-09T23:10:19-04:00
-draft: false
 cover:
-    image: "img/cover.png"
-    alt: "Setup Website Cover Image"
-    hidden: false
+  image: 'img/cover.png'
+  alt: 'Setup Website Cover Image'
+  hidden: false
 tags: ['hugo', 'papermod', 'website', 'porkbun', 'github']
 ---
 
@@ -131,7 +130,7 @@ git push -u origin main
 
 ## Step 5: Select Domain Name
 
-I considered using a domain registrar like [Porkbun](https://porkbun.com) for two major reason; it's cheap and easy configuration process. 
+I considered using a domain registrar like [Porkbun](https://porkbun.com) for two major reason; it's cheap and easy configuration process.
 
 Search for available domain names, and once you find one that suits your blog, register it.
 

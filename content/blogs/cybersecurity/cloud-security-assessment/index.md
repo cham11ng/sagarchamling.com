@@ -1,15 +1,24 @@
 ---
 title: Cloud Security Assessment using ScoutSuite, Pacu, and Prowler
-summary: Perform Cloud Security Assessment, analyzing the report and providing recommendation.  
-description: Perform Cloud Security Assessment, analyzing the report and providing recommendation. 
+summary: Perform Cloud Security Assessment, analyzing the report and providing recommendation.
+description: Perform Cloud Security Assessment, analyzing the report and providing recommendation.
 slug: 'cloud-security-assessment-using-scoutsuite-pacu-prowler'
 date: 2023-10-02
 draft: false
-tags: ["scoutsuite", "pacu", "cloud security", "aws", "auditing", "assessment", "pentest"]
+tags:
+  [
+    'scoutsuite',
+    'pacu',
+    'cloud security',
+    'aws',
+    'auditing',
+    'assessment',
+    'pentest',
+  ]
 cover:
-    image: "img/cover.webp"
-    alt: "Cloud Security Assessment Cover"
-    hidden: false
+  image: 'img/cover.webp'
+  alt: 'Cloud Security Assessment Cover'
+  hidden: false
 ---
 
 ## About Activity
@@ -30,7 +39,7 @@ Amazon Web Services (AWS) offers reliable, scalable, and inexpensive cloud compu
   - Add the `kaliuser` in a group while creating.
   - Attach Policy **SecurityAudit** and **SecurityAudit** to providing permissions.
 - Then, navigate to **User** > **kaliuser** > **Security credentials** > **Access keys** > **Create access key** > Select **Command Line Interface (CLI)** > **Next** > **Create access key**. This will generate programmatic access key and secret key.
-- Finally, configure your shell running `aws configure`, enter the  `access_key_id` and `access_secret_key` in the terminal.
+- Finally, configure your shell running `aws configure`, enter the `access_key_id` and `access_secret_key` in the terminal.
 
   ```bash
   $ aws configure
@@ -57,7 +66,7 @@ source venv/bin/activate   # Activate virtual environment in shell
 cd ScoutSuite
 pip install                # Install dependencies
 
-python3 scout.py           # Start auditing using scout.py 
+python3 scout.py           # Start auditing using scout.py
 ```
 
 ### Setup Pacu
@@ -82,7 +91,7 @@ cd pacu
 git clone git@github.com:prowler-cloud/prowler.git
 source venv/bin/activate   # Activate virtual environment in shell
 
-cd prowler 
+cd prowler
 pip install prowler # Install prowler and its dependencies
 
 ./prowler.py aws -f us-east-2 -s {s3,iam,cloudtrail,cloudwatch} # Running
@@ -114,8 +123,9 @@ In general, it shows two different types of vulnerabilities:
 - **Password Policies**: The vulnerabilities related to inadequate password length, expiration, and reuse signify a weak password policy in your AWS environment.
 
   **_To remediate these issues_**, we need to enforce stronger password policies that require longer passwords, implement regular password expiration intervals (e.g., 90 days), and disallow password reuse to enhance security.
+
 - **Root Account Security**: The vulnerabilities regarding root account usage and the absence of `Multi-Factor Authentication (MFA)` highlight the need for securing the root AWS account.
-  
+
   **_To address these issues_**, we need to ensure that IAM policies are attach only the users and groups, enable hardware-based MFA for the root account, and enforce MFA for all users accessing the AWS environment. Additionally, limit the use of the root account and establish individual IAM user accounts with appropriate permissions to reduce security risks associated with the root account.
 
 ## Pacu Exploitation
@@ -133,24 +143,24 @@ In Pacu, I will try to escalate the privilege by using the tool command. To do t
     "Version": "2012-10-17",
     "Statement": [
       {
-      "Sid": "VisualEditor1",
-      "Effect": "Allow",
-      "Action": "s3:*",
-      "Resource": "arn:aws:s3:::cybr-pacu-lab-example"
+        "Sid": "VisualEditor1",
+        "Effect": "Allow",
+        "Action": "s3:*",
+        "Resource": "arn:aws:s3:::cybr-pacu-lab-example"
       },
       {
         "Sid": "Statement1",
         "Effect": "Allow",
         "Action": [
-            "iam:Get*",
-            "iam:List*",
-            "iam:Put*",
-            "iam:AttachRolePolicy",
-            "iam:SimulateCustomPolicy",
-            "iam:SimulatePrincipalPolicy"
+          "iam:Get*",
+          "iam:List*",
+          "iam:Put*",
+          "iam:AttachRolePolicy",
+          "iam:SimulateCustomPolicy",
+          "iam:SimulatePrincipalPolicy"
         ],
         "Resource": "*"
-        }
+      }
     ]
   }
   ```

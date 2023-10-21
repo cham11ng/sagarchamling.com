@@ -35,7 +35,7 @@
   margin: 0 3px;
   padding: 4px 5px;
   border-radius: 3px;
-  font-size: .88em;
+  font-size: 0.88em;
   font-family: var(--monospace);
 }
 
@@ -61,6 +61,8 @@
 }
 
 .post-content table th,
-.post-content table:not(.highlighttable, .highlight table, .gist .highlight) td {
+.post-content
+  table:not(.highlighttable, .highlight table, .gist .highlight)
+  td {
   padding: 6px;
 }

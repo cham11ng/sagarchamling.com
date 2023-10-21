@@ -1,4 +1,4 @@
-baseURL: "https://sagarchamling.com/"
+baseURL: 'https://sagarchamling.com/'
 title: Sagar Chamling's Blogging Site
 paginate: 5
 theme: PaperMod
@@ -19,7 +19,7 @@ minify:
 
 languages:
   en:
-    languageName: "English"
+    languageName: 'English'
     weight: 1
     taxonomies:
       category: categories
@@ -34,7 +34,7 @@ outputs:
 
 params:
   env: production # To enable google analytics, opengraph, twitter-cards and schema.
-  description: "Explore insightful blog posts and discover content based on a wide range of emerging technologies, programming, networking, and cybersecurity."
+  description: 'Explore insightful blog posts and discover content based on a wide range of emerging technologies, programming, networking, and cybersecurity.'
   keywords:
     [
       Portfolio,
@@ -53,7 +53,7 @@ params:
       Chamling,
       Sagar Chamling,
     ]
-  author: "Sagar Chamling"
+  author: 'Sagar Chamling'
   defaultTheme: auto
   disableThemeToggle: false
   showDate: true
@@ -74,28 +74,28 @@ params:
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: false
   ShowToc: true
-  images: ["logo.svg"]
+  images: ['logo.svg']
   comments: true
 
   profileMode:
     enabled: false
     title: 👋, I'm Sagar Chamling,
-    imageUrl: "img/profile.jpg"
+    imageUrl: 'img/profile.jpg'
     imageTitle: Sagar Chamling's Photo
     imageWidth: 250
     imageHeight: 250
-    subtitle: "A passionate full-stack software engineer and cyber security enthusiast. Explore my recent blog articles, where I write about my works, share valuable insights on emerging technologies, programming, networking and cybersecurity in a company accepted best practices and standards. Stay tuned for more!."
+    subtitle: 'A passionate full-stack software engineer and cyber security enthusiast. Explore my recent blog articles, where I write about my works, share valuable insights on emerging technologies, programming, networking and cybersecurity in a company accepted best practices and standards. Stay tuned for more!.'
     buttons:
       - name: Archives
         url: archives
       - name: Tags
         url: tags
-      - name: "#tech"
+      - name: '#tech'
         url: blogs/tech
 
   homeInfoParams:
     enabled: true
-    imageUrl: "img/profile.jpg"
+    imageUrl: 'img/profile.jpg'
     imageTitle: Sagar Chamling's Photo
     imageWidth: 250
     imageHeight: 250
@@ -104,26 +104,26 @@ params:
         url: archives
       - name: Tags
         url: tags
-      - name: "#tech"
+      - name: '#tech'
         url: blogs/tech
 
   socialIcons:
     - name: github
-      url: "https://github.com/cham11ng"
+      url: 'https://github.com/cham11ng'
     - name: twitter
-      url: "https://twitter.com/cham11ng"
+      url: 'https://twitter.com/cham11ng'
     - name: linkedin
-      url: "https://linkedin.com/in/cham11ng"
+      url: 'https://linkedin.com/in/cham11ng'
     - name: stackoverflow
-      url: "https://stackoverflow.com/users/5056594/sagar-chamling"
+      url: 'https://stackoverflow.com/users/5056594/sagar-chamling'
     - name: youtube
-      url: "https://www.youtube.com/@SagarChamling"
+      url: 'https://www.youtube.com/@SagarChamling'
     - name: buymeacoffee
-      url: "https://www.buymeacoffee.com/cham11ng"
+      url: 'https://www.buymeacoffee.com/cham11ng'
 
   editPost:
-    URL: "https://github.com/cham11ng/sagarchamling.com/tree/main/content"
-    Text: "Suggest Changes"
+    URL: 'https://github.com/cham11ng/sagarchamling.com/tree/main/content'
+    Text: 'Suggest Changes'
     appendFilePath: true
 
   label:
@@ -136,12 +136,12 @@ params:
   # SiteVerificationTag: "abc"
 
   assets:
-    favicon: "favicon.ico"
-    favicon16x16: "img/favicon-16x16.png"
-    favicon32x32: "img/favicon-32x32.png"
-    apple_touch_icon: "img/apple-touch-icon.png"
-    android_chrome192x192: "img/android-chrome-192x192.png"
-    android_chrome512x512: "img/android-chrome-512x512.png"
+    favicon: 'favicon.ico'
+    favicon16x16: 'img/favicon-16x16.png'
+    favicon32x32: 'img/favicon-32x32.png'
+    apple_touch_icon: 'img/apple-touch-icon.png'
+    android_chrome192x192: 'img/android-chrome-192x192.png'
+    android_chrome512x512: 'img/android-chrome-512x512.png'
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
