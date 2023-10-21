@@ -140,6 +140,7 @@ params:
     favicon16x16: 'img/favicon-16x16.png'
     favicon32x32: 'img/favicon-32x32.png'
     apple_touch_icon: 'img/apple-touch-icon.png'
+    safari_pinned_tab: 'img/safari-pinned-tab.svg'
     android_chrome192x192: 'img/android-chrome-192x192.png'
     android_chrome512x512: 'img/android-chrome-512x512.png'
 
