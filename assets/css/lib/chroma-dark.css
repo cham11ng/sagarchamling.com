@@ -81,7 +81,8 @@
 }
 
 /* Name */
-.chroma .n {}
+.chroma .n {
+}
 
 /* NameAttribute */
 .chroma .na {
@@ -95,7 +96,8 @@
 }
 
 /* NameBuiltinPseudo */
-.chroma .bp {}
+.chroma .bp {
+}
 
 /* NameClass */
 .chroma .nc {
@@ -103,16 +105,20 @@
 }
 
 /* NameConstant */
-.chroma .no {}
+.chroma .no {
+}
 
 /* NameDecorator */
-.chroma .nd {}
+.chroma .nd {
+}
 
 /* NameEntity */
-.chroma .ni {}
+.chroma .ni {
+}
 
 /* NameException */
-.chroma .ne {}
+.chroma .ne {
+}
 
 /* NameFunction */
 .chroma .nf {
@@ -120,7 +126,8 @@
 }
 
 /* NameFunctionMagic */
-.chroma .fm {}
+.chroma .fm {
+}
 
 /* NameLabel */
 .chroma .nl {
@@ -129,13 +136,16 @@
 }
 
 /* NameNamespace */
-.chroma .nn {}
+.chroma .nn {
+}
 
 /* NameOther */
-.chroma .nx {}
+.chroma .nx {
+}
 
 /* NameProperty */
-.chroma .py {}
+.chroma .py {
+}
 
 /* NameTag */
 .chroma .nt {
@@ -167,13 +177,16 @@
 }
 
 /* NameVariableMagic */
-.chroma .vm {}
+.chroma .vm {
+}
 
 /* Literal */
-.chroma .l {}
+.chroma .l {
+}
 
 /* LiteralDate */
-.chroma .ld {}
+.chroma .ld {
+}
 
 /* LiteralString */
 .chroma .s {
@@ -291,7 +304,8 @@
 }
 
 /* Punctuation */
-.chroma .p {}
+.chroma .p {
+}
 
 /* Comment */
 .chroma .c {
@@ -329,7 +343,8 @@
 }
 
 /* Generic */
-.chroma .g {}
+.chroma .g {
+}
 
 /* GenericDeleted */
 .chroma .gd {
@@ -342,7 +357,8 @@
 }
 
 /* GenericError */
-.chroma .gr {}
+.chroma .gr {
+}
 
 /* GenericHeading */
 .chroma .gh {
@@ -361,10 +377,12 @@
 }
 
 /* GenericPrompt */
-.chroma .gp {}
+.chroma .gp {
+}
 
 /* GenericStrong */
-.chroma .gs {}
+.chroma .gs {
+}
 
 /* GenericSubheading */
 .chroma .gu {
@@ -372,7 +390,8 @@
 }
 
 /* GenericTraceback */
-.chroma .gt {}
+.chroma .gt {
+}
 
 /* GenericUnderline */
 .chroma .gl {
@@ -380,4 +399,5 @@
 }
 
 /* TextWhitespace */
-.chroma .w {}
+.chroma .w {
+}
