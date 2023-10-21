@@ -7,6 +7,7 @@ Welcome to my blogging website.
 
 ## prerequisites
 
+- Install Homebrew
 - Install Git
 - Install Go
 - Install Hugo - Make sure you install latest version of hugo(>=0.119.0).
@@ -51,10 +52,18 @@ hugo new --kind blog blogs/tech/how-i-setup-my-website.md
 
 ```bash
 # Syntax
-hugo new --kind gslides slides/<blog-title>.md
+hugo new --kind slides slides/<blog-title>.md
 
 # Example
-hugo new --kind gslides slides/github-essentials.md
+hugo new --kind slides slides/github-essentials.md
+```
+
+### webp converter
+
+```bash
+brew install webp
+
+cwebp -q 80 image.png -o image.webp
 ```
 
 ## inspired from
