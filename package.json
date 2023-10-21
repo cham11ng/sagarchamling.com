@@ -1,0 +1,12 @@
+{
+  "name": "sagarchamling.com",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-go-template": "^0.0.15"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "type": "module"
+}
