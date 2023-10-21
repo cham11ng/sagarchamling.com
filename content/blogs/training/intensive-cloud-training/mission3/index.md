@@ -6,6 +6,7 @@ date: 2023-10-19
 tags: []
 comments: false
 cover:
+  relative: true
   image: 'img/architecture.webp'
   alt: 'Solution Architecture'
   hidden: false

@@ -8,6 +8,7 @@ showDate: false
 showWordCount: false
 showReadingTime: false
 cover:
+  relative: true
   image: 'img/slides/leaptalk.webp'
   alt: 'Sagar presenting linux system administrator commands slides'
   hidden: false

@@ -16,6 +16,7 @@ tags:
     'pentest',
   ]
 cover:
+  relative: true
   image: 'img/cover.webp'
   alt: 'Cloud Security Assessment Cover'
   hidden: false

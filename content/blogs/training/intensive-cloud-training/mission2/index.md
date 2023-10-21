@@ -19,6 +19,7 @@ tags:
   ]
 comments: false
 cover:
+  relative: true
   image: 'img/architecture.webp'
   alt: 'Solution Architecture'
   hidden: false

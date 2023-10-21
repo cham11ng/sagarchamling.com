@@ -5,6 +5,7 @@ description: Step by Step Guide for setting up a personal website
 slug: '/how-i-setup-my-website-using-hugo-github-pages-and-porkbun'
 date: 2023-10-09T23:10:19-04:00
 cover:
+  relative: true
   image: 'img/cover.png'
   alt: 'Setup Website Cover Image'
   hidden: false

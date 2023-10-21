@@ -7,6 +7,7 @@ showDate: false
 showWordCount: false
 showReadingTime: false
 cover:
+  relative: true
   image: 'img/slides/cover.webp'
   alt: 'Cover'
   hidden: false

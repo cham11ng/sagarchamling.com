@@ -9,6 +9,7 @@ showDate: false
 showWordCount: false
 showReadingTime: false
 cover:
+  relative: true
   image: 'img/slides/linux.webp'
   alt: 'Sagar presenting linux system administrator commands slides'
   hidden: false

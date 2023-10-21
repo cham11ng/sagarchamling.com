@@ -8,6 +8,7 @@ showDate: false
 showWordCount: false
 showReadingTime: false
 cover:
+  relative: true
   image: 'img/slides/face-recognition.webp'
   alt: 'Final Presentation of Face Recognition'
   hidden: false

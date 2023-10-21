@@ -6,6 +6,7 @@ slug: '/understanding-subnetting-to-desing-addressing-scheme'
 date: 2023-03-12
 draft: false
 cover:
+  relative: true
   image: 'img/cover.webp'
   alt: 'Network and broadcast address calculation.'
   hidden: false

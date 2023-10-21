@@ -9,6 +9,7 @@ showDate: false
 showWordCount: false
 showReadingTime: false
 cover:
+  relative: true
   image: 'img/slides/awareness2023.webp'
   alt: 'Sagar presenting Awareness slides'
   hidden: false

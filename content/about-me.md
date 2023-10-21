@@ -8,6 +8,7 @@ showtoc: false
 searchHidden: true
 comments: false
 cover:
+  relative: true
   image: 'img/lets-connect.jpg'
   alt: 'Lets connect'
   hidden: false
