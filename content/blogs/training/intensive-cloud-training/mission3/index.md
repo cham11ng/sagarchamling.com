@@ -3,14 +3,37 @@ title: Mission 3 Challenge
 summary: Learning and Outcome from Mission 3 Challenge
 description: Learning and Outcome from Mission 3 Challenge
 date: 2023-10-19
-tags: []
-comments: false
+slug: '/mission-3-challenge'
+weight: 3
+tags:
+  [
+    'aws',
+    'google cloud',
+    'google cloud editor',
+    'google cloud shell',
+    'aws cloudshell',
+    'sql',
+    's3',
+    'terraform',
+    'multi-cloud',
+    'cloud computing',
+  ]
 cover:
   relative: true
   image: 'img/architecture.webp'
   alt: 'Solution Architecture'
   hidden: false
 ---
+
+## Mission Introduction
+
+In this mission, we'll perform the database migration and files migration in Google Cloud SQL and AWS S3 respectively. After the migration process is done, we successfully finished all the mission from the trainings. Then we start to deprovision and delete all the resources to avoid charges in Cloud Services.
+
+### Inside
+
+- We migrate the SQL dump file data to Google Cloud SQL using Google Cloud Shell.
+- Then, we migrate the PDF files to S3 Bucket using AWS CloudShell.
+- Deprovision and delete all resource using Terraform.
 
 ## Begin Hands-on Project
 

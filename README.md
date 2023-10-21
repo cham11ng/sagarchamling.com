@@ -15,6 +15,8 @@ Welcome to my blogging website.
 
 ## contributing
 
+Feel free to send pull requests.
+
 ### setup and run
 
 ```bash

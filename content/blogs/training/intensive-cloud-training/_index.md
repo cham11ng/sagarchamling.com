@@ -6,5 +6,4 @@ slug: '/intensive-cloud-training'
 showReadingTime: false
 showDate: false
 hideMeta: true
-draft: true
 ---

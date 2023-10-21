@@ -5,5 +5,4 @@ description: Training Demo, References
 showReadingTime: false
 showDate: false
 hideMeta: true
-draft: true
 ---

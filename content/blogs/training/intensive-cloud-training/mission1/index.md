@@ -2,8 +2,9 @@
 title: Mission 1 Challenge
 summary: Learning and Outcome from Mission 1 Challenge
 description: Learning and Outcome from Mission 1 Challenge
-slug: '/mission-1-challenge'
 date: 2023-10-17
+slug: '/mission-1-challenge'
+weight: 1
 tags:
   [
     'kubernetes',
@@ -16,13 +17,21 @@ tags:
     'multi-cloud',
     'cloud computing',
   ]
-comments: false
 cover:
   relative: true
   image: 'img/architecture.webp'
   alt: 'Solution Architecture'
   hidden: false
 ---
+
+## Mission Introduction
+
+In this mission, I have to setup free tier of AWS and Google Cloud Account. Multi-Cloud is when any organization uses different cloud service providers to successfully run an application. It is also referred as a strategy of using the best services from two or more Cloud providers.
+
+### Inside
+
+- Manager IAM user to provide programmatic access to Terraform user.
+- We use Terraform (IaC) to provision Google Cloud SQL, GKE Cluster and AWS S3 Bucket using Google CloudShell.
 
 ## Join Community
 

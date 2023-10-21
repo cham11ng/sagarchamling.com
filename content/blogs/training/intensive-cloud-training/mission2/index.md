@@ -3,6 +3,8 @@ title: Mission 2 Challenge
 summary: Learning and Outcome from Mission 2 Challenge
 description: Learning and Outcome from Mission 2 Challenge
 date: 2023-10-18
+slug: '/mission-2-challenge'
+weight: 2
 tags:
   [
     'kubernetes',
@@ -17,13 +19,25 @@ tags:
     'multi-cloud',
     'cloud computing',
   ]
-comments: false
 cover:
   relative: true
   image: 'img/architecture.webp'
   alt: 'Solution Architecture'
   hidden: false
 ---
+
+## Mission Introduction
+
+In this mission, I have my Google Cloud SQL instance and Google Kubernetes Engine Cluster up and running from the previous Mission 1. Going further, I'll have to setup MySQL database, deploy image of application to Google Container Registry, deploy the app in cluster as GKE Workload. The main goal is deploy an app and make it publicly accessible.
+
+### Inside
+
+- Manager IAM user to provide programmatic access to AWS S3 Bucket from Google Kubernetes Cluster app.
+- Manually setup user in SQL Cloud, create database and table which will be used by the application.
+- Build and upload the docker image in GCR (Google Container Registry).
+- Connect the previous made application cluster to Google Cloud Container cluster.
+- Apply the application Kubernetes configuration to run upload GCR image in a cluster
+- Once, the app is up and running we use the public IP address to access the application.
 
 ## Begin Hands-on Project
 

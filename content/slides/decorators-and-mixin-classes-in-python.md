@@ -18,3 +18,8 @@ tags: ['python', 'inheritance', 'oop', 'decorators', 'mixin']
 ## Leaptalk
 
 {{< slides src="https://slides.com/cham11ng/decorators-and-mixin-classes-in-python/embed" >}}
+
+## Resources
+
+- https://github.com/cham11ng/decorators-and-mixin-classes
+- https://github.com/RobusGauli/jsonvalidate
