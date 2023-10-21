@@ -2,11 +2,15 @@
   "name": "sagarchamling.com",
   "devDependencies": {
     "husky": "^8.0.0",
+    "lint-staged": "^15.0.2",
     "prettier": "^3.0.3",
     "prettier-plugin-go-template": "^0.0.15"
   },
   "scripts": {
     "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{md,html,css,scss,yml,prettierrc}": ["prettier --write"]
   },
   "type": "module"
 }

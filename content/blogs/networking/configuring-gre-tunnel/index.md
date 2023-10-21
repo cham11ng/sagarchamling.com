@@ -6,10 +6,10 @@ slug: '/configuring-gre-tunnel-using-cisco-packet-tracer'
 date: 2023-04-12
 draft: false
 cover:
-    image: "img/cover.webp"
-    alt: "GRE Tunnel Network Topology Diagram Cover"
-    hidden: false
-tags: ["gre tunneling", "tunneling", "cisco packet tracer", "networking"]
+  image: 'img/cover.webp'
+  alt: 'GRE Tunnel Network Topology Diagram Cover'
+  hidden: false
+tags: ['gre tunneling', 'tunneling', 'cisco packet tracer', 'networking']
 ---
 
 ## About Lab

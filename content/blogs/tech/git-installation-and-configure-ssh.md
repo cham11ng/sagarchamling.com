@@ -1,9 +1,8 @@
 ---
-title: "Git Installation and Configure SSH"
-summary: "Guide to install and configure SSH in Windows and Linux."
-description: "Guide to install and configure SSH in Windows and Linux."
+title: 'Git Installation and Configure SSH'
+summary: 'Guide to install and configure SSH in Windows and Linux.'
+description: 'Guide to install and configure SSH in Windows and Linux.'
 date: 2017-01-22
-draft: false
 tags: ['git', 'ssh', 'linux', 'windows']
 ---
 
@@ -27,7 +26,7 @@ Download Git for Windows from this link <https://git-scm.com/downloads>
 
 Open your Terminal or Git Bash(Windows).
 
-* **Ensure we have SSH client installed:**
+- **Ensure we have SSH client installed:**
 
 ```bash
 $ ssh -v
@@ -42,25 +41,25 @@ usage: ssh  [-1246AaCfGgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
 List the contents of your ~/.ssh directory.
 
 ```bash
-$ ls -a ~/.ssh 
+$ ls -a ~/.ssh
 known_hosts
 ```
 
- *If we have already setup default identity, we can see two id_ files*
+_If we have already setup default identity, we can see two id\_ files_
 
 ```bash
 $ ls -a ~/.ssh
 .  ..  id_rsa  id_rsa.pub  known_hosts
 ```
 
-* **Set up our default identity:**
+- **Set up our default identity:**
 
 The system adds keys for all identities to the `/home/<yourname>/.ssh` (Linux) or `/c/Users/<yourname>/.ssh` (Windows) directory. The following procedure creates a default identity.
 
 Hit `ssh-keygen` command on Terminal or Git Bash.
 
 ```bash
-$ ssh-keygen 
+$ ssh-keygen
 Generating public/private rsa key pair.
 Enter file in which to save the key (/c/Users/<yourname>/.ssh/id_rsa):
 ```
@@ -97,11 +96,11 @@ The key's randomart image is:
 List the contents of your ~/.ssh directory.
 
 ```bash
-$ ls ~/.ssh 
+$ ls ~/.ssh
 .  ..  id_rsa  id_rsa.pub  known_hosts
 ```
 
-* **Adding your SSH key to the ssh-agent:**
+- **Adding your SSH key to the ssh-agent:**
 
 Ensure ssh-agent is enabled:
 
@@ -116,7 +115,7 @@ Add your SSH key to the ssh-agent
 ssh-add ~/.ssh/id_rsa
 ```
 
-* **Find and take a note of your public key fingerprint. If you're using OpenSSH 6.7 or older:**
+- **Find and take a note of your public key fingerprint. If you're using OpenSSH 6.7 or older:**
 
 ```bash
 $ ssh-add -l
@@ -128,7 +127,7 @@ $ ssh-add -l -E md5
 # 2048 MD5:a0:dd:42:3c:5a:9d:e4:2a:21:52:4e:78:07:6e:c8:4d /Users/<yourname>/.ssh/id_rsa (RSA)
 ```
 
-* **Install the public key on your Remote GitHub/Bitbucket account:**
+- **Install the public key on your Remote GitHub/Bitbucket account:**
 
 ```bash
 $ cat ~/.ssh/id_rsa.pub
@@ -137,8 +136,8 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2zeZVIph1tP0UZJ007AC1OWqThpYjDlao1PlQnZbr
 
 Copy this output to respective SSH keys setting.
 
-* GitHub Setting >> SSH and GPG keys >> New SSH key
-* Bitbucket Setting >> SSH keys >> Add Key
+- GitHub Setting >> SSH and GPG keys >> New SSH key
+- Bitbucket Setting >> SSH keys >> Add Key
 
 ### You are Done
 
@@ -159,18 +158,18 @@ gpg --list-secret-keys --keyid-format LONG
   /Users/hubot/.gnupg/secring.gpg
   ------------------------------------
   sec   4096R/3AA5C34371567BD2 2016-03-10 [expires: 2017-03-10]
-  uid                          Hubot 
+  uid                          Hubot
   ssb   4096R/42B317FD4BA89E7A 2016-03-10
 $  git config --global user.signingkey 3AA5C34371567BD2
 
 # Remember GPG password when signing git commits
-$ vim ~/.gnupg/gpg-agent.conf 
+$ vim ~/.gnupg/gpg-agent.conf
 $ default-cache-ttl 3600
 ```
 
 ## References
 
-* <https://help.github.com/articles/connecting-to-github-with-ssh>
-* <https://confluence.atlassian.com/bitbucket/set-up-ssh-for-git-728138079.html>
-* <https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/telling-git-about-your-signing-key>
-* <https://stackoverflow.com/questions/36847431/remember-gpg-password-when-signing-git-commits>
+- <https://help.github.com/articles/connecting-to-github-with-ssh>
+- <https://confluence.atlassian.com/bitbucket/set-up-ssh-for-git-728138079.html>
+- <https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/telling-git-about-your-signing-key>
+- <https://stackoverflow.com/questions/36847431/remember-gpg-password-when-signing-git-commits>

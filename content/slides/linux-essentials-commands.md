@@ -9,9 +9,9 @@ showDate: false
 showWordCount: false
 showReadingTime: false
 cover:
-    image: "img/slides/linux.webp"
-    alt: "Sagar presenting linux system administrator commands slides"
-    hidden: false
+  image: 'img/slides/linux.webp'
+  alt: 'Sagar presenting linux system administrator commands slides'
+  hidden: false
 tags: ['linux', 'system administrator', 'bash']
 ---
 

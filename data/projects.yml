@@ -15,7 +15,6 @@ list:
     description: 🔰 Starter for Node.js express API in Typescript 🚀
     projectLink: https://github.com/cham11ng/typescript-api-starter
   - title: flappy-bird
-    description: Implementation of Flappy Bird in Javascript. 
+    description: Implementation of Flappy Bird in Javascript.
     projectLink: https://github.com/cham11ng/internship-experience/tree/main/js-experiments/5-flappy-bird
     demoLink: https://schamling.com.np/js-experiments/5-flappy-bird/
-  

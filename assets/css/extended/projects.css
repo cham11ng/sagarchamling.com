@@ -1,11 +1,11 @@
 .projects-section {
-  margin: var(--gap)0 calc(var(--gap) * 2)
+  margin: var(--gap) 0 calc(var(--gap) * 2);
 }
 
 .projects-section h2 {
   font-size: 25px;
   margin-bottom: 20px;
-  
+
 }
 
 .portfolio-projects {
@@ -41,31 +41,20 @@
 .small-icons i {
   margin-right: 5px;
   cursor: pointer;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .small-icons i:hover {
-  color: #FFCC17;
+  color: #ffcc17;
 }
 
 .project h3 {
 
   margin-right: 10px;
-  
+
 }
 
 .project p {
   font-size: 16px;
   color: #b3b3b3;
 }
-.project-link {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.2s ease-in-out;
-} 
-.project:active {
-  transform: scale(0.98);
-}
-
-

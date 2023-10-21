@@ -5,8 +5,8 @@ description: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: '{{ dateFormat "2006-01-02" .Date }}'
 tags: []
 cover:
-  image: "img/cover.webp"
-  alt: "Cover"
+  image: 'img/cover.webp'
+  alt: 'Cover'
   hidden: false
 draft: true
 ---

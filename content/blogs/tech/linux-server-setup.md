@@ -1,25 +1,25 @@
 ---
-title: "Linux Server Stack Setup in Ubuntu 16.04 LTS"
-summary: "Learn to setup LEPP manually in Ubuntu Server."
-description: "Learn to setup LEPP manually in Ubuntu Server."
+title: 'Linux Server Stack Setup in Ubuntu 16.04 LTS'
+summary: 'Learn to setup LEPP manually in Ubuntu Server.'
+description: 'Learn to setup LEPP manually in Ubuntu Server.'
 date: 2018-02-11
-draft: false
-author: ["Anup Dhakal", "Me"]
+author: ['Anup Dhakal', 'Me']
 tags: ['linux', 'nginx', 'postgres', 'php']
 ---
+
 > Credit: Anup Dhakal (<https://anupdhakal.com>)
->
+
 ## Introduction
 
 In this guide, **LEPP** stands for **Linux**, **Nginx** (pronounced as Engine-X) , **Postgres** and **PHP** (PHP Hypertext Preprocessor).
 
 ### Specifications/Target
 
-* **Ubuntu**    v16.04
-* **Nginx**     v1.10
-* **PHP**       v7.1
-* **Postgres**   v9.6.3
-* **phpPgAdmin** v5.2
+- **Ubuntu** v16.04
+- **Nginx** v1.10
+- **PHP** v7.1
+- **Postgres** v9.6.3
+- **phpPgAdmin** v5.2
 
 But before we start, let's quickly make sure that we have some basic tools ready. Run the following commands in the terminal.
 
@@ -54,13 +54,13 @@ sudo sed -i '$a # deb-src http://nginx.org/packages/ubuntu/ xenial nginx' /etc/a
 
 The PostgreSQL apt repository supports LTS versions of Ubuntu 16.04 on amd64 and i386 architectures. This repository will integrate with your normal systems and patch management, and provide automatic updates for all supported versions of PostgreSQL throughout the support lifetime of PostgreSQL.
 
-* Create the file `/etc/apt/sources.list.d/pgdg.list`, and add a line for the repository
+- Create the file `/etc/apt/sources.list.d/pgdg.list`, and add a line for the repository
 
 ```shell
 deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main
 ```
 
-* Import the repository signing key, and update the package lists
+- Import the repository signing key, and update the package lists
 
 ```shell
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | \
@@ -69,7 +69,7 @@ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | \
 
 ### PHP Repository
 
-The repository here we are going to install is the PHP PPA by [Ondrej](https://launchpad.net/~ondrej/+archive/ubuntu/php "Ondrej PHP PPA"). We can update our system with unsupported packages from this untrusted PPA by adding ppa:ondrej/php to our system's Software Sources. The following commands will help us to do so. We need to accept any prompts, if asked.
+The repository here we are going to install is the PHP PPA by [Ondrej](https://launchpad.net/~ondrej/+archive/ubuntu/php 'Ondrej PHP PPA'). We can update our system with unsupported packages from this untrusted PPA by adding ppa:ondrej/php to our system's Software Sources. The following commands will help us to do so. We need to accept any prompts, if asked.
 
 ```shell
 sudo add-apt-repository ppa:ondrej/php
@@ -95,7 +95,7 @@ First thing we’re going to install is the server called Nginx.
 sudo apt install nginx
 ```
 
-We can check if Nginx is installed by typing `nginx -v`  in the terminal.
+We can check if Nginx is installed by typing `nginx -v` in the terminal.
 
 ## Installing Postgres
 
@@ -115,7 +115,7 @@ Next thing we want to install is PHP. We need to install PHP with a few extensio
 sudo apt install php-cli php-fpm php-zip php-xml php-mbstring php-mcrypt php-curl php-gd php-pgsql php-bz2 php-gettext php-pear php-phpseclib php-tcpdf
 ```
 
-We may run `php -v`  in the terminal to check the version of PHP installed.
+We may run `php -v` in the terminal to check the version of PHP installed.
 
 ## Configuring Nginx
 
@@ -193,7 +193,7 @@ _Please note that we need to change **[OUR\_USERNAME]** from above config file t
 
 Now let's run `sudo systemctl restart nginx.service` to reload our new configuration.
 
-Now we should be able to see on browser that [http://localhost](http://localhost "Localhost") actually works, and most probably shows an empty index.
+Now we should be able to see on browser that [http://localhost](http://localhost 'Localhost') actually works, and most probably shows an empty index.
 
 **\*\*Ba Dum Tis\*\***
 
@@ -212,16 +212,16 @@ Let's Create a New Role
 ```
 postgres@aspire:~$ createuser --interactive -P
 Enter name of role to add: {role name}
-Enter password for new role: 
-Enter it again: 
-Shall the new role be a superuser? (y/n) 
+Enter password for new role:
+Enter it again:
+Shall the new role be a superuser? (y/n)
 ```
 
 ## Installing phpPgAdmin
 
 ### Setting Up Host
 
-We want to be able to lunch phpPgAdmin by going to [http://phppgadmin.app](http://phppgadmin.app "phpPgAdmin") in the address bar of the browser.
+We want to be able to lunch phpPgAdmin by going to [http://phppgadmin.app](http://phppgadmin.app 'phpPgAdmin') in the address bar of the browser.
 
 So, first of all, run `sudo gedit /etc/hosts` and add an entry as follows:
 
@@ -288,11 +288,11 @@ Now we have to restart Nginx to activate our new site (config file) by running:
 sudo systemctl restart nginx.service
 ```
 
-Try hitting [http://phppgadmin.app](http://phppgadmin.app "phpPgGAdmin") and it should work!
+Try hitting [http://phppgadmin.app](http://phppgadmin.app 'phpPgGAdmin') and it should work!
 
 ## Conclusion
 
-There we have it! We should by now have a working and relatively secure LEPP server stack with Nginx running at [http://localhost](http://localhost "Localhost"), as well as our phpPgAdmin app running at [http://phppgadmin.app](http://phppgadmin.app "phpPgAdmin")
+There we have it! We should by now have a working and relatively secure LEPP server stack with Nginx running at [http://localhost](http://localhost 'Localhost'), as well as our phpPgAdmin app running at [http://phppgadmin.app](http://phppgadmin.app 'phpPgAdmin')
 
 _In this guide we didn't talk anything about firewall. This is because a fresh install of "vanilla" Ubuntu 16.04 should not have one running it automatically. We may research about it later if we wish to. Right now, that would be beyond the scope of this guide._
 

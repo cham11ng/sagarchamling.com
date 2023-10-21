@@ -2,14 +2,14 @@
 title: Understanding Subnetting to design addressing scheme
 summary: Solving a subnet problem of given network diagrams.
 description: Solving a subnet problem of given network diagrams.
-slug: "/understanding-subnetting-to-desing-addressing-scheme"
+slug: '/understanding-subnetting-to-desing-addressing-scheme'
 date: 2023-03-12
 draft: false
 cover:
-    image: "img/cover.webp"
-    alt: "Network and broadcast address calculation."
-    hidden: false
-tags: ["cisco packet tracer", "networking", "subnetting"]
+  image: 'img/cover.webp'
+  alt: 'Network and broadcast address calculation.'
+  hidden: false
+tags: ['cisco packet tracer', 'networking', 'subnetting']
 ---
 
 ## Subnetting
@@ -57,7 +57,7 @@ Total required networks include:
 - **2** LANs individually connected with the highest number of connected hosts, that is **2**.
 - **1** WAN between routers
 - Given network address is **192.168.1.0/24** which belongs to **Class C** with default subnet
-mask **255.255.255.0**
+  mask **255.255.255.0**
 - If we subnet with **/26** i.e., **255.255.255.192**, then block size is: **256 – 192 = 64**
 - Subnetwork: <strong>2<sup>2</sup> = 4</u></strong>
 - Valid Hosts per subnetwork <strong>2<sup>6</sup> - 2 = 62</strong>
@@ -67,7 +67,7 @@ mask **255.255.255.0**
 1. How many subnetworks can be seen as requirements in the figure above? <strong><u>3</u></strong>
 2. How many maximum hosts are required in any subnetwork? <strong><u>3</u></strong>
 3. How many bits will be borrowed from hosts portion in order to accommodate the required
-number of subnets? <strong><u>2</u></strong>
+   number of subnets? <strong><u>2</u></strong>
 4. How many subnetworks will be created by borrowing the bits as mentioned above? <strong><u>2<sup>2</sup> = 4</u></strong>
 5. How many subnetworks will remain unused for future use? <strong><u>4 – 3 = 1</u></strong>
 6. How many valid host addresses will be available per subnetwork? <strong><u>2<sup>6</sup> - 2 = 62</u></strong>
