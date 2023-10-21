@@ -4,6 +4,14 @@
   background-color: #282a36;
 }
 
+/* Other */
+.chroma .x {
+}
+
+/* Error */
+.chroma .err {
+}
+
 /* LineTableTD */
 .chroma .lntd {
   vertical-align: top;

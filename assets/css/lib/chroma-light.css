@@ -3,6 +3,10 @@
   background-color: #ffffff;
 }
 
+/* Other */
+.chroma .x {
+}
+
 /* Error */
 .chroma .err {
   color: #a61717;
