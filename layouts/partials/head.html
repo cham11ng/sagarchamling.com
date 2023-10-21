@@ -153,7 +153,8 @@
 {{- /* Favicons */}}
 <link
   rel="icon"
-  href="{{ site.Params.assets.favicon | default "favicon.ico" | absURL }}" />
+  href="{{ site.Params.assets.favicon | default "favicon.ico" | absURL }}"
+  type="image/x-icon" />
 <link
   rel="icon"
   type="image/png"
@@ -180,7 +181,8 @@
   href="{{ site.Params.assets.apple_touch_icon | default "apple-touch-icon.png" | absURL }}" />
 <link
   rel="mask-icon"
-  href="{{ site.Params.assets.safari_pinned_tab | default "safari-pinned-tab.svg" | absURL }}" />
+  href="{{ site.Params.assets.safari_pinned_tab | default "safari-pinned-tab.svg" | absURL }}"
+  color="#2e2e33" />
 <meta
   name="theme-color"
   content="{{ site.Params.assets.theme_color | default "#2e2e33" }}" />
