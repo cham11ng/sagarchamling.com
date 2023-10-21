@@ -8,6 +8,7 @@ Welcome to my blogging website.
 ## prerequisites
 
 - Install Homebrew
+- Install Bun
 - Install Git
 - Install Go
 - Install Hugo - Make sure you install latest version of hugo(>=0.119.0).
@@ -20,6 +21,8 @@ Welcome to my blogging website.
 git clone git@github.com:cham11ng/sagarchamling.com
 
 cd sagarchamling.com
+
+bun install # install npm packages for precommit hook and prettier
 
 git submodule update --init --recursive # clone submodule
 
@@ -58,7 +61,7 @@ hugo new --kind slides slides/<blog-title>.md
 hugo new --kind slides slides/github-essentials.md
 ```
 
-### webp converter
+### setup and run webp converter
 
 ```bash
 brew install webp
