@@ -10,7 +10,9 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{md,html,css,scss,yml,prettierrc}": ["prettier --write"]
+    "*.{md,html,css,scss,yml,prettierrc}": [
+      "prettier --write"
+    ]
   },
   "type": "module"
 }
