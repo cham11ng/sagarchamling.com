@@ -4,7 +4,8 @@ summary: Learning and Outcome from Mission 2 Challenge
 description: Learning and Outcome from Mission 2 Challenge
 date: 2023-10-18
 slug: '/mission-2-challenge'
-weight: 2
+weight: 200
+hiddenInHomeList: true
 tags:
   [
     'kubernetes',

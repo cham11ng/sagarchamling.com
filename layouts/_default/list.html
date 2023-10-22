@@ -59,9 +59,6 @@
         {{- partial "home_info.html" . }}
       {{- end }}
 
-
-      <h2 class="blogs-section">{{ i18n "blog-header" }}</h2>
-
       {{- $term := .Data.Term }}
       {{- range $index, $page := $paginator.Pages }}
 

@@ -4,7 +4,8 @@ summary: Learning and Outcome from Mission 1 Challenge
 description: Learning and Outcome from Mission 1 Challenge
 date: 2023-10-17
 slug: '/mission-1-challenge'
-weight: 1
+hiddenInHomeList: true
+weight: 100
 tags:
   [
     'kubernetes',

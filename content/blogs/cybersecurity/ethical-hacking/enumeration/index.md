@@ -1,9 +1,8 @@
 ---
-title: Enumeration to Detect Misconfigurations
+title: Enumeration to detect misconfigurations
 summary: Key notes about Enumeration and Hack The Box Tier 0 Challenges
 description: Key notes about Enumeration and Hack The Box Tier 0 Challenges
 slug: '/enumeration-to-detect-misconfigurations'
-draft: true
 tags: ['enumeration', 'redis', 'smb', 'ftp', 'telnet']
 ---
 

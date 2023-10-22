@@ -4,7 +4,8 @@ summary: Learning and Outcome from Mission 3 Challenge
 description: Learning and Outcome from Mission 3 Challenge
 date: 2023-10-19
 slug: '/mission-3-challenge'
-weight: 3
+weight: 300
+hiddenInHomeList: true
 tags:
   [
     'aws',
