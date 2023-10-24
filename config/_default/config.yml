@@ -135,8 +135,8 @@ params:
 
   label:
     text: "cham11ng's blog"
-    # icon: "logo.png"
-    # iconHeight: 35
+    # icon: "img/apple-touch-icon.png"
+    # iconHeight: 25
 
   # analytics:
   # google:
@@ -144,8 +144,8 @@ params:
 
   assets:
     favicon: 'favicon.ico'
-    favicon16x16: 'img/favicon-16x16.png'
-    favicon32x32: 'img/favicon-32x32.png'
+    favicon16x16: 'favicon-16x16.png'
+    favicon32x32: 'favicon-32x32.png'
     apple_touch_icon: 'img/apple-touch-icon.png'
     safari_pinned_tab: 'safari-pinned-tab.svg'
     android_chrome192x192: 'img/android-chrome-192x192.png'

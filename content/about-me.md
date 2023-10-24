@@ -112,6 +112,8 @@ Thank you for visiting my profile. I look forward to sharing my knowledge and ex
 
 [![Linkedin: cham11ng](https://img.shields.io/badge/-cham11ng-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cham11ng/#center)](https://www.linkedin.com/in/cham11ng/)
 
+{{< date_modified on="1 October 2023" >}}
+
 {{< css.inline >}}
 
 <style>

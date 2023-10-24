@@ -1,0 +1,48 @@
+{{- define "main" }}
+  <header class="page-header">
+    <h1>
+      {{- (printf "%s&nbsp;" .Title ) | htmlUnescape -}}
+    </h1>
+    {{- if .Description }}
+      <div class="post-description">
+        {{ .Description }}
+      </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+      <div class="post-meta">
+        {{- partial "translation_list.html" . -}}
+      </div>
+    {{- end }}
+  </header>
+
+  <div class="projects-section">
+    <div class="portfolio-projects">
+      {{- range site.Data.projects.list }}
+        <div class="project" data-project-link="{{ .projectLink }}">
+          <div class="project-header">
+            <h3>{{ .title }}</h3>
+            <div class="small-icons">
+              <a
+                href="{{ .projectLink }}"
+                title="GitHub Repository"
+                target="_blank"
+                rel="noopener noreferrer me">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              {{- if .demoLink }}
+                <a
+                  href="{{ .demoLink }}"
+                  title="Demo"
+                  target="_blank"
+                  rel="noopener noreferrer me">
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+              {{- end }}
+            </div>
+          </div>
+          <p>{{ .description }}</p>
+        </div>
+      {{- end }}
+    </div>
+  </div>
+{{/* end main */}}

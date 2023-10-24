@@ -51,6 +51,6 @@
 }
 
 .project p {
-  font-size: 16px;
-  color: #b3b3b3;
+  font-size: 14px;
+  color: var(--secondary);
 }
