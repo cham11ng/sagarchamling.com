@@ -5,7 +5,11 @@ description: 'Experience sharing, Cracking CTF preparation for competition'
 slug: '/ctf-competition-preparation-journey'
 date: '2023-10-19'
 tags: ['capture the flag', 'cyberq', 'ec-council']
-draft: true
+cover:
+  relative: true
+  image: 'img/announcement.webp'
+  alt: 'Competition Announcement'
+  hidden: false
 ---
 
 > **Important Note**: Always follow ethical guidelines. Never use these skills for illegal activities.
