@@ -4,6 +4,7 @@ summary: Understand different options used in Nmap to scan targets
 description: Understand different options used in Nmap to scan targets
 slug: '/nmap-basic-for-capture-the-flag-ctf'
 tags: ['nmap', 'nse', 'wireshark', 'enumeration', 'reconnaissance']
+categories: ['ethical hacking']
 ---
 
 ## Intro

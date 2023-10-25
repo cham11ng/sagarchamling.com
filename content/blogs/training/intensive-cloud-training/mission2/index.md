@@ -1,5 +1,5 @@
 ---
-title: Mission 2 Challenge
+title: Mission 2 Challenge - Intensive Cloud Training
 summary: Learning and Outcome from Mission 2 Challenge
 description: Learning and Outcome from Mission 2 Challenge
 date: 2023-10-18

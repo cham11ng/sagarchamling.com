@@ -4,6 +4,7 @@ summary: Understand Privilege Escalation and use of tools
 description: Understand Privilege Escalation and use of tools
 slug: '/privilege-escalation-tool-and-techniques'
 tags: ['privilege escalation', 'penetration testing', 'ethical hacking']
+categories: ['ethical hacking']
 ---
 
 ## Reverse Shell

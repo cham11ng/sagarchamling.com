@@ -1,5 +1,5 @@
 ---
-title: Mission 3 Challenge
+title: Mission 3 Challenge - Intensive Cloud Training
 summary: Learning and Outcome from Mission 3 Challenge
 description: Learning and Outcome from Mission 3 Challenge
 date: 2023-10-19

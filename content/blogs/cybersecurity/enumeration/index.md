@@ -4,6 +4,7 @@ summary: Key notes about Enumeration and Hack The Box Tier 0 Challenges
 description: Key notes about Enumeration and Hack The Box Tier 0 Challenges
 slug: '/enumeration-to-detect-misconfigurations'
 tags: ['enumeration', 'redis', 'smb', 'ftp', 'telnet']
+categories: ['ethical hacking']
 ---
 
 ## Basics
