@@ -1,5 +1,5 @@
 ---
-title: 'Honours, Rewards and Achievements'
+title: 'Honors, Rewards and Achievements'
 summary: 'Stories of Achievements'
 description: 'Stories of Achievements'
 showReadingTime: false
