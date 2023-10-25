@@ -107,12 +107,12 @@ params:
     imageWidth: 250
     imageHeight: 250
     buttons:
-      - name: Archives
-        url: archives
       - name: Tags
         url: tags
-      - name: '#tech'
-        url: blogs/tech
+      - name: Categories
+        url: categories
+      - name: Archives
+        url: archives
 
   socialIcons:
     - name: github

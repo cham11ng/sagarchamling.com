@@ -1,0 +1,6 @@
+{{- $tag_page := site.GetPage (printf "categories/%s" (.Get 0)) -}}
+{{- if $tag_page -}}
+  {{- $tag_page.RelPermalink -}}
+{{- else -}}
+  {{ errorf "No such category: %s" (.Get 0) }}
+{{- end -}}
