@@ -3,6 +3,8 @@ title: 'Learn Modern DevOps in the AWS Console'
 summary: 'AWS Builder Labs in AWS Console'
 description: 'AWS Builder Labs in AWS Console'
 date: '2023-10-26'
+slug: '/modern-devops-in-the-aws-console'
+hiddenInHomeList: true
 tags:
   [
     'aws',
@@ -15,7 +17,6 @@ tags:
     'codepipeline',
     'cloud9',
   ]
-slug: '/modern-devops-in-the-aws-console'
 cover:
   relative: true
   image: 'img/cover.webp'
