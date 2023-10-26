@@ -15,7 +15,7 @@ cover:
 
 ## Expressing Gratitude
 
-I am thrilled and honoured to share that I have won the inter-college <abbr title="Capture The Flag">CTF</abbr> Competition sponsored by [**EC-Council**](https://www.eccouncil.org/), held at [**Sault College**](https://www.saultcollege.ca/), TSW and BSW Campuses. I am grateful for the prize and recognition that I received from EC-Council, and were presented to me by the campus director of Sault College, Toronto South West.
+I am thrilled and honored to share that I have won the inter-college <abbr title="Capture The Flag">CTF</abbr> Competition sponsored by [**EC-Council**](https://www.eccouncil.org/), held at [**Sault College**](https://www.saultcollege.ca/), TSW and BSW Campuses. I am grateful for the prize and recognition that I received from EC-Council, and were presented to me by the campus director of Sault College, Toronto South West.
 
 A special mention must be made of my instructor and program coordinator, who has consistently been a source of inspiration and played a key role in my achievement.
 
