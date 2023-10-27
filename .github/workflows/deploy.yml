@@ -56,8 +56,9 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-          HUGO_GOOGLE_SITE_VERIFICATION: ${{secrets.HUGO_GOOGLE_SITE_VERIFICATION}}
+          HUGO_GOOGLEANALYTICS: ${{secrets.HUGO_GOOGLEANALYTICS}}
           HUGO_DISQUS_SHORTNAME: ${{secrets.HUGO_DISQUS_SHORTNAME}}
+          HUGO_GOOGLE_SITE_VERIFICATION: ${{secrets.HUGO_GOOGLE_SITE_VERIFICATION}}
         run: |
           hugo \
             --gc \
