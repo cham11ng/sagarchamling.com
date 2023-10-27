@@ -117,8 +117,6 @@ cat flag.txt
 
 File transfer services that may have high chances to be poorly configured, it can be easily misconfigured if not correctly understood. For secure transmission that protects the username and password and encrypts the content, FTP is often secured with SSL/TLS (FTPS) or replaced with SSH File Transfer Protocol (SFTP).
 
-![Man in the middle attack FTP](img/ftp-mitm.png)
-
 > Note: FTP users may authenticate themselves with a clear-text sign-in protocol, generally in the form of a username and password. A typical misconfiguration for running FTP services allows the `anonymous` username, followed by any password whatsoever since the service will disregard the password for this specific account.
 
 ```bash
@@ -151,8 +149,6 @@ ftp> ls
 SMB (Server Message Block) is communication protocol provides shared access to files, printers, and serial ports between endpoints on a network. We mostly see SMB services running on Windows machines. SMB runs at the Application or Presentation layers of the OSI model. Due to this, it
 relies on lower-level protocols for transport. The Transport layer protocol that Microsoft SMB Protocol is most often used with is NetBIOS over TCP/IP (NBT).
 
-![SMB Process](img/smb-process.png)
-
 > Note. An SMB-enabled storage on the network is called a share . SMB clients are required to provide a username/password combination to see or interact with the contents of the SMB share. A network administrator can sometimes make mistakes and accidentally allow logins without any valid credentials or using either `guest_accounts` or `anonymous` log-ons.
 
 Four separate shares:
@@ -170,7 +166,8 @@ $ smbclient \\\\{target-ip-addr}\\ADMIN$
 $ smbclient \\\\{target-ip-addr}\\C$
 NT_STATUS_ACCESS_DENIED
 
-$ smbclient \\\\{target-ip-addr}\\WorkShares # Seems to be human made, prone to misconfiguration.
+# Seems to be human made, prone to misconfiguration.
+$ smbclient \\\\{target-ip-addr}\\WorkShares
 smb: \>
 ```
 
@@ -182,7 +179,8 @@ exit : exiting the smb shell
 ```
 
 ```bash
-$ smbclient -U 'user' \\\\{target-ip-addr}\\Administrator # Passing username and password.
+# Passing username and password.
+$ smbclient -U 'user' \\\\{target-ip-addr}\\Administrator
 ```
 
 ### Redis(6379/tcp key-value store 5.0.7)
@@ -209,6 +207,6 @@ $ redis-cli -h {target-ip-addr}
 > AUTH <passkey>
 ```
 
-## Reference
+## Source
 
 - [Hack The Box](https://www.hackthebox.com/)

@@ -85,18 +85,18 @@ At [Leapfrog Technology, Inc.](https://www.lftechnology.com/) to [Laudio](https:
 
 Seeking further expertise, I joined for a Postgraduate Degree in Cybersecurity, where I'm continuously enhancing my knowledge in this critical field of IT.
 
-## Certifications 🎯
+## Training and Certification 🎯
 
-To stay at the forefront of cybersecurity, I've earned several certifications, including:
+To stay at the forefront of cybersecurity, I've earned several training and certification, including:
 
-<div class="certifications">
+<div class="training_section">
 
-[![ISC2 Candidate](https://images.credly.com/size/100x100/images/9180921d-4a13-429e-9357-6f9706a554f0/image.png)](http://www.credly.com/badges/abe9c7c8-bd28-4377-8522-87b68344ba5a 'ISC2 Candidate')
-[![Introduction to Packet Tracer](https://images.credly.com/size/100x100/images/09b6d58c-763a-4b40-aea1-787d8f46bbcd/Intro2PT.png)](http://www.credly.com/badges/40643888-3cc5-421d-8395-947d651d215f 'Introduction to Packet Tracer')
 [![Certified in Cybersecurity (CC)](https://images.credly.com/size/100x100/images/2030e43f-8003-4d4b-9630-847add403c87/image.png)](http://www.credly.com/badges/e801a6c7-8965-458d-8447-477056ea59d6 'Certified in Cybersecurity (CC)')
 [![Introduction to the Threat Landscape 1.0](https://images.credly.com/size/100x100/images/8395e492-f8aa-4617-a258-6c844f628fa2/image.png)](http://www.credly.com/badges/fa3d32d1-ef4d-469b-b915-b1e12688a243 'Introduction to the Threat Landscape 1.0')
-[![OPSWAT Introduction to Critical Infrastructure Protection (ICIP)](https://images.credly.com/size/100x100/images/f9f3c533-9b5a-47eb-8a3e-5734663116c0/image.png)](http://www.credly.com/badges/cf60fc47-d5cf-4237-b496-7a3f21c571c9 'OPSWAT Introduction to Critical Infrastructure Protection (ICIP)')
 [![Introduction to the Threat Landscape 2.0](https://images.credly.com/size/100x100/images/083854d8-3a8f-465c-b414-19507f9703d9/image.png)](http://www.credly.com/badges/116d0460-c640-4073-9436-23b4b5c15c94 'Introduction to the Threat Landscape 2.0')
+[![AWS Educate Introduction to Cloud 101](https://images.credly.com/size/100x100/images/8d67bbf4-128b-4141-b5f1-1bc61bbfbaa6/image.png)](http://www.credly.com/badges/276cc329-2607-4cf0-98cc-bf2f44919b0a 'AWS Educate Introduction to Cloud 101')
+[![OPSWAT Introduction to Critical Infrastructure Protection (ICIP)](https://images.credly.com/size/100x100/images/f9f3c533-9b5a-47eb-8a3e-5734663116c0/image.png)](http://www.credly.com/badges/cf60fc47-d5cf-4237-b496-7a3f21c571c9 'OPSWAT Introduction to Critical Infrastructure Protection (ICIP)')
+[![Introduction to Packet Tracer](https://images.credly.com/size/100x100/images/09b6d58c-763a-4b40-aea1-787d8f46bbcd/Intro2PT.png)](http://www.credly.com/badges/40643888-3cc5-421d-8395-947d651d215f 'Introduction to Packet Tracer')
 
 </div>
 
@@ -128,13 +128,13 @@ Thank you for visiting my profile. I look forward to sharing my knowledge and ex
     padding: 5px;
   }
 
-  .certifications p {
+  .training_section p {
     display: flex;
     flex-direction: row;
     text-align: center;
   }
 
-  .certifications p a {
+  .training_section p a {
     display: inline;
     padding: 0px 10px;
     box-shadow: none;
