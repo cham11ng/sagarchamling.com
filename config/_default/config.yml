@@ -34,31 +34,8 @@ outputs:
 params:
   env: production # To enable google analytics, opengraph, twitter-cards and schema.
   description: 'Explore insightful blog posts and discover content based on a wide range of emerging technologies, programming, networking, and cybersecurity.'
-  keywords:
-    [
-      Portfolio,
-      Site,
-      Blog,
-      Blogging,
-      Technology,
-      Cybersecurity,
-      Networking,
-      Programming,
-      Software,
-      Engineering,
-      DevOps,
-      DevSecOps,
-      Sagar,
-      Chamling,
-      Sagar Chamling,
-      Presentation,
-      Training,
-      Software Development,
-      Cloud Computing,
-      Cloud Security,
-      Ethical Hacking,
-      Penetration Testing,
-    ]
+  # prettier-ignore
+  keywords: [Portfolio, Site, Blog, Blogging, Technology, Cybersecurity, Networking, Programming, Software, Engineering, DevOps, DevSecOps, Sagar, Chamling, Sagar Chamling, Presentation, Training, Software Development, Cloud Computing, Cloud Security, Ethical Hacking, Penetration Testing]
   author: 'Sagar Chamling'
   defaultTheme: auto
   disableThemeToggle: false
@@ -137,10 +114,6 @@ params:
     # icon: "img/apple-touch-icon.png"
     # iconHeight: 25
 
-  # analytics:
-  # google:
-  # SiteVerificationTag: "abc"
-
   assets:
     favicon: 'favicon.ico'
     favicon16x16: 'favicon-16x16.png'
@@ -149,11 +122,6 @@ params:
     safari_pinned_tab: 'safari-pinned-tab.svg'
     android_chrome192x192: 'img/android-chrome-192x192.png'
     android_chrome512x512: 'img/android-chrome-512x512.png'
-
-  # cover:
-  #     hidden: true # hide everywhere but not in structured data
-  #     hiddenInList: true # hide on list pages and home
-  #     hiddenInSingle: true # hide on single page
 
   # fuseOpts:
   #     isCaseSensitive: false
