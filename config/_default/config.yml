@@ -63,7 +63,7 @@ params:
   profileMode:
     enabled: false
     title: 👋, I'm Sagar Chamling,
-    imageUrl: 'img/profile.jpg'
+    imageUrl: 'img/profile.webp'
     imageTitle: Sagar Chamling's Photo
     imageWidth: 250
     imageHeight: 250
@@ -78,7 +78,7 @@ params:
 
   homeInfoParams:
     enabled: true
-    imageUrl: 'img/profile.jpg'
+    imageUrl: 'img/profile.webp'
     imageTitle: Sagar Chamling's Photo
     imageWidth: 250
     imageHeight: 250

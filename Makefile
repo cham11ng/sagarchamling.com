@@ -1,5 +1,13 @@
 DESTDIR=public
 
+.PHONY: theme-sync
+theme-sync:
+	@echo "Synchronizing theme. 🔄"
+	rm -rf themes/*
+	git submodule update --init --recursive
+	git submodule update --remote --merge
+	@echo "Completed. Ready to serve. ✅"
+
 .PHONY: clean
 clean:
 	@echo "Cleaning old build. 🧹"
@@ -12,7 +20,7 @@ build:
 	hugo --gc --minify -d $(DESTDIR)
 	@echo "Site built successfully. ✅"
 
-.PHONE: pretty
+.PHONY: pretty
 pretty:
 	@echo "Making your site beautiful. 🧹"
 	bunx prettier --write .

@@ -9,7 +9,7 @@ searchHidden: true
 comments: false
 cover:
   relative: true
-  image: 'img/lets-connect.jpg'
+  image: 'img/lets-connect.webp'
   alt: 'Lets connect'
   hidden: false
 ---

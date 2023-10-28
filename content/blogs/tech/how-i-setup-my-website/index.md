@@ -50,7 +50,7 @@ Replace `sagarchamling.com` with the desired name of your blog.
 
 Hugo offers a wide range of themes. Find your choice and make sure you give them a credit.
 
-![Hugo Themes](img/hugo-themes.jpg)
+![Hugo Themes](img/hugo-themes.webp)
 
 ### Install the PaperMod Theme
 
