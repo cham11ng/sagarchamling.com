@@ -14,6 +14,7 @@ def convert_webp(path):
             if file.endswith('.png'):
                 fullpath = os.path.join(root, file)
                 os.system('cwebp -q 80 ' + fullpath + ' -o ' + fullpath[:-4] + '.webp')
+                os.system('rm ' + fullpath)
 
 if __name__ == '__main__':
     # Get the directory path from the CLI

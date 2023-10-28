@@ -5,6 +5,14 @@ description: Use of different tools to used for cracking password
 slug: '/password-cracking-tools-and-techniques'
 tags: ['ethical hacking', 'penetration testing', 'john the ripper', 'hashcat']
 categories: ['ethical hacking']
+disableShare: true
+editPost:
+  disabled: true
+hideSummary: false
+comments: false
+searchHidden: true
+hiddenInHomeList: true
+private: true
 ---
 
 ## Intro
