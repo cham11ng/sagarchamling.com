@@ -6,7 +6,7 @@ slug: '/how-i-setup-my-website-using-hugo-github-pages-and-porkbun'
 date: 2023-10-09T23:10:19-04:00
 cover:
   relative: true
-  image: 'img/cover.png'
+  image: 'img/cover.webp'
   alt: 'Setup Website Cover Image'
   hidden: false
 tags: ['hugo', 'papermod', 'website', 'porkbun', 'github']
@@ -141,22 +141,22 @@ Search for available domain names, and once you find one that suits your blog, r
 
 In your domain registrar's dashboard (`Porkbun` in this case), configure your domain's DNS settings. This typically involves setting up a CNAME record with the GitHub Pages URL provided earlier.
 
-![Edit DNS Record](img/edit-dns-record.png)
+![Edit DNS Record](img/edit-dns-record.webp)
 Go to the DNS Records section and select "Edit."
 
-![Quick DNS Config](img/quick-dns.png)
+![Quick DNS Config](img/quick-dns.webp)
 In the Quick DNS Config section, select the "Github" button to quickly configure domain's DNS settings to point Github Pages.
 
-![CNAME Record](img/cname-record.png)
+![CNAME Record](img/cname-record.webp)
 You'll also need to create your subdomain CNAME record. In the Host field, enter the subdomain you want. It can be "www" or whatever you wish it to be.
 
-![DNS Records](img/dns-records.png)
+![DNS Records](img/dns-records.webp)
 Finally, you'll see your DNS records successfully updated to the Github Pages DNS under Current Records.
 
 ### Configure GitHub Pages
 
 In your GitHub repository, go to the `Settings` tab and scroll down to the `Pages` section. Provide the custom domain with a URL for your published site. It may take some time for DNS changes to propagate. Once it's done, your blog will be accessible through your custom domain.
 
-![Github Pages Configuration](img/github-pages.png)
+![Github Pages Configuration](img/github-pages.webp)
 
 Congratulations! You've successfully set up your personal blog site using Hugo, customized it with the PaperMod theme, and published it with your own domain name. Now, you're ready to start sharing your thoughts and ideas with the world. Happy blogging!

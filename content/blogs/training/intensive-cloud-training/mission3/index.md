@@ -72,7 +72,7 @@ In this mission, we'll perform the database migration and files migration in Goo
 
 ### Deleted resources
 
-![Deleted resources](img/image.png)
+![Deleted resources](img/deleted-resources.webp)
 
 ## Invite to The Cloud Bootcamp
 
