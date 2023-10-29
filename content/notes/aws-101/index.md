@@ -172,6 +172,111 @@ You can use a NAT gateway so that instances in a private subnet can connect to s
 
 ![NAT Gateway](img/nat-gateway.webp)
 
+## Security
+
+### Layer of Security
+
+- **Perimeter Layer** - security guards, fencing, security feeds, intrusion detection technology, and other security measures.
+- **Environmental Layer** - environmental considerations from site selection and construction to operations and sustainability.
+- **Infrastructure Layer** - backup power equipment, HVAC system and fire suppression equipment.
+- **Data Layer**
+
+### IAM
+
+AWS Identity and Access Management is an AWS service that lets you control user access to services in the AWS Cloud.
+
+> Note: Creating AWS account, you access your account as the AWS account root user, has complete access to all AWS services and resources in the account.
+
+- **IAM user** - entities, represents a specific person or service that uses IAM users to interact with AWS, no permission by default
+- **IAM policies** - an JSON documents that define specific actions that the entity cna perform on a specific AWS service or resource.
+- **IAM group** - a group of IAM users that have the same permissions, IAM users in a group inherit the permissions that are granted in IAM policy. It cannot be nested, is unique, aren't distinguished by case.
+- **IAM role** - similar to user, a role doesn't have any credentials associated with it, intended to be used by anyone who needs _short term access_.
+  - Using roles has benefit of specified security credentials not being tied directly to an entity.
+  - **IAM role trust policy** JSON document where principals that you trust to assume the role are defined.
+- **IAM Access Analyzer** - identify the resources in your organization and accounts that are shared with the external entity, review its findings to determine whether the access is unintended or safe.
+  - **set** or grant, detailed permissions
+  - **verify** who can access what
+  - **refine** by removing overly broad access
+
+#### IAM Credential Types
+
+- **AWS Management Console** provided with a username and password.
+- **Programmatic access** provided with a set of access keys, programmatic calls to AWS using AWS CLI, SDKs, HTTPS.
+  - comprised of an access key ID and a secret key.
+  - user have two active access keys useful to rotate the user's access keys or revoke permissions.
+
+#### IAM Identity Center
+
+YOu need IAM user's credentials having necessary permissions to perform create, modify or delete EC2 instance. However, you need instance's key pair to perform patch or install software and add or remove file from the instance. The key pairs doesn't provide accountability for who is using the keys.
+
+AWS IAM Identity Center (successor to AWS Single Sign-On) help you securely create and connect workforce identities and manage their access centrally across AWS accounts and applications.
+
+#### IAM Policies
+
+IAM Policies are formal statement of permissions.
+
+- **Effect** required, specifies statement results is allow or an explicit deny. Explicit Deny takes the precedence.
+- **Action** describes the specific action or actions that will be allowed or denied.
+- **Resource** - specifies the object or objects that the statement covers. Specify a resource using Amazon Resource Name (ARN).
+- **NotResource** - advanced policy element that explicitly matches every resource except those specified.
+
+```json
+{
+  "Version": "2012-01-01",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["DynamoDB:*", "s3:*"],
+      "Resources": [
+        "arn:aws:dynamodb:region:account-number-without-hyphens:table/table-name",
+        "arn:aws:s3:::bucket-name",
+        "arn:aws:s3:::bucket-name/*"
+      ]
+    },
+    {
+      "Effect": "Deny",
+      "Action": ["DynamoDB:*", "s3:*"],
+      "NotResources": [
+        "arn:aws:dynamodb:region:account-number-without-hyphens:table/table-name",
+        "arn:aws:s3:::bucket-name",
+        "arn:aws:s3:::bucket-name/*"
+      ]
+    }
+  ]
+}
+```
+
+##### Identity and resource based policies
+
+Identity based policies are attached to a principal (or identity), such as an IAM user, role, or group.
+
+- **AWS managed policies** created and managed by AWS. ~1,000 AWS managed policies.
+- **Customer managed policies** created and managed by customer, precise control.
+- **Inline policies** are policies that are embedded directly into a single user, group or role. [Not recommended].
+
+Resource based policies are attached to a resource, such as S3 bucket or an AWS Key Management Service. You define the policy on the resource itself and is inline only.
+
+##### Conflicting policies
+
+- default implicit deny
+- explicit allow overrides implicit deny
+- explicit deny overrides explicit allow
+
+![Conflicting policies](img/conflicting-policies.webp)
+
+### Amazon Cognito
+
+Amazon Cognito is fully-managed service that provides authentication and authorization for web and mobile apps. Two main components:
+
+- **User pools** user directory that provides sign-up and sign-in options for your app users, federated through a third-party identity provider (IdP).
+- **Identity pools** enable to create unique identities for your users and federate them with identity providers. temporary and limited privilege AWS credentials to access other AWS services.
+
+### AWS KMS and Secrets Manager
+
+- **AWS KMS** - is data protection services, enables you to create and manage encryption keys, integrates CloudTrail.
+  - **Customer-managed keys** main components: Key administrators, key policies and key users.
+- **AWS Secret Manager** - centrally manage secrets used to access resources on AWS, on third-party services and on premises, automatically rotate secrets, control access to secrets, and audit and monitor secret usuage
+
 ## Source
 
 - [Introduction to Cloud 101 - AWS Educate](https://awseducate.instructure.com/courses/891)

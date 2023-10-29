@@ -85,7 +85,7 @@ At [Leapfrog Technology, Inc.](https://www.lftechnology.com/) to [Laudio](https:
 
 Seeking further expertise, I joined for a Postgraduate Degree in Cybersecurity, where I'm continuously enhancing my knowledge in this critical field of IT.
 
-## Training and Certification 🎯
+## Certification and Trainings 🎯
 
 To stay at the forefront of cybersecurity, I've earned several training and certification, including:
 
@@ -94,9 +94,9 @@ To stay at the forefront of cybersecurity, I've earned several training and cert
 [![Certified in Cybersecurity (CC)](https://images.credly.com/size/100x100/images/2030e43f-8003-4d4b-9630-847add403c87/image.png)](http://www.credly.com/badges/e801a6c7-8965-458d-8447-477056ea59d6 'Certified in Cybersecurity (CC)')
 [![Introduction to the Threat Landscape 1.0](https://images.credly.com/size/100x100/images/8395e492-f8aa-4617-a258-6c844f628fa2/image.png)](http://www.credly.com/badges/fa3d32d1-ef4d-469b-b915-b1e12688a243 'Introduction to the Threat Landscape 1.0')
 [![Introduction to the Threat Landscape 2.0](https://images.credly.com/size/100x100/images/083854d8-3a8f-465c-b414-19507f9703d9/image.png)](http://www.credly.com/badges/116d0460-c640-4073-9436-23b4b5c15c94 'Introduction to the Threat Landscape 2.0')
-[![AWS Educate Introduction to Cloud 101](https://images.credly.com/size/100x100/images/8d67bbf4-128b-4141-b5f1-1bc61bbfbaa6/image.png)](http://www.credly.com/badges/276cc329-2607-4cf0-98cc-bf2f44919b0a 'AWS Educate Introduction to Cloud 101')
+[![AWS Educate Getting Started with Networking](https://images.credly.com/size/100x100/images/979e42e2-1d32-4d21-97ea-53d991ea50fb/image.png)](http://www.credly.com/badges/6034d84b-c6cd-42a4-ae54-b9462f204b81 'AWS Educate Getting Started with Networking')
+[![AWS Educate Getting Started with Security](https://images.credly.com/size/100x100/images/80845928-d1f8-4549-ae9d-27676fba897e/image.png)](http://www.credly.com/badges/bcabca52-a06d-4bfa-bd19-002e0a73dadc 'AWS Educate Getting Started with Security')
 [![OPSWAT Introduction to Critical Infrastructure Protection (ICIP)](https://images.credly.com/size/100x100/images/f9f3c533-9b5a-47eb-8a3e-5734663116c0/image.png)](http://www.credly.com/badges/cf60fc47-d5cf-4237-b496-7a3f21c571c9 'OPSWAT Introduction to Critical Infrastructure Protection (ICIP)')
-[![Introduction to Packet Tracer](https://images.credly.com/size/100x100/images/09b6d58c-763a-4b40-aea1-787d8f46bbcd/Intro2PT.png)](http://www.credly.com/badges/40643888-3cc5-421d-8395-947d651d215f 'Introduction to Packet Tracer')
 
 </div>
 

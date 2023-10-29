@@ -4,6 +4,7 @@ summary: 'Explore and create custom VPC and deploy EC2 instance in VPC'
 description: 'Explore and create custom VPC and deploy EC2 instance in VPC'
 date: '2023-10-28'
 tags: ['aws vpc', 'security groups', 'subnet', 'route table', 'network gateway']
+hiddenInHomeList: true
 cover:
   relative: true
   image: 'img/cover.webp'
