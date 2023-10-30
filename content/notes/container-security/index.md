@@ -88,13 +88,13 @@ LXC (Linux Containers) are an OS level virtualization method that allow running 
 
 Docker enables the organization to run, create, and manage containers on a single operating system.
 
-![Docker Diagram](img/docker.webp)
+![Docker Diagram](img/docker.webp#center)
 
 ### Kubernetes
 
 Kubernetes is a container orchestration system for Docker containers, address container issues, provide scaling as needed.
 
-![Kubernetes Diagram](img/kubernetes.webp)
+![Kubernetes Diagram](img/kubernetes.webp#center)
 
 #### Architecture
 

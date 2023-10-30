@@ -16,9 +16,9 @@ cover:
 
 ## Intro 🙏
 
-I’m a full-stack software engineer, specializing in modern web application development and cybersecurity with over 6 years of professional experience in information technology. With a strong foundation in software engineering and programming paradigms, I’m proficient in a wide range of programming languages and platforms. With a diverse journey in the software industry, I’ve had the privilege of working on exciting projects and honing my skills.
+I’m a full-stack software engineer, specializing in modern web application development, with over 6 years of professional experience in information technology. With a strong foundation in software engineering and programming paradigms, I’m proficient in a wide range of programming languages and platforms. With a diverse journey in the software industry, I’ve had the privilege of working on exciting projects and honing my skills.
 
-My expertise spans both front-end and back-end technologies, encompassing the likes of `Node.js`, `Python`, `React`, and various database systems. But I'm not just about code, I possess a sound understanding of `DevSecOps`, `Networking`, and `CyberSecurity`. Currently I'm pursing post-graduate program in Cybersecurity, eager to broaden my horizons and contribute to the ever-evolving world of digital security. I hold a strong belief in the importance of code quality and am deeply passionate about contributing to open-source projects, promoting collaborative development within the community.
+My expertise spans front-end, back-end, cloud technologies and database systems. But I'm not just about code, I possess a sound understanding of `DevSecOps`, `Networking`, and `CyberSecurity`. Currently I'm pursing post-graduate program in Cybersecurity, eager to broaden my horizons and contribute to the ever-evolving world of digital security. I hold a strong belief in the importance of code quality, maintaining coding standards and deeply passionate about contributing to open-source projects, promoting collaborative development within the community.
 
 <div class="skills">
   <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
@@ -81,13 +81,13 @@ My expertise spans both front-end and back-end technologies, encompassing the li
 
 My career in software development began at [Technorio Inc.](https://technorio.com/), a company co-founded by my college friends. As a core team member, I worked as a Team Lead Software Engineer, actively contributing to web application projects, leading architectural decision-making, and mentoring fellow developers. Then, my journey led me to DoranSoft Pvt. Ltd. as a Full Stack Developer, where I leveraged technologies like `Laravel Framework`, `Vue.js`, `jQuery`, and `Postgres` for web application development.
 
-At [Leapfrog Technology, Inc.](https://www.lftechnology.com/) to [Laudio](https://www.laudio.com/), I wore multiple hats. I started as a Trainee at Leapfrog Technology, where I built a strong foundation in UI/UX front-end design and coding practices in Javascript. I then embarked on an exciting journey as a Software Engineer at a project called Laudio, where I familiarized myself with microservices architecture, integrated automated CI processes in development workflow and continued building a Web application based on React and Node.js. Subsequently, I progressed to a Senior Software Engineer, leading a team and contributing to system design, research and implementation.
+At [Leapfrog Technology, Inc.](https://www.lftechnology.com/) to [Laudio](https://www.laudio.com/), I wore multiple hats. I started as a Trainee at Leapfrog Technology, where I built a strong foundation in UI/UX front-end design and coding practices in Javascript. I then embarked on an exciting journey as a Software Engineer at a project called Laudio, where I familiarized myself with microservices architecture, integrated automated CI processes in development workflow and continued building a Web application based on `React` and `Node.js`. Subsequently, I progressed to a Senior Software Engineer, leading a team and contributing to system design, research and implementation. During this phase of my career, I had the opportunity to work on several cloud-based solutions for the application using `Amazon Web Services (AWS)`.
 
 Seeking further expertise, I joined for a Postgraduate Degree in Cybersecurity, where I'm continuously enhancing my knowledge in this critical field of IT.
 
 ## Certification and Trainings 🎯
 
-To stay at the forefront of cybersecurity, I've earned several training and certification, including:
+To stay at the forefront of emerging technologies, cloud computing, and cybersecurity including network and cloud security, I've earned several trainings and a certification:
 
 <div class="training_section">
 
@@ -108,11 +108,11 @@ To stay at the forefront of cybersecurity, I've earned several training and cert
 
 I'm always eager to connect with fellow tech enthusiasts, developers, and cybersecurity professionals. Let's chat to shape a better, more secure digital future. If you're looking for a technically sound, adaptable, and forward-thinking professional to join your team or collaborate on a project, I'd be thrilled to connect.
 
-Thank you for visiting my profile. I look forward to sharing my knowledge and experiences in the dynamic worlds of software development and cybersecurity.
+Thank you for visiting my profile. I'm excited to share what I know about software development, cloud computing and cybersecurity with you.
 
 [![Linkedin: cham11ng](https://img.shields.io/badge/-cham11ng-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cham11ng/#center)](https://www.linkedin.com/in/cham11ng/)
 
-{{< date_modified on="1 October 2023" >}}
+{{< date_modified on="29 October 2023" >}}
 
 {{< css.inline >}}
 
