@@ -74,6 +74,6 @@ In this mission, we'll perform the database migration and files migration in Goo
 
 ![Deleted resources](img/deleted-resources.webp)
 
-## Invite to The Cloud Bootcamp
+## Certificate of Completion
 
-- https://e.thecloudbootcamp.com/d8z5zO
+![Alt text](img/certificate.webp)

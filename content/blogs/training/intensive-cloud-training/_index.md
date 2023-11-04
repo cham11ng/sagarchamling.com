@@ -6,4 +6,9 @@ slug: '/intensive-cloud-training'
 date: '2023-10-17'
 showReadingTime: false
 showWordCount: false
+cover:
+  relative: true
+  image: 'cover.webp'
+  alt: 'Cover'
+  hidden: false
 ---
