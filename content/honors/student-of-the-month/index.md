@@ -24,17 +24,17 @@ showtoc: false
 
 <div class="center">
 
-![Reward On](img/announcement.png)
+![Reward On](img/announcement.webp)
 
 </div>
 
 ### Rewarded
 
-![Reward On](img/certificate-on.png)
+![Reward On](img/certificate-on.webp)
 
 ### Certificate
 
-![Certificate](img/certificate.png)
+![Certificate](img/certificate.webp)
 
 {{< css.inline >}}
 
