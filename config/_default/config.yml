@@ -55,7 +55,8 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowRssButtonInSectionTermList: false
+  ShowFullTextinRSS: true
+  ShowRssButtonInSectionTermList: true
   ShowToc: true
   images: ['logo.svg']
   comments: true

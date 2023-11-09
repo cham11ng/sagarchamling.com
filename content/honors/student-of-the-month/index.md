@@ -5,11 +5,11 @@ description: 'Awarded as student of the October Month'
 date: '2023-11-04'
 slug: '/student-of-the-month-october-2023'
 showtoc: false
-# cover:
-#   relative: true
-#   image: 'img/cover.webp'
-#   alt: 'Cover'
-#   hidden: false
+cover:
+  relative: true
+  image: 'img/cover.webp'
+  alt: 'Cover'
+  hidden: false
 ---
 
 ## Key Achievements
