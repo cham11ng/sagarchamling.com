@@ -12,6 +12,10 @@
   border-radius: 50%;
 }
 
+.custom_profile .buttons {
+  margin: 0 auto;
+}
+
 .first-entry .entry-content {
   font-size: 17px;
   margin: 0px;
