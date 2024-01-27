@@ -83,7 +83,7 @@ My career in software development began at [Technorio Inc.](https://technorio.co
 
 At [Leapfrog Technology, Inc.](https://www.lftechnology.com/) to [Laudio](https://www.laudio.com/), I wore multiple hats. I started as a Trainee at Leapfrog Technology, where I built a strong foundation in UI/UX front-end design and coding practices in Javascript. I then embarked on an exciting journey as a Software Engineer at a project called Laudio, where I familiarized myself with microservices architecture, integrated automated CI processes in development workflow and continued building a Web application based on `React` and `Node.js`. Subsequently, I progressed to a Senior Software Engineer, leading a team and contributing to system design, research and implementation. During this phase of my career, I had the opportunity to work on several cloud-based solutions for the application using `Amazon Web Services (AWS)`.
 
-Seeking further expertise, I joined for a Postgraduate Degree in Cybersecurity, where I'm continuously enhancing my knowledge in this critical field of IT.
+Seeking further expertise, I joined for a Postgraduate Degree in Cybersecurity, where I'm continuously enhancing my knowledge in this critical field of IT. I recently embarked my professional journey in this field starting a Cybersecurity Operations Trainee in Fusion Computing Limited. Started exciting journey of my interest on securing the world.
 
 ## Certification and Trainings 🎯
 
@@ -92,8 +92,8 @@ To stay at the forefront of emerging technologies, cloud computing, and cybersec
 <div class="training_section">
 
 [![Certified in Cybersecurity (CC)](https://images.credly.com/size/100x100/images/2030e43f-8003-4d4b-9630-847add403c87/image.png)](http://www.credly.com/badges/e801a6c7-8965-458d-8447-477056ea59d6 'Certified in Cybersecurity (CC)')
-[![Introduction to the Threat Landscape 1.0](https://images.credly.com/size/100x100/images/8395e492-f8aa-4617-a258-6c844f628fa2/image.png)](http://www.credly.com/badges/fa3d32d1-ef4d-469b-b915-b1e12688a243 'Introduction to the Threat Landscape 1.0')
-[![Introduction to the Threat Landscape 2.0](https://images.credly.com/size/100x100/images/083854d8-3a8f-465c-b414-19507f9703d9/image.png)](http://www.credly.com/badges/116d0460-c640-4073-9436-23b4b5c15c94 'Introduction to the Threat Landscape 2.0')
+[![Fortinet Certified Fundamentals Cybersecurity](https://images.credly.com/size/100x100/images/22a0ece5-ff05-4594-8320-25e55e9ae203/image.png)](http://www.credly.com/badges/3c89be10-ff93-4e71-b75c-2def97edee30 'Fortinet Certified Fundamentals Cybersecurity')
+[![AWS Educate Introduction to Cloud 101](https://images.credly.com/size/100x100/images/8d67bbf4-128b-4141-b5f1-1bc61bbfbaa6/image.png)](http://www.credly.com/badges/276cc329-2607-4cf0-98cc-bf2f44919b0a 'AWS Educate Introduction to Cloud 101')
 [![AWS Educate Getting Started with Networking](https://images.credly.com/size/100x100/images/979e42e2-1d32-4d21-97ea-53d991ea50fb/image.png)](http://www.credly.com/badges/6034d84b-c6cd-42a4-ae54-b9462f204b81 'AWS Educate Getting Started with Networking')
 [![AWS Educate Getting Started with Security](https://images.credly.com/size/100x100/images/80845928-d1f8-4549-ae9d-27676fba897e/image.png)](http://www.credly.com/badges/bcabca52-a06d-4bfa-bd19-002e0a73dadc 'AWS Educate Getting Started with Security')
 [![OPSWAT Introduction to Critical Infrastructure Protection (ICIP)](https://images.credly.com/size/100x100/images/f9f3c533-9b5a-47eb-8a3e-5734663116c0/image.png)](http://www.credly.com/badges/cf60fc47-d5cf-4237-b496-7a3f21c571c9 'OPSWAT Introduction to Critical Infrastructure Protection (ICIP)')
@@ -112,7 +112,7 @@ Thank you for visiting my profile. I'm excited to share what I know about softwa
 
 [![Linkedin: cham11ng](https://img.shields.io/badge/-cham11ng-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cham11ng/#center)](https://www.linkedin.com/in/cham11ng/)
 
-{{< date_modified on="29 October 2023" >}}
+{{< date_modified on="27 January 2024" >}}
 
 {{< css.inline >}}
 
