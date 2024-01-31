@@ -38,3 +38,26 @@ body {
 .terms-tags li {
   margin: 5px;
 }
+
+.skills {
+  text-align: center;
+}
+
+.skills a {
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: none;
+  padding: 5px;
+}
+
+.training_section p {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.training_section p a {
+  display: inline;
+  padding: 0px 10px;
+  box-shadow: none;
+}

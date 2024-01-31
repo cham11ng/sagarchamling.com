@@ -113,32 +113,3 @@ Thank you for visiting my profile. I'm excited to share what I know about softwa
 [![Linkedin: cham11ng](https://img.shields.io/badge/-cham11ng-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cham11ng/#center)](https://www.linkedin.com/in/cham11ng/)
 
 {{< date_modified on="27 January 2024" >}}
-
-{{< css.inline >}}
-
-<style>
-  .skills {
-    text-align: center;
-  }
-
-  .skills a {
-    display: inline-block;
-    text-decoration: none;
-    box-shadow: none;
-    padding: 5px;
-  }
-
-  .training_section p {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-  }
-
-  .training_section p a {
-    display: inline;
-    padding: 0px 10px;
-    box-shadow: none;
-  }
-</style>
-
-{{< /css.inline >}}
