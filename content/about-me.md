@@ -89,7 +89,7 @@ Seeking further expertise, I joined for a Postgraduate Degree in Cybersecurity, 
 
 To stay at the forefront of emerging technologies, cloud computing, and cybersecurity including network and cloud security, I've earned several trainings and a certification:
 
-<div class="training_section">
+<div class="training-section">
 
 [![Certified in Cybersecurity (CC)](https://images.credly.com/size/100x100/images/2030e43f-8003-4d4b-9630-847add403c87/image.png)](http://www.credly.com/badges/e801a6c7-8965-458d-8447-477056ea59d6 'Certified in Cybersecurity (CC)')
 [![Fortinet Certified Fundamentals Cybersecurity](https://images.credly.com/size/100x100/images/22a0ece5-ff05-4594-8320-25e55e9ae203/image.png)](http://www.credly.com/badges/3c89be10-ff93-4e71-b75c-2def97edee30 'Fortinet Certified Fundamentals Cybersecurity')

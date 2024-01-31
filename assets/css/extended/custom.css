@@ -50,13 +50,18 @@ body {
   padding: 5px;
 }
 
-.training_section p {
+.training-section p {
   display: flex;
   flex-direction: row;
   text-align: center;
 }
 
-.training_section p a {
+.training-section p img {
+  height: 100px;
+  width: 100px;
+}
+
+.training-section p a {
   display: inline;
   padding: 0px 10px;
   box-shadow: none;
