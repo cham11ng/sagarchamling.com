@@ -1,9 +1,10 @@
 ---
-title: 'Container Security in DevOps'
+title: 'Containers Security in DevOps 201'
 summary: 'Securing Containers in DevOps'
 description: 'Securing Containers in DevOps'
-slug: '/container-security-in-devops'
+slug: '/container-security-in-devops-201'
 disableShare: true
+categories: ['containers']
 editPost:
   disabled: true
 hideSummary: false

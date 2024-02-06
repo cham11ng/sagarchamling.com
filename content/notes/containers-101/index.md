@@ -3,6 +3,7 @@ title: 'Containers 101'
 summary: 'Containers with Docker Notes and Summary'
 description: 'Containers with Docker Notes and Summary'
 disableShare: true
+categories: ['containers']
 editPost:
   disabled: true
 hideSummary: false
