@@ -73,3 +73,34 @@ When you stop-hibernate an instance, Amazon EC2 signals the operating system to 
 ### Terminate
 
 When you terminate an instance, the instance stores are erased, and you lose both the public IP address and private IP address of the machine
+
+## Pricing
+
+**On-Demand Instances** are recommended for the following use cases:
+
+- Users who prefer the low cost and flexibility of Amazon EC2 without upfront payment or long-term commitments
+- Applications with short-term, spiky, or unpredictable workloads that cannot be interrupted
+- Applications being developed or tested on Amazon EC2 for the first time
+
+**Spot Instances** are recommended for the following use cases:
+
+- Applications that have flexible start and end times
+- Applications that are only feasible at very low compute prices
+- Users with fault-tolerant or stateless workloads
+
+**Savings Plans** are recommended for the following use cases:
+
+- Workloads with a consistent and steady-state usage
+- Customers who want to use different instance types and compute solutions across different locations
+- Customers who can make monetary commitment to use Amazon EC2 over a 1-year or 3-year term
+
+With **Reserved Instances**, you can choose the type that best fits your applications needs.
+
+- Standard Reserved Instances: These provide the most significant discount (up to 72 percent off On-Demand pricing) and are best suited for steady-state usage.
+- Convertible Reserved Instances: These provide a discount (up to 54 percent off On-Demand pricing) and the capability to change the attributes of the Reserved Instance if the exchange results in the creation of Reserved Instances of equal or greater value. Like Standard Reserved Instances, Convertible Reserved Instances are best suited for steady-state usage.
+- Scheduled Reserved Instances: These are available to launch within the time windows that you reserve. With this option, you can match your capacity reservation to a predictable recurring schedule that only requires a fraction of a day, a week, or a month.
+
+**Dedicated Hosts** can help you reduce costs because you can use your existing server-bound software licenses, such as Windows Server, SQL Server, and Oracle licenses.
+
+- Dedicated Hosts can be purchased on demand (hourly).
+- Dedicated Hosts can be purchased as a Reservation for up to 70 percent off the On-Demand price.
