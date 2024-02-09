@@ -416,6 +416,50 @@ spec:
 - can run several Pods in parallel
 - a CronJob is regularly used to create Jobs on an iterative schedule
 
+### Kubectl - The Kubernetes Command Line Tool
+
+```bash
+kubectl [command] [type] [name] [flags]
+
+  [command] = operation performed (create, get, apply, delete)
+  [type]    = resource type (pod, deployment, replicaset)
+  [name]    = resource name (if applicable)
+  [flags]   = special options or modifiers that override default values
+```
+
+![Kubectl Commands](img/kubectl-command.webp)
+
+```bash
+kubectl get services
+kubectl get pods --all-namespaces
+kubectl get deployment my-dep
+kubectl get pods -o wide
+```
+
+Key command types:
+
+- Imperative commands
+
+```bash
+# No audit trails
+kubectl run nginx --image nginx
+```
+
+- Imperative object configuration
+
+```bash
+# Inconsistency if changed configuration aren't merged
+kubectl create -f nginx.yaml
+```
+
+- Declarative object configuration
+
+```bash
+# operation are identified by Kubectl, not the user
+# ideal for production systems
+kubectl apply -f nginx/
+```
+
 ### Kubernetes Anti-patterns
 
 #### Avoid baking configuration in container images
