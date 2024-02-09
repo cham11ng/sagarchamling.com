@@ -1,7 +1,8 @@
 ---
-title: 'AWS Solution Architect 101'
+title: 'Amazon Web Services 201: Solution Architect'
 summary: 'AWS Solution Architect Notes'
 description: 'AWS Solution Architect Notes'
+slug: '/aws-201-solution-architect'
 disableShare: true
 editPost:
 disabled: true
