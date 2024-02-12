@@ -11,8 +11,12 @@ theme-sync:
 .PHONY: clean
 clean:
 	@echo "Cleaning old build. 🧹"
-	cd $(DESTDIR) && rm -rf *
-	@echo "It is shining. ✨"
+	if [ -d "$(DESTDIR)" ]; then \
+		cd $(DESTDIR) && rm -rf *; \
+		echo "It is shining. ✨"; \
+	else \
+		echo "Its already shining. ✨"; \
+	fi
 
 .PHONY: build
 build:
