@@ -39,4 +39,4 @@ To perform this lab, we need IBM Cloud which can be activated without the credit
 
 ## Reference
 
-- https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift
+- <https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift>

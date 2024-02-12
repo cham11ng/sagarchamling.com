@@ -26,7 +26,7 @@ cover:
 
 ## Working with AWS CodeCommit (Fundamental)
 
-### Overview
+### Overview - Lab 1
 
 AWS CodeCommit is a highly scalable, managed source control service that hosts private Git repositories. CodeCommit stores your data in Amazon S3 and Amazon DynamoDB giving your repositories high scalability, availability, and durability. You simply create a repository to store your code.
 
@@ -36,7 +36,7 @@ This lab demonstrates how to:
 - Create a local code repository on the Linux instance running in EC2 using git
 - Synchronize a local repository with an AWS CodeCommit repository
 
-### Lab Begins
+### Lab 1 Begins
 
 #### Creating an AWS CodeCommit repository
 
@@ -69,7 +69,7 @@ git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/My-Repo.
 
 ## Auditing Your Security with AWS Trusted Advisor (Intermediate)
 
-### Overview
+### Overview - Lab 2
 
 This lab guides you through the steps to audit your AWS resources to ensure your configuration complies with basic security best practices. This lab makes use of AWS Trusted Advisor as it applies to security. The topics covered include working with security groups, Multi-factor Authentication (MFA), and AWS Identity and Access Management (IAM).
 
@@ -81,7 +81,7 @@ You will be able to do the following:
 - Modify Amazon Elastic Compute Cloud (Amazon EC2) Security Groups to meet best practices
 - Configure Multi-factor Authentication (MFA) (Optional, requiring installation of software on a mobile device)
 
-### Lab Begins
+### Lab 2 Begins
 
 #### Check Trusted Advisor Recommendations
 
@@ -129,7 +129,7 @@ This rule now permits access to the RDS database only from members of the Web Se
 
 ## Automate Application Testing Using AWS CodeBuild (Advanced)
 
-### Overview
+### Overview - Lab 3
 
 Incorporating automated testing into your DevOps pipelines is crucial to increase speed and efficiency by ensuring that your application functions properly after every update.
 
@@ -141,7 +141,7 @@ This lab demonstrates how you can use AWS CodeBuild as a part of your Continuous
 - Apply common code testing strategies
 - Describe the importance of robust test coverage
 
-### Lab Begins
+### Lab 3 Begins
 
 #### Explore application in AWS Cloud9
 

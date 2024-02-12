@@ -159,4 +159,4 @@ OK
 
 ## Reference
 
-- https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift
+- <https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift>
