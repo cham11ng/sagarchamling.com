@@ -19,23 +19,23 @@ To perform this lab, we need IBM Cloud which can be activated without the credit
 
 ### Activate IBM Cloud using Feature Code
 
-![IBM Cloud Verify Trial Code](img/verifying-trial-code.png)
+![IBM Cloud Verify Trial Code](img/verifying-trial-code.webp)
 
 ### Navigating IBM Cloud Dashboard
 
-![Navigating IBM Cloud Dashboard](img/dashboard.png)
+![Navigating IBM Cloud Dashboard](img/dashboard.webp)
 
 ### Navigating to Container Registry
 
-![Container Registry](img/container-registry.png)
+![Container Registry](img/container-registry.webp)
 
 ### Created Namespaces
 
-![Namespaces](img/created-namespace.png)
+![Namespaces](img/created-namespace.webp)
 
 ### Browsing Namespace
 
-![Browsing Namespace](img/browsing-namepspace.png)
+![Browsing Namespace](img/browsing-namepspace.webp)
 
 ## Reference
 
