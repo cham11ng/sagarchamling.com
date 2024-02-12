@@ -1,12 +1,12 @@
 ---
 title: 'Introduction to Containers, Docker, and IBM Cloud Container Registry Lab'
-summary: 'Explore and work on a hand-on Container, Docker and IBM Container Registry Lab'
-description: 'Explore and work on a hand-on Container, Docker and IBM Container Registry Lab'
+summary: 'Explore and work on a hand-on Container, Docker and IBM Container Registry'
+description: 'Explore and work on a hand-on Container, Docker and IBM Container Registry'
 slug: '/introduction-to-containers-docker-ibm-cloud-container-registry-lab'
 date: '2024-02-11'
-tags: ['ibm cloud', 'docker', 'containers', 'registry namespace']
+weight: 100
+tags: ['ibm cloud', 'docker', 'containers', 'kubernetes']
 hiddenInHomeList: true
-draft: true
 ---
 
 ## Objectives

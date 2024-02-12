@@ -1,11 +1,11 @@
 ---
 title: 'Setup IBM Cloud Container Registry Namespace Lab'
-summary: 'Explore and work on a hand-on IBM Cloud Container Registry Namespace lab'
-description: 'Explore and work on a hand-on IBM Cloud Container Registry Namespace lab'
+summary: 'Explore and work on a hand-on IBM Cloud Container Registry Namespace'
+description: 'Explore and work on a hand-on IBM Cloud Container Registry Namespace'
 date: '2024-02-11'
+weight: 200
 tags: ['ibm cloud', 'containers', 'registry namespace']
 hiddenInHomeList: true
-draft: true
 ---
 
 ## Lab Overview

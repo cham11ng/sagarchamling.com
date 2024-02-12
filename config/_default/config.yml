@@ -86,6 +86,8 @@ params:
     buttons:
       - name: Tags
         url: tags
+      - name: Notes
+        url: notes
       - name: Categories
         url: categories
       - name: Archives

@@ -1,15 +1,11 @@
 ---
 title: 'Introduction to Kubernetes Lab'
-summary: 'Hands-on Kubernetes Lab'
-description: 'Hands-on Kubernetes Lab'
+summary: 'Hands-on kubectl CLI, Kubernetes Pod, Deployment, ReplicaSet and load balancing'
+description: 'Hands-on kubectl CLI, Kubernetes Pod, Deployment, ReplicaSet and load balancing'
 date: '2024-02-11'
+weight: 300
 tags: ['containers', 'kubernetes']
 hiddenInHomeList: true
-cover:
-  relative: true
-  image: 'img/cover.webp'
-  alt: 'Cover'
-  hidden: false
 ---
 
 ## Objectives
@@ -131,6 +127,7 @@ $ kubectl get pods
 ![Exploring pod configuration](img/exploring-pod-configuration.webp)
 
 ```yaml
+# hello-world-create.yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -138,7 +135,7 @@ metadata:
 spec:
   containers:
     - name: hello-world
-      image: us.icr.io/sn-labs-sgrraee/hello-world:1
+      image: us.icr.io/sn-labs-x/hello-world:1
       ports:
         - containerPort: 8080
   imagePullSecrets:
@@ -169,6 +166,7 @@ No resources found in sn-labs-x namespace.
 ![Exploring pod declarative configuration](img/exploring-pod-declarative-configuration.webp)
 
 ```yaml
+# hello-world-apply.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -249,7 +247,7 @@ var hostname = os.hostname();
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello world from ' + hostname + '! Your app is up and running!\n');
+  res.send('Hello world, ' + hostname + '! Your app is up and running!\n');
 });
 app.listen(8080, function () {
   console.log('Sample app is listening on port 8080.');
@@ -257,6 +255,7 @@ app.listen(8080, function () {
 ```
 
 ```Dockerfile
+# Dockerfile
 FROM node:9.4.0-alpine
 COPY app.js .
 COPY package.json .
@@ -282,22 +281,22 @@ Starting to serve on 127.0.0.1:8001
 
 # ping the application to get a response
 $ curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy
-Hello world from hello-world-5d7cc94cb5-xn2tp! Your app is up and running!
+Hello world, hello-world-5d7cc94cb5-xn2tp! Your app is up and running!
 
 # run the command in loop, observe the Kubernetes load balancing the request
 # across the three replicas, each request could hit a different instance
 # of our application.
 $ for i in `seq 10`; do curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy; done
-Hello world from hello-world-5d7cc94cb5-pskk6! Your app is up and running!
-Hello world from hello-world-5d7cc94cb5-pskk6! Your app is up and running!
-Hello world from hello-world-5d7cc94cb5-xn2tp! Your app is up and running!
-Hello world from hello-world-5d7cc94cb5-pskk6! Your app is up and running!
-Hello world from hello-world-5d7cc94cb5-xn2tp! Your app is up and running!
-Hello world from hello-world-5d7cc94cb5-pskk6! Your app is up and running!
-Hello world from hello-world-5d7cc94cb5-rks8g! Your app is up and running!
-Hello world from hello-world-5d7cc94cb5-rks8g! Your app is up and running!
-Hello world from hello-world-5d7cc94cb5-pskk6! Your app is up and running!
-Hello world from hello-world-5d7cc94cb5-xn2tp! Your app is up and running!
+Hello world, hello-world-5d7cc94cb5-pskk6! Your app is up and running!
+Hello world, hello-world-5d7cc94cb5-pskk6! Your app is up and running!
+Hello world, hello-world-5d7cc94cb5-xn2tp! Your app is up and running!
+Hello world, hello-world-5d7cc94cb5-pskk6! Your app is up and running!
+Hello world, hello-world-5d7cc94cb5-xn2tp! Your app is up and running!
+Hello world, hello-world-5d7cc94cb5-pskk6! Your app is up and running!
+Hello world, hello-world-5d7cc94cb5-rks8g! Your app is up and running!
+Hello world, hello-world-5d7cc94cb5-rks8g! Your app is up and running!
+Hello world, hello-world-5d7cc94cb5-pskk6! Your app is up and running!
+Hello world, hello-world-5d7cc94cb5-xn2tp! Your app is up and running!
 
 # delete the deployment and service
 $ kubectl delete deployment/hello-world service/hello-world
