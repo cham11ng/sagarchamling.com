@@ -10,7 +10,7 @@ hiddenInHomeList: true
 
 ## Lab Overview
 
-This lab is part of a course named **"Introduction to Containers w/ Docker, Kubernetes & OpenShift"**. In this lab will create an IBM Cloud Container Registry. After completing this lab, we will be able to:
+This lab is part of a course named **"Introduction to Containers w/ Docker, Kubernetes & OpenShift"**. In this lab, I will create an IBM Cloud Container Registry. After completing this lab, we will be able to:
 
 - Describe the IBM Cloud Container Registry service
 - Create a Container Registry namespace

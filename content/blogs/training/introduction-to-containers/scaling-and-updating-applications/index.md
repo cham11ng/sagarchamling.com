@@ -10,7 +10,7 @@ hiddenInHomeList: true
 
 ## Objectives
 
-In this lab, we will:
+In this lab, I will:
 
 - Scale an application with a ReplicaSet
 - Apply rolling updates to an application

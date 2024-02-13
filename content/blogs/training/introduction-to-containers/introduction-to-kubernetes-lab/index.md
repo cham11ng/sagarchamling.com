@@ -10,7 +10,7 @@ hiddenInHomeList: true
 
 ## Objectives
 
-In this lab, you will:
+In this lab, I will:
 
 - Use the `kubectl` CLI
 - Create a Kubernetes Pod

@@ -11,7 +11,7 @@ hiddenInHomeList: true
 
 ## Objectives
 
-In this lab, you will:
+In this lab, I will:
 
 - Pull an image from Docker Hub
 - Run an image as a container using docker
