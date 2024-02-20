@@ -23,13 +23,31 @@ Feel free to send pull requests.
 git clone git@github.com:cham11ng/sagarchamling.com
 
 cd sagarchamling.com
+```
 
-bun install # install npm packages for precommit hook and prettier
+```bash
+$ make
+setup                Setup site development mode.
+upgrade              Upgrade bun packages.
+clean                Clean old builds.
+build                Build minified version of site.
+pretty               Format site using prettier.
+compress             Compress all .png files into .webp format.
+sync                 Synchronize with the latest theme.
+help                 Help using make file.
 
-git submodule update --init --recursive # clone submodule
+$ make setup
 
-git submodule update --remote --merge # update theme
+or
 
+$ bun install # install npm packages for pre-commit hook and prettier
+
+$ git submodule update --init --recursive # clone submodule
+$ git submodule update --remote --merge # update theme
+
+```
+
+```bash
 hugo serve
 ```
 
@@ -68,7 +86,7 @@ hugo new --kind slides slides/github-essentials.md
 ```bash
 brew install webp
 
-cwebp -q 80 image.png -o image.webp
+make compress
 ```
 
 ## inspired from
