@@ -11,7 +11,7 @@ list:
     description: 🔰 Starter for Node.js express API in Typescript 🚀
     projectLink: https://github.com/cham11ng/typescript-api-starter
   - title: Flask API Starter
-    description: 🔰 Starter for Flask API in Python 🚀
+    description: 🔰 Starter for Flask API (Python) 🚀
     projectLink: https://github.com/cham11ng/flask-api-starter
   - title: async-store
     description: Global store utility for an async operation lifecycle and chain of callbacks.
