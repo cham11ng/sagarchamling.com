@@ -10,7 +10,6 @@ comments: false
 searchHidden: true
 hiddenInHomeList: true
 private: true
-draft: true
 ---
 
 ## RGB Representation
@@ -36,6 +35,10 @@ draft: true
 - Theta -> both same
 - space and time complexity are converse
 - bubble sort sometimes can win if already sorted.
+
+## Data Structure
+
+- orphaned memory leads memory leaks. (linked list)
 
 ## Algorithms
 

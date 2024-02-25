@@ -10,7 +10,6 @@ comments: false
 searchHidden: true
 hiddenInHomeList: true
 private: true
-draft: true
 ---
 
 ## C Programming
