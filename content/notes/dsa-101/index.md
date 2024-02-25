@@ -15,7 +15,7 @@ math: true
 
 ## Big O
 
-![Complexity Graph](img/complexity-graph.png#center)
+![Complexity Graph](img/complexity-graph.webp#center)
 
 | Notation   | Name             | Description                                                        | Example                                      |
 | ---------- | ---------------- | ------------------------------------------------------------------ | -------------------------------------------- |
@@ -30,6 +30,7 @@ math: true
 
 ## Time Complexity
 
+- time is a sum of the times required.
 - is a mathematical notation to describe the algorithm's performance or complexity of an algorithm.
 - specifically how long an algorithm takes to run as the input size grows.
 - it allows to analyze and compare the efficiency of different algorithms
@@ -37,9 +38,10 @@ math: true
 
 ## Space Complexity
 
-- primitive variables (booleans, numbers, undefined, null) are constant space O(1)
-- Strings require O(n) space (where n is the string length)
-- Reference types are generally O(n), where n is the length (for arrays) or the number or keys (for objects)
+- memory is a measure of maximal heap and stack utilization.
+- primitive variables (booleans, numbers, undefined, null) are constant space `O(1)`
+- strings require `O(n)` space (where `n` is the string length)
+- reference types are generally `O(n)`, where `n` is the length (for arrays) or the number or keys (for objects)
 
 ## Data Structures
 
@@ -48,9 +50,25 @@ math: true
 - the functions or operations that can be applied to the data
 - commonly used data structures in JavaScript: `array` and `object`
 
+### Arrays
+
+- contiguous and indexed in order
+- insertion and deletion can be expensive
+- lookup is great - can quickly be accessed at a specific index
+- easy to sort
+- small size-wise
+- stuck with fixed size, no flexibility
+
 ### Linked List
 
-#### Singly Linked List
+- insertion/deletion is easy.
+- lookup is bad - have to rely on linear search
+- relatively difficult to sort, instead sort as you construct
+- relatively small size wise (not as small as arrays)
+
+> Note: Searching a value could be expensive while using linked list, however if you need to perform insertion and deletion in a large data set then it could be the better option than an array
+
+#### Singly-Linked List
 
 ```bash
 node1(value | next) --> node2(value | next) --> node3(value | next) --> NULL
@@ -62,63 +80,140 @@ node1(value | next) --> node2(value | next) --> node3(value | next) --> NULL
 - connected via nodes with a next pointer
 - random access is not allowed
 - not applicable for binary searching.
+- can only move in one direction.
 - Time Complexity:
   - Insertion:
     - **O(1)** if unsorted (beginning)
     - **O(n)** if in sorted.
-  - Removal: Depends **O(1)** or **O(n)**
+  - Deletion: Depends **O(1)** or **O(n)**
   - Search: **O(n)**
   - Access: **O(n)**
 
-> Note: Searching a value could be expensive while using linked list, however if you need to perform insertion and deletion in a large data set then it could be the better option than an array
+#### Doubly-Linked List
 
-#### vs Arrays
+![Double Linked List](img/doubly-linked-list.webp)
 
-- contiguous and indexed in order
-- insertion and deletion can be expensive
-- can quickly be accessed at a specific index
-
-### Doubly Linked List
-
-- has one more pointer previous than singly linked list
-- takes up more memory but has more flexibility than singly linked list
+- has one more pointer previous than singly linked list.
+- takes up more memory but has more flexibility than singly linked list.
+- allows to move forward and backward through the list.
 - Time Complexity:
   - Insertion: **O(1)**
-  - Removal: **O(1)**
+  - Deletion: **O(1)**
   - Search: **O(n)**
   - Access: **O(n)**
-
-### Stack & Queues
 
 #### Stack
 
-- Implementation using Singly Linked List (LIFO)
-- Insert at the beginning and remove at the beginning (push and pop)
+- implementation using as an array or Linked List (LIFO).
+- insert at the beginning and remove at the beginning.
+- two operation: push and pop.
 - Time Complexity:
   - Insertion: O(1)
-  - Removal: O(1)
+  - Deletion: O(1)
   - Searching: O(n)
   - Access: O(n)
 
 #### Queue
 
-- implementation using Singly Linked List (FIFO)
-- insert at the end and remove at the beginning (enqueue and dequeue)
+- implementation using as an array or a Linked List (FIFO).
+- insert at the end and remove at the beginning.
+- two operations: enqueue and dequeue.
 - Time Complexity:
   - Insertion: O(1)
-  - Removal: O(1)
+  - Deletion: O(1)
   - Searching: O(n)
   - Access: O(n)
 
+### Dictionary
+
+- stores in a form of key (word) and value (definition).
+- data structures like: arrays, hash tables.
+
 ### Trees [DRAFT]
 
-- binary search trees
+#### Binary Search Trees
+
+- Time Complexity
+  - Searching - O(log n)
+
+#### Tries
+
+- tree of an arrays.
+- combines structures and pointers together to store data.
+- data can be searched through roadmap.
+- no collisions
+- not widely used because huge NULL pointers (trade-off)
+- insertion is complex - lot of dynamic memory allocations
+- deletion is easy - just free a node
+- lookup is fast - not fast as an array (but almost)
+- already sorted
+- rapidly becomes huge, even very little data present.
+- not great if space is at a premium
+- Time Complexity
+  - Searching - O(k) -> constant value k -> O(1)
+
+### Hashing
+
+- function in math or code that takes any number of inputs and maps them to a finite number of outputs (range).
+- a good hash function
+  - always give the same value for the same input (be deterministic)
+  - use only and all (buckets) the data being hashed
+  - an even (uniform) distribution of data across buckets
+  - generate very different hash codes for very similar data
+- analogy: separating different patterns in a cards. shuffled card to -> spade, heart, diamond, club
+
+```c
+HASH_MAX = 100;
+
+unsigned int hash(char & str)
+{
+    int sum = 0;
+
+    for (int j = 0; star[j] != "\0"; j++)
+    {
+        sum += str[j];
+    }
+
+    return sum % HASH_MAX;
+}
+```
+
+#### Hash Tables
+
+- array of linked lists.
+- allows random access ability of an array.
+- widely used.
+- insertion is two step process - hash and add
+- deletion is easy - once found
+- lookup is on average better than linked lists (we have constant factor)
+- not an ideal data structure for sorting. (trade off)
+- also called hash map.
+- example: maps and sets
+- Time Complexity
+  - Searching - **O(n)** or **~O(1)**
+  - Insertion - **~O(1)**
+  - Deletion - **~O(1)**
+
+#### Collision
+
+- occurs when two pieces of data, when run through the hash function, yield the same hash code.
+- shouldn't simply overwrite it.
+
+##### Linear probing
+
+- we try to place the data in the next consecutive element in the array.
+- such that, if not find directly, can be find nearby.
+- subject to a problem called clustering.
+
+##### Chaining
+
+- every element of the array hold multiple pieces of data.
+- each element of the array is a pointer to the head of a linked list.
+- multiple pieces of data can yield the same hash code.
 
 ### Binary Heap
 
 ### Priority Queue
-
-### Hash Tables
 
 ### Graph
 
@@ -178,6 +273,8 @@ node1(value | next) --> node2(value | next) --> node3(value | next) --> NULL
 ## Algorithms and it's Applications
 
 ![Algorithm and it's Applications](img/algorithm-application.webp)
+
+## Inheritance
 
 ## Recursion
 
