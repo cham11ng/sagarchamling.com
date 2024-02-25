@@ -1,6 +1,6 @@
 baseURL: 'https://sagarchamling.com/'
 title: Sagar Chamling's Blogging Site
-paginate: 5
+paginate: 10
 theme: PaperMod
 
 enableInlineShortcodes: true
