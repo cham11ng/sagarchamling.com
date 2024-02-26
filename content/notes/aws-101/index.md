@@ -228,7 +228,7 @@ IAM Policies are formal statement of permissions.
       "Effect": "Allow",
       "Action": ["DynamoDB:*", "s3:*"],
       "Resources": [
-        "arn:aws:dynamodb:region:account-number-without-hyphens:table/table-name",
+        "arn:aws:dynamodb:region:account-number:table/table-name",
         "arn:aws:s3:::bucket-name",
         "arn:aws:s3:::bucket-name/*"
       ]
@@ -237,7 +237,7 @@ IAM Policies are formal statement of permissions.
       "Effect": "Deny",
       "Action": ["DynamoDB:*", "s3:*"],
       "NotResources": [
-        "arn:aws:dynamodb:region:account-number-without-hyphens:table/table-name",
+        "arn:aws:dynamodb:region:account-number:table/table-name",
         "arn:aws:s3:::bucket-name",
         "arn:aws:s3:::bucket-name/*"
       ]

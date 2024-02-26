@@ -109,5 +109,10 @@ The complex Extract, Transform, and Loading operations involves following steps:
 
 ### Solutions
 
-- [Top Countries GDP - ETL Process](https://github.com/cham11ng/misc/tree/main/python/course/data-engineering/gdp)
-- [World top Banks - ETL Process](https://github.com/cham11ng/misc/tree/main/python/course/data-engineering/bank)
+#### [Top Countries GDP - ETL Process](https://github.com/cham11ng/misc/tree/main/python/course/data-engineering/gdp)
+
+{{< ghcode "https://raw.githubusercontent.com/cham11ng/misc/main/python/course/data-engineering/gdp/top_gdp.py" >}}
+
+#### [World top Banks - ETL Process](https://github.com/cham11ng/misc/tree/main/python/course/data-engineering/bank)
+
+{{< ghcode "https://raw.githubusercontent.com/cham11ng/misc/main/python/course/data-engineering/bank/top_banks.py" >}}

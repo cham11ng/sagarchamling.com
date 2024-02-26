@@ -21,20 +21,6 @@ I’m a full-stack software engineer, specializing in modern web application dev
 My expertise spans front-end, back-end, cloud technologies and database systems. But I'm not just about code, I possess a sound understanding of `DevSecOps`, `Networking`, and `CyberSecurity`. Currently I'm pursing post-graduate program in Cybersecurity, eager to broaden my horizons and contribute to the ever-evolving world of digital security. I hold a strong belief in the importance of code quality, maintaining coding standards and deeply passionate about contributing to open-source projects, promoting collaborative development within the community.
 
 <div class="skills">
-  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-      alt="aws" width="40" height="40" />
-  </a>
-  <a href="https://azure.microsoft.com/" target="_blank" rel="noreferrer">
-    <img
-      src="https://user-images.githubusercontent.com/25181517/183911544-95ad6ba7-09bf-4040-ac44-0adafedb9616.png"
-      alt="azure" width="40" height="40" />
-  </a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
-      alt="docker" width="40" height="40" />
-  </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
       alt="javascript" width="40" height="40" />
@@ -42,6 +28,10 @@ My expertise spans front-end, back-end, cloud technologies and database systems.
   <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
       alt="typescript" width="40" height="40" />
+  </a>
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+      alt="react" width="40" height="40" />
   </a>
   <a href="https://nodejs.org" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
@@ -63,10 +53,6 @@ My expertise spans front-end, back-end, cloud technologies and database systems.
   <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer">
     <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40" />
   </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-      alt="react" width="40" height="40" />
-  </a>
   <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux"
       width="40" height="40" />
@@ -74,6 +60,24 @@ My expertise spans front-end, back-end, cloud technologies and database systems.
   <a href="https://www.nginx.com" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx"
       width="40" height="40" />
+  </a>
+  <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
+      alt="docker" width="40" height="40" />
+  </a>
+  <a href="https://kubernetes.io/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg"
+      alt="docker" width="40" height="40" />
+  </a>
+  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+      alt="aws" width="40" height="40" />
+  </a>
+  <a href="https://azure.microsoft.com/" target="_blank" rel="noreferrer">
+    <img
+      src="https://user-images.githubusercontent.com/25181517/183911544-95ad6ba7-09bf-4040-ac44-0adafedb9616.png"
+      alt="azure" width="40" height="40" />
   </a>
 </div>
 
@@ -83,7 +87,7 @@ My career in software development began at [Technorio Inc.](https://technorio.co
 
 At [Leapfrog Technology, Inc.](https://www.lftechnology.com/) to [Laudio](https://www.laudio.com/), I wore multiple hats. I started as a Trainee at Leapfrog Technology, where I built a strong foundation in UI/UX front-end design and coding practices in Javascript. I then embarked on an exciting journey as a Software Engineer at a project called Laudio, where I familiarized myself with microservices architecture, integrated automated CI processes in development workflow and continued building a Web application based on `React` and `Node.js`. Subsequently, I progressed to a Senior Software Engineer, leading a team and contributing to system design, research and implementation. During this phase of my career, I had the opportunity to work on several cloud-based solutions for the application using `Amazon Web Services (AWS)`.
 
-Seeking further expertise, I joined for a Postgraduate Degree in Cybersecurity, where I'm continuously enhancing my knowledge in this critical field of IT. I recently embarked my professional journey in this field starting a Cybersecurity Operations Trainee in Fusion Computing Limited. Started exciting journey of my interest on securing the world.
+Seeking further expertise, I joined for a Postgraduate Degree in Cybersecurity, where I'm continuously enhancing my knowledge in this critical field of IT. I recently embarked my professional journey in this field starting a SecOps Trainee in Fusion Computing Limited. Started exciting journey of my interest on securing the world.
 
 ## Certification and Trainings 🎯
 
@@ -112,4 +116,4 @@ Thank you for visiting my profile. I'm excited to share what I know about softwa
 
 [![Linkedin: cham11ng](https://img.shields.io/badge/-cham11ng-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cham11ng/#center)](https://www.linkedin.com/in/cham11ng/)
 
-{{< date_modified on="27 January 2024" >}}
+{{< date_modified on="25 February 2024" >}}
