@@ -13,7 +13,35 @@ private: true
 math: true
 ---
 
-## Big O
+## Asymptotic Notation
+
+- considering asymptotic run-times.
+- how does runtime `scale` with input size.
+
+### Big O
+
+- clarifies growth rate.
+- cleans up notation.
+- can ignore complicated details.
+- Big-O is only asymptotic and loses important information about constant multiples.
+
+$$
+O(n^2) \approx 3n^2 + 5n + 2
+$$
+
+$$
+O(n) \approx n + log_2(n) + sin(n)
+$$
+
+$$
+O(n  \medspace log(n)) \approx 4n \medspace log_2(n) + 7
+$$
+
+#### Common Rules
+
+![Big O Rules](img/big-o-rules.webp#center)
+
+#### Notation Graph
 
 ![Complexity Graph](img/complexity-graph.webp#center)
 
@@ -28,7 +56,35 @@ math: true
 | O(2^n)     | Exponential Time | Time doubles for every new element added                           | Generating all subsets of a given set        |
 | O(n!)      | Factorial Time   | Complexity grows factorially based on the size of the dataset      | Determining all permutations of a given list |
 
-## Time Complexity
+#### Logarithms Rules
+
+$$
+log_a(n^k) = k\space log_a\space n
+$$
+
+$$
+log_a(nm) = log_an + log_an
+$$
+
+$$
+n^{log_ab} = b^{log_an}
+$$
+
+$$
+log_a\space n\cdot log_b\space a = log_b\space n
+$$
+
+Example:
+
+$$
+log_3 \medspace 81 == 3^x = 81, x = 4
+$$
+
+$$
+log_k n == k^x = n, x\space and\space k\space are\space constants
+$$
+
+### Time Complexity
 
 - time is a sum of the times required.
 - is a mathematical notation to describe the algorithm's performance or complexity of an algorithm.
@@ -36,7 +92,7 @@ math: true
 - it allows to analyze and compare the efficiency of different algorithms
 - also make informed decisions about which one to use in a given situation.
 
-## Space Complexity
+### Space Complexity
 
 - memory is a measure of maximal heap and stack utilization.
 - primitive variables (booleans, numbers, undefined, null) are constant space `O(1)`
@@ -283,11 +339,25 @@ unsigned int hash(char & str)
 
 ### Fibonacci Series
 
+- developed to study rabbit populations.
+- after n generation, it gives number of rabbits it has.
+
+$$
+F_n {\geq} 2^{n/2} for, n {\geq} 6
+$$
+
 {{< ghcode "https://raw.githubusercontent.com/cham11ng/misc/main/python/course/dsa/recursion/fibonacci.py" >}}
 
 ```bash
 # Output
-0 1 1 2 3 5 8 13 21 34
+Fibonacci Slow - O(2^n)
+1 1 2 3 5 8 13 21 34 55
+Fibonacci Memoized - O(n)
+1 1 2 3 5 8 13 21 34 55
+Fibonacci Bottom-up - O(n)
+1 1 2 3 5 8 13 21 34 55
+Fibonacci Dynamic - O(n)
+[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 ```
 
 ### Collatz Conjecture
