@@ -16,9 +16,7 @@ cover:
 
 ## Intro 🙏
 
-I’m a full-stack software engineer, specializing in modern web application development, with over 6 years of professional experience in information technology. With a strong foundation in software engineering and programming paradigms, I’m proficient in a wide range of programming languages and platforms. With a diverse journey in the software industry, I’ve had the privilege of working on exciting projects and honing my skills.
-
-My expertise spans front-end, back-end, cloud technologies and database systems. But I'm not just about code, I possess a sound understanding of `DevSecOps`, `Networking`, and `CyberSecurity`. Currently I'm pursing post-graduate program in Cybersecurity, eager to broaden my horizons and contribute to the ever-evolving world of digital security. I hold a strong belief in the importance of code quality, maintaining coding standards and deeply passionate about contributing to open-source projects, promoting collaborative development within the community.
+I’m a full-stack software engineer, I bring over 6 years of professional experience specializing in modern web application development. Throughout my career, I’ve had the privilege of working on exciting projects, and honing my skills. My expertise extends across front-end, back-end, cloud technologies and database systems. Additionally, I possess valuable hand-on experience on DevOps and Cybersecurity Operations, further enhancing my ability to deliver robust and secure solutions.
 
 <div class="skills">
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
@@ -53,10 +51,6 @@ My expertise spans front-end, back-end, cloud technologies and database systems.
   <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer">
     <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40" />
   </a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux"
-      width="40" height="40" />
-  </a>
   <a href="https://www.nginx.com" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx"
       width="40" height="40" />
@@ -85,9 +79,9 @@ My expertise spans front-end, back-end, cloud technologies and database systems.
 
 My career in software development began at [Technorio Inc.](https://technorio.com/), a company co-founded by my college friends. As a core team member, I worked as a Team Lead Software Engineer, actively contributing to web application projects, leading architectural decision-making, and mentoring fellow developers. Then, my journey led me to DoranSoft Pvt. Ltd. as a Full Stack Developer, where I leveraged technologies like `Laravel Framework`, `Vue.js`, `jQuery`, and `Postgres` for web application development.
 
-At [Leapfrog Technology, Inc.](https://www.lftechnology.com/) to [Laudio](https://www.laudio.com/), I wore multiple hats. I started as a Trainee at Leapfrog Technology, where I built a strong foundation in UI/UX front-end design and coding practices in Javascript. I then embarked on an exciting journey as a Software Engineer at a project called Laudio, where I familiarized myself with microservices architecture, integrated automated CI processes in development workflow and continued building a Web application based on `React` and `Node.js`. Subsequently, I progressed to a Senior Software Engineer, leading a team and contributing to system design, research and implementation. During this phase of my career, I had the opportunity to work on several cloud-based solutions for the application using `Amazon Web Services (AWS)`.
+At [Leapfrog Technology, Inc.](https://www.lftechnology.com/) to [Laudio](https://www.laudio.com/), I wore multiple hats. I started as a Software Engineer Intern at Leapfrog Technology, where I built a strong foundation in UI/UX front-end design and coding practices in Javascript. I then embarked on an exciting journey as a Software Engineer at a project named Laudio, where I familiarized myself with microservices architecture, integrated automated CI processes in development workflow and continued building a Web application based on `React` and `Node.js`. Subsequently, I progressed to a Senior Software Engineer, leading a team and contributing to system design, research and implementation. During this phase of my career, I had the opportunity to work on several cloud-based solutions for the application using `Amazon Web Services (AWS)` and `Microsoft Azure`.
 
-Seeking further expertise, I joined for a Postgraduate Degree in Cybersecurity, where I'm continuously enhancing my knowledge in this critical field of IT. I recently embarked my professional journey in this field starting a SecOps Trainee in Fusion Computing Limited. Started exciting journey of my interest on securing the world.
+Seeking further expertise, I joined for a Postgraduate Degree in Cybersecurity, where I'm continuously enhancing my knowledge in this critical field of IT. I recently embarked my professional journey in this field starting a SecOps role in Fusion Computing Limited. Started exciting journey of my interest on securing the world.
 
 ## Certification and Trainings 🎯
 
