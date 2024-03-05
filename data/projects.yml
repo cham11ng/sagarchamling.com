@@ -7,12 +7,6 @@ list:
     description: Copy to clipboard react button component.
     projectLink: https://github.com/cham11ng/react-copy-button
     demoLink: https://cham11ng.github.io/react-copy-button/
-  - title: Typescript Express API Starter
-    description: 🔰 Starter for Node.js express API in Typescript 🚀
-    projectLink: https://github.com/cham11ng/typescript-api-starter
-  - title: Flask API Starter
-    description: 🔰 Starter for Flask API (Python) 🚀
-    projectLink: https://github.com/cham11ng/flask-api-starter
   - title: async-store
     description: Global store utility for an async operation lifecycle and chain of callbacks.
     projectLink: https://github.com/leapfrogtechnology/async-store
@@ -27,3 +21,12 @@ list:
     description: Implementation of Flappy Bird in Javascript.
     projectLink: https://github.com/cham11ng/internship-experience/tree/main/js-experiments/5-flappy-bird
     demoLink: https://schamling.com.np/js-experiments/5-flappy-bird/
+  - title: TypeScript Express API Starter
+    description: Node (🤖) express.js API in TypeScript
+    projectLink: https://github.com/cham11ng/typescript-api-starter
+  - title: Flask API Starter
+    description: Starter for Flask API (Python) 🐍
+    projectLink: https://github.com/cham11ng/flask-api-starter
+  - title: Bun API Starter
+    description: Bun (🍔) Elysia.js API Starter
+    projectLink: https://github.com/cham11ng/bun-api-starter

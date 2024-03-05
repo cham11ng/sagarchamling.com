@@ -362,3 +362,8 @@ cp -R /data/db/* ../path/to/backup
 > mongodump
 > mongorestore
 ```
+
+## resources
+
+-
+- <https://github.com/LinkedInLearning/introduction-to-mongodb-4315215/tree/main/collections>
