@@ -217,7 +217,7 @@ dir("${env.WORKSPACE}/environments/test") {
 - Node: a server or system connected to a Jenkins controller.
 - Agent: a process running on a node that manages jobs and reports status to the Jenkins controller.
 
-![Jenkins Architecture](img/jenkins-architecture.png)
+![Jenkins Architecture](img/jenkins-architecture.webp)
 
 ### ssh nodes
 
