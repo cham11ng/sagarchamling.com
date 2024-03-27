@@ -40,7 +40,7 @@ body {
 }
 
 .skills {
-  text-align: center;
+  text-align: left;
 }
 
 .skills a {
@@ -50,6 +50,9 @@ body {
   padding: 5px;
 }
 
+.skills a img {
+  margin: 0px;
+}
 .training-section p {
   display: flex;
   flex-direction: row;

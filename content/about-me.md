@@ -14,101 +14,29 @@ cover:
   hidden: false
 ---
 
+[![GitHub cham11ng](https://img.shields.io/github/followers/cham11ng?label=Follow%20cham11ng&style=social#center)](https://github.com/cham11ng)
+
 ## Intro 🙏
 
-I’m a full-stack software engineer, I bring over 6 years of professional experience specializing in modern web application development. Throughout my career, I’ve had the privilege of working on exciting projects, and honing my skills. My expertise extends across front-end, back-end, cloud technologies and database systems. Additionally, I possess valuable hand-on experience on DevOps and Cybersecurity Operations, further enhancing my ability to deliver robust and secure solutions.
+I’m a full-stack software engineer with 6+ years of professional experience specializing in crafting modern web application. I thrive in building secure and scalable solutions across the entire development stack – from front-end UI/UX design to back-end development, database systems and, cloud technologies. My journey encompasses a blend of technical leadership, hands-on development, and a commitment to continuous learning.
 
-<div class="skills">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-      alt="javascript" width="40" height="40" />
-  </a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
-      alt="typescript" width="40" height="40" />
-  </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-      alt="react" width="40" height="40" />
-  </a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-      alt="nodejs" width="40" height="40" />
-  </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"
-      width="40" height="40" />
-  </a>
-  <a href="https://www.php.net" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40"
-      height="40" />
-  </a>
-  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="bash" width="40" height="40" />
-  </a>
-  <a href="https://learn.microsoft.com/en-us/powershell/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/powershell/powershell-original.svg" alt="powershell" width="40" height="40" />
-  </a>
-  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
-      alt="postgresql" width="40" height="40" />
-  </a>
-  <a href="https://redis.io/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" alt="redis" width="40" height="40" />
-  </a>
-  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer">
-    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40" />
-  </a>
-  <a href="https://www.mongodb.com" target="_blank" rel="noreferrer">
-    <img 
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongodb" width="40" height="40" />
-  </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40" />
-  </a>
-  <a href="https://github.com/features/actions" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" alt="githubactions" width="40" height="40" />
-  </a>
-  <a href="https://www.jenkins.io/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" alt="jenkins" width="40" height="40" />
-  </a>
-  <a href="https://www.nginx.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx"
-      width="40" height="40" />
-  </a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
-      alt="docker" width="40" height="40" />
-  </a>
-  <a href="https://kubernetes.io/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg"
-      alt="kubernetes" width="40" height="40" />
-  </a>
-  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-      alt="aws" width="40" height="40" />
-  </a>
-  <a href="https://azure.microsoft.com/" target="_blank" rel="noreferrer">
-    <img
-      src="https://user-images.githubusercontent.com/25181517/183911544-95ad6ba7-09bf-4040-ac44-0adafedb9616.png"
-      alt="azure" width="40" height="40" />
-  </a>
-  <a href="https://cloud.google.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" alt="googlecloud" width="40" height="40" />
-  </a>
-</div>
+## Expertise 👨🏻‍💻
+
+{{< skills >}}
 
 ## Journey 🚀
 
-My career in software development began at [Technorio Inc.](https://technorio.com/), a company co-founded by my college friends. As a core team member, I worked as a Team Lead Software Engineer, actively contributing to web application projects, leading architectural decision-making, and mentoring fellow developers. Then, my journey led me to DoranSoft Pvt. Ltd. as a Full Stack Developer, where I leveraged technologies like `Laravel Framework`, `Vue.js`, `jQuery`, and `Postgres` for web application development.
+My career in software development began at **[Technorio Inc.](https://technorio.com/)**, a company co-founded by my college friends. As a core team member, I worked as a _Software Engineer_ and team lead, actively contributing to web application projects, leading architectural decision-making, and mentoring fellow developers. Then, my journey led me to **DoranSoft Pvt. Ltd.** as a _Full Stack Developer_, where I leveraged technologies like `Laravel Framework`, `Vue.js`, `jQuery`, and `PostgreSQL` for web application development.
 
-At [Leapfrog Technology, Inc.](https://www.lftechnology.com/) to [Laudio](https://www.laudio.com/), I wore multiple hats. I started as a Software Engineer Intern at Leapfrog Technology, where I built a strong foundation in UI/UX front-end design and coding practices in Javascript. I then embarked on an exciting journey as a Software Engineer at a project named Laudio, where I familiarized myself with microservices architecture, integrated automated CI processes in development workflow and continued building a Web application based on `React` and `Node.js`. Subsequently, I progressed to a Senior Software Engineer, leading a team and contributing to system design, research and implementation. During this phase of my career, I had the opportunity to work on several cloud-based solutions for the application using `Amazon Web Services (AWS)` and `Microsoft Azure`.
+At **[Leapfrog Technology Inc.](https://www.lftechnology.com/)** to **[Laudio](https://www.laudio.com/)**, I wore multiple hats. I started as a _Software Engineer Intern_ at Leapfrog Technology, where I built a strong foundation in UI/UX front-end design and coding practices in Javascript. I then embarked on an exciting journey as a _Software Engineer_ at a project named Laudio, where I familiarized myself with microservices architecture, integrated automated CI processes in development workflow and continued building a Web application based on `React` and `Node.js`.
 
-Seeking further expertise, I joined for a Postgraduate Degree in Cybersecurity, where I'm continuously enhancing my knowledge in this critical field of IT. I recently embarked my professional journey in this field starting a SecOps role in Fusion Computing Limited. Started exciting journey of my interest on securing the world.
+Subsequently, I progressed to a _Senior Software Engineer_, leading a team and contributing to system design, research and implementation. During this phase of my career, I had the opportunity to work on several cloud-based solutions for the application using `Amazon Web Services (AWS)` and `Microsoft Azure`.
 
-## Certification and Trainings 🎯
+I recently embarked my professional journey in this field starting a _SecOps_ role in **[Fusion Computing Limited](https://fusioncomputing.ca/)**. Started exciting journey of my interest on securing the world.
+
+## Always Learning 🎯
+
+<!-- Constantly seeking to expand my knowledge base, I recently completed a Postgraduate Diploma in Cybersecurity and actively pursue training in emerging technologies. -->
 
 To stay at the forefront of emerging technologies, cloud computing, and cybersecurity including network and cloud security, I've earned several trainings and a certification:
 
@@ -129,10 +57,8 @@ To stay at the forefront of emerging technologies, cloud computing, and cybersec
 
 ## Let's Connect 🤝
 
-I'm always eager to connect with fellow tech enthusiasts, developers, and cybersecurity professionals. Let's chat to shape a better, more secure digital future. If you're looking for a technically sound, adaptable, and forward-thinking professional to join your team or collaborate on a project, I'd be thrilled to connect.
-
-Thank you for visiting my profile. I'm excited to share what I know about software development, cloud computing and cybersecurity with you.
+I'm eager to network with fellow tech enthusiasts, developers, and cybersecurity professionals. Let's collaborate on building a more secure and innovative digital future!
 
 [![Linkedin: cham11ng](https://img.shields.io/badge/-cham11ng-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cham11ng/#center)](https://www.linkedin.com/in/cham11ng/)
 
-{{< date_modified on="11 March 2024" >}}
+{{< date_modified on="26 March 2024" >}}
