@@ -119,3 +119,57 @@ sleep_sort() {
   wait
 }
 ```
+
+## DevOps
+
+- CI - Build/Test
+- CD - Release/Deploy
+
+## Mastering Kubernetes On-Premise & Cloud for Admins, Developers, DevOps & Architects
+
+### Kubernetes: Container Orchestration
+
+Cloud native application
+
+- Cloud native is the software approach of building, deploying.
+
+![alt text](image.webp)
+
+![alt text](image-2.webp)
+
+![alt text](image-1.webp)
+
+![alt text](image-3.webp)
+
+- Fargate is serverless
+
+- add relevant description only.
+- argo cd
+
+![alt text](image-5.webp)
+
+- pre deployment charts
+
+![alt text](image-6.webp)
+
+![alt text](image-7.webp)
+
+![alt text](image-8.webp)
+
+![alt text](image-9.webp)
+
+![alt text](image-10.webp)
+
+![alt text](image-11.webp)
+
+![alt text](image-12.webp)
+
+![alt text](image-13.webp)
+
+![alt text](image-14.webp)
+
+![alt text](image-15.webp)
+
+![alt text](image-16.webp)
+
+![alt text](image-17.webp)
