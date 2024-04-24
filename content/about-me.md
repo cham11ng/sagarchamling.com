@@ -32,11 +32,11 @@ At **[Leapfrog Technology Inc.](https://www.lftechnology.com/)** to **[Laudio](h
 
 Subsequently, I progressed to a _Senior Software Engineer_, leading a team and contributing to system design, research and implementation. During this phase of my career, I had the opportunity to work on several cloud-based solutions for the application using `Amazon Web Services (AWS)` and `Microsoft Azure`.
 
-I recently embarked my professional journey in this field starting a _SecOps_ role in **[Fusion Computing Limited](https://fusioncomputing.ca/)**. Started exciting journey of my interest on securing the world.
+I recently completed by internship as a _SecOps_ role in **[Fusion Computing Limited](https://fusioncomputing.ca/)**. Finished 4-months exciting journey of my interest on securing the company endpoints and achieving 4 major goals to improve the security posture of the organization.
 
 ## Always Learning 🎯
 
-<!-- Constantly seeking to expand my knowledge base, I recently completed a Postgraduate Diploma in Cybersecurity and actively pursue training in emerging technologies. -->
+Constantly seeking to expand my knowledge base, I recently completed a Postgraduate Diploma in Cybersecurity and actively pursue training in emerging technologies.
 
 To stay at the forefront of emerging technologies, cloud computing, and cybersecurity including network and cloud security, I've earned several trainings and a certification:
 
@@ -61,4 +61,4 @@ I'm eager to network with fellow tech enthusiasts, developers, and cybersecurity
 
 [![Linkedin: cham11ng](https://img.shields.io/badge/-cham11ng-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cham11ng/#center)](https://www.linkedin.com/in/cham11ng/)
 
-{{< date_modified on="26 March 2024" >}}
+{{< date_modified on="24 April 2024" >}}
